@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "CaviarDreams";
+  src: url("https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/fonts/caviardreams.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CaviarDreams";
+  src: url("https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/fonts/caviardreams_bold.woff")
+    format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
