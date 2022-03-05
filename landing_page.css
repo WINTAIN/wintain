@@ -159,7 +159,7 @@ main {
 
 #deco1 {
   position: absolute;
-  left: calc(50% - 112px / 2 + 108px);
+  left: calc(50% - 112px / 2 + 36.1272vh - 119.22px);
   top: -27px;
   z-index: 0;
 }
