@@ -101,8 +101,8 @@ main {
 #second_p1 {
   position: absolute;
   height: 99px;
-  left: 117px;
-  right: 119px;
+  left: 0px;
+  right: 0px;
   top: 50px;
   /* H1_26 */
 
@@ -136,6 +136,12 @@ main {
   left: calc(50% - 112px / 2 + 36.1272vh - 119.22px);
   top: -27px;
   z-index: 0;
+}
+
+@media screen and (max-width: 360px) {
+  #deco1 {
+    display: none;
+  }
 }
 
 #preference {
