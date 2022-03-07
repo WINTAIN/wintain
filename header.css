@@ -1,0 +1,72 @@
+header {
+  position: fixed;
+  z-index: 10;
+  display: flex;
+  width: 100vw;
+  height: 68px;
+  font-family: CaviarDreams;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 46px;
+  background-color: #ffffff;
+}
+
+#logo {
+  position: absolute;
+  top: 20px;
+  width: 242px;
+  left: 20px;
+}
+
+#hamburger {
+  position: absolute;
+  top: 38px;
+  right: 20px;
+  min-height: 10px;
+  transition: width 0.3s;
+}
+
+.long_hamb {
+  width: 40px;
+}
+
+.short_hamb {
+  width: 20px;
+}
+
+#home_number {
+  position: absolute;
+  height: 13px;
+  right: 60px;
+  top: 35px;
+
+  font-family: CaviarDreams;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 13px;
+  /* identical to box height */
+
+  letter-spacing: -0.02em;
+
+  color: #000000;
+  transition: opacity 0.3s;
+}
+
+#home {
+  position: absolute;
+  top: 28px;
+  right: 51px;
+  width: 24px;
+  height: 24px;
+  transition: opacity 0.3s;
+}
+
+.inv_home {
+  opacity: 0;
+}
+
+.vis_home {
+  opacity: 1;
+}
