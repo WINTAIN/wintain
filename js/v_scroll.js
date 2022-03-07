@@ -13,13 +13,11 @@ function Vscroll(vscroll){
 function moveVscrollBar(Vscroll){
     return function (){
         const yMove = Vscroll.basicScrollBarHeight * Vscroll.container.scrollTop/Vscroll.scrollHeight;
-        console.log(yMove)
         Vscroll.colorScrollBar.setAttribute("style", `height:${Vscroll.colorScrollBarHeight}px;transform:translateY(${yMove}px);`)
     }
 }
 
 function initVscrollBar(Vscroll){
-    console.log(Vscroll);
     Vscroll.colorScrollBar.setAttribute("style", `height:${Vscroll.colorScrollBarHeight}px;`)
 }
 
