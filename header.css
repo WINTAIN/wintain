@@ -24,7 +24,7 @@ header {
   top: 38px;
   right: 20px;
   min-height: 10px;
-  transition: width 0.3s;
+  transition: width 0.3s, height 0.5s;
 }
 
 .long_hamb {

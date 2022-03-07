@@ -29,6 +29,67 @@ nav.inactive_nav {
   right: -264px;
 }
 
+/*************************fixed hamburger**************************/
+
+#top_bread {
+  position: fixed;
+  z-index: 12;
+  top: 38px;
+  right: 20px;
+  height: 1px;
+  background-color: black;
+  transition: transform 0.5s, width 0.5s, top 0.5s linear, right 0.5s linear;
+}
+
+#patty {
+  position: fixed;
+  z-index: 12;
+  top: 43px;
+  right: 20px;
+  height: 1px;
+  background-color: black;
+  transition: transform 0.5s, width 0.5s, top 0.5s linear, right 0.5s linear;
+}
+
+#bottom_bread {
+  position: fixed;
+  z-index: 12;
+  top: 48px;
+  right: 20px;
+  height: 1px;
+  background-color: black;
+  transition: transform 0.5s, width 0.5s, top 0.5s linear, right 0.5s linear;
+}
+
+#fixed_hamburger .long {
+  width: 40px;
+}
+
+#fixed_hamburger .short {
+  width: 20px;
+}
+
+#fixed_hamburger .one_line {
+  top: 43px;
+  right: 22.93px;
+}
+
+#fixed_hamburger .X_1 {
+  position: absolute;
+  top: 48.86px;
+  right: 25.86px;
+  transform: rotate(45deg);
+}
+
+#fixed_hamburger .X_2 {
+  position: absolute;
+  top: 48.86px;
+  right: 25.86px;
+  transform: rotate(-45deg);
+}
+
+/*************************fixed hamburger**************************/
+
 #nav_logo {
   position: absolute;
   left: 20px;
