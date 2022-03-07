@@ -1114,6 +1114,13 @@ c {
   box-sizing: border-box;
 }
 
+.subscribe_model_month_num strong {
+  font-family: CaviarDreams;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 2px;
+}
+
 .v_scroll {
   position: relative;
   height: 188.55px;
@@ -1212,9 +1219,10 @@ c {
   box-sizing: border-box;
 }
 
-.px_20_bold {
-  font-size: 20px;
-  font-weight: 700;
+.subscribe_model_price strong {
+  font-family: CaviarDreams;
+  font-weight: bold;
+  font-size: 18px;
   margin: 0px 3px;
 }
 
