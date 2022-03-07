@@ -13,3 +13,19 @@
   font-weight: bold;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "Champagne";
+  src: url("https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/fonts/champagne_limousines.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Champagne";
+  src: url("https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/fonts/champagne_limousines_bold.woff")
+    format("woff");
+  font-weight: bold;
+  font-style: normal;
+}

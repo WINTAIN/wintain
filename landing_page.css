@@ -764,18 +764,10 @@ g {
   /* or 19px */
 
   letter-spacing: -0.06em;
+  list-style-type: disc;
 
   color: #ffffff;
-  text-indent: -16px; /* key property */
-  margin-left: 16px; /* key property */
-}
-
-li {
-  list-style: inside;
-}
-
-li::marker {
-  font-size: 1px;
+  display: table-row;
 }
 
 #sixth_img1 {
@@ -812,28 +804,28 @@ li::marker {
 #sixth_ul1 {
   width: 139px;
   height: 76px;
-  left: calc(50% - 14.5px - 139px);
+  left: calc(50% - 14.5px - 139px + 10px);
   top: 354px;
 }
 
 #sixth_ul2 {
   width: 140px;
   height: 38px;
-  left: calc(50% + 14px);
+  left: calc(50% + 14px + 10px);
   top: 354px;
 }
 
 #sixth_ul3 {
   width: 140px;
   height: 76px;
-  left: calc(50% - 14.5px - 139px);
+  left: calc(50% - 14.5px - 139px + 10px);
   top: 652px;
 }
 
 #sixth_ul4 {
   width: 140px;
   height: 38px;
-  left: calc(50% + 14px);
+  left: calc(50% + 14px + 10px);
   top: 652px;
 }
 
@@ -1171,6 +1163,7 @@ c {
   font-weight: 300;
   font-size: 14px;
   line-height: 150%;
+  list-style-type: disc;
 }
 
 .v_scroll_color_bar {
@@ -1474,7 +1467,7 @@ hr.blue_breaker {
   right: 20px;
   top: 103px;
 
-  font-family: Caviar Dreams;
+  font-family: CaviarDreams;
   font-style: normal;
   font-weight: normal;
   font-size: 6px;
@@ -1688,7 +1681,7 @@ footer {
 }
 
 .copyright p {
-  font-family: Caviar Dreams;
+  font-family: CaviarDreams;
   font-style: normal;
   font-weight: bold;
   font-size: 8px;
