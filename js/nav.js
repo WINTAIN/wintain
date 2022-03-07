@@ -1,4 +1,4 @@
-let fixHamburgerCase=true;
+let fixHamburgerCase=false;
 
 function test() {
     if (!confirm("햄버거를 고정시킬까요? (확인: 네, 취소: 아니오)")) {
@@ -10,7 +10,7 @@ function test() {
     }
 }
 
-test();
+// test();
 
 const transparentLayer = document.querySelector("#transparent_layer");
 const hamb_menu = document.querySelector("#hamburger");
@@ -28,6 +28,7 @@ if (!fixHamburgerCase){
     hamb_menu.addEventListener("click", turnOnNav1);
     X_1.addEventListener("click", turnOffNav1);
     X_2.addEventListener("click", turnOffNav1);
+    transparentLayer.addEventListener("click", turnOffNav1);
 }
 
 function turnOnNav1(){
