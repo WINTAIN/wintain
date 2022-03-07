@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="font.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="philo.css">
+    <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="landing_page.css">
     <title>Wintain</title>
 </head>
@@ -21,9 +22,40 @@
         <p class="inv_home" id="home_number">1</p>
         <img class="long_hamb" id="hamburger" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/hamburger_long.png"/>
     </header>
-    <div id="transparent_layer"></div>
-    <nav>
-        <div class="top"></div>
+    <div class="inactive_transparent_layer" id="transparent_layer" style="z-index:-1;"></div>
+    <nav class="inactive_nav">
+        <div id="nav_top">
+            <img id="nav_logo" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/logo.svg">
+            <div class="X_line" id="d45"></div>
+            <div class="X_line" id="d-45"></div>
+        </div>
+        <div id="nav_main">
+            <div class="nav_main_elem">
+                <div class="nav_main_elem_t">Product<div class="g_circle"></div></div>
+                <div class="nav_main_elem_m">New In<div class="nav_main_elem_m_l"></div></div>
+                <div class="nav_main_elem_m">Curtain<div class="nav_main_elem_m_l"></div></div>
+            </div>
+            <div class="nav_main_elem">
+                <div class="nav_main_elem_t">Subscribe<div class="g_circle"></div></div>
+            </div>
+            <div class="nav_main_elem">
+                <div class="nav_main_elem_t">Magazine<div class="g_circle"></div></div>
+            </div>
+            <div class="nav_main_elem">
+                <div class="nav_main_elem_t">Review<div class="g_circle"></div></div>
+            </div>
+            <div class="nav_main_elem">
+                <div class="nav_main_elem_t">Notice & Event<div class="g_circle"></div></div>
+            </div>
+        </div>
+        <div id="nav_personal">
+            <div class="nav_s_line" id="nav_home"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_home_off_c_s.svg">My Home (0)</div>
+            <div class="nav_s_line"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_like_off_c_s.svg">Loves</div>
+        </div>
+        <div id="nav_etc">
+            <div class="nav_s_line"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/instagram.svg">Instagram</div>
+        </div>
+
 
     </nav>
     <main>
@@ -322,6 +354,7 @@
     </footer>
 </body>
 <script src="js/header.js"></script>
+<script src="js/nav.js"></script>
 <script src="js/stamp.js"></script>
 <script src="js/h_scroll.js"></script>
 <script src="js/v_scroll.js"></script>

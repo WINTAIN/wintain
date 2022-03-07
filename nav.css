@@ -1,0 +1,131 @@
+#transparent_layer {
+  z-index: 5;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: background-color 1s;
+}
+
+nav {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  z-index: 10;
+  right: 0px;
+  width: 264px;
+  height: 100vh;
+  background-color: #ffffff;
+  transition: right 1s;
+}
+
+#transparent_layer.inactive_transparent_layer {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+nav.inactive_nav {
+  right: -264px;
+}
+
+#nav_logo {
+  position: absolute;
+  left: 20px;
+  top: 34px;
+  width: 147px;
+  height: 28px;
+}
+
+.X_line {
+  width: 40px;
+  height: 1px;
+  background-color: #000000;
+}
+
+#d-45 {
+  position: absolute;
+  top: 48.86px;
+  right: 25.86px;
+  transform: rotate(45deg);
+}
+
+#d45 {
+  position: absolute;
+  top: 48.86px;
+  right: 25.86px;
+  transform: rotate(-45deg);
+}
+
+#nav_main {
+  margin-top: 99px;
+  margin-left: 20px;
+  height: 300px;
+}
+
+.nav_main_elem_t {
+  margin-bottom: 15px;
+
+  font-family: CaviarDreams;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #e0e0e0;
+}
+
+.nav_main_elem_m {
+  max-height: 0px;
+  overflow: hidden;
+
+  font-family: CaviarDreams;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  /* identical to box height */
+
+  color: #d0d0d0;
+}
+
+.nav_s_line {
+  height: 15px;
+  font-family: CaviarDreams;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: -0.02em;
+  /* Main_blue */
+
+  color: #3f1acc;
+}
+
+#nav_personal {
+  padding: 38px 0px;
+  height: 117px;
+  margin: 0px 15px;
+  border-top: 0.5px solid #3f1acc;
+  border-bottom: 0.5px solid #3f1acc;
+}
+
+#nav_personal img {
+  margin-left: 5px;
+  margin-right: 5px;
+  transform: translateY(2px);
+}
+
+#nav_home {
+  margin-bottom: 12px;
+}
+
+#nav_etc .nav_s_line {
+  margin-top: 40px;
+  margin-left: 20.3px;
+}
+
+#nav_etc img {
+  margin-right: 7.73px;
+  transform: translateY(0.5px);
+}
