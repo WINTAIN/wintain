@@ -10,7 +10,7 @@ function test() {
     }
 }
 
-// test();
+test();
 
 const transparentLayer = document.querySelector("#transparent_layer");
 const hamb_menu = document.querySelector("#hamburger");
