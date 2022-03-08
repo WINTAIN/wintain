@@ -88,7 +88,7 @@ nav.inactive_nav {
   transform: rotate(-45deg);
 }
 
-/*************************fixed hamburger**************************/
+/*************************fixed hamburger Finish**************************/
 
 #nav_logo {
   position: absolute;
@@ -125,6 +125,7 @@ nav.inactive_nav {
 }
 
 .nav_main_elem_t {
+  position: relative;
   margin-bottom: 15px;
 
   font-family: CaviarDreams;
@@ -134,9 +135,12 @@ nav.inactive_nav {
   line-height: 25px;
 
   color: #e0e0e0;
+
+  transition: color 1s;
 }
 
 .nav_main_elem_m {
+  position: relative;
   max-height: 0px;
   overflow: hidden;
 
@@ -148,6 +152,104 @@ nav.inactive_nav {
   /* identical to box height */
 
   color: #d0d0d0;
+
+  transition: max-height 0.5s, margin-bottom 0.5s, color 1s;
+}
+
+.nav_main_elem_m_l {
+  position: absolute;
+  height: 0.5px;
+  left: 21px;
+  left: 21px;
+  background-color: #3f1acc;
+}
+
+#nav_new_in_line {
+  top: 151px;
+  left: 21px;
+}
+
+.nav_new_in_line_active {
+  animation-duration: 1s;
+  animation-name: nav_new_in_line_move;
+  animation-iteration-count: infinite;
+}
+
+@keyframes nav_new_in_line_move {
+  from {
+    left: 21px;
+    right: 243px;
+  }
+
+  50% {
+    left: 21px;
+    right: 214px;
+  }
+
+  to {
+    left: 51px;
+    right: 214px;
+  }
+}
+
+#nav_curtain_line {
+  top: 176px;
+  left: 21px;
+}
+
+.nav_curtain_line_active {
+  animation-duration: 1s;
+  animation-name: nav_curtain_line_move;
+  animation-iteration-count: infinite;
+}
+
+@keyframes nav_curtain_line_move {
+  from {
+    left: 21px;
+    right: 243px;
+  }
+
+  50% {
+    left: 21px;
+    right: 209px;
+  }
+
+  to {
+    left: 55px;
+    right: 214px;
+  }
+}
+
+.vis_nav_product_new_in {
+  max-height: 13px;
+  margin-top: 2px;
+  margin-bottom: 12px;
+}
+
+.vis_nav_product_curtain {
+  max-height: 12px;
+  margin-bottom: 38px;
+}
+
+.blue_text {
+  color: #3f1acc;
+}
+
+.g_circle {
+  position: absolute;
+  top: 0px;
+  width: 12px;
+  height: 12px;
+  left: 70px;
+  border-radius: 6px;
+  background-color: #e8ff5a;
+  z-index: -1;
+  transition: opcaity 1s;
+  opacity: 1;
+}
+
+.inv_g_circle {
+  opacity: 0;
 }
 
 .nav_s_line {
