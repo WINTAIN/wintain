@@ -6,7 +6,7 @@ function test() {
         fixHamburgerCase = false;
     } else {
         alert("햄버거를 제외한 네이게이션이 슬라이드 됩니다. 시간관계로 햄버거메뉴가 작아지는 것과 되돌아오는 기능은 만들지 않았습니다.");
-
+        fixHamburgerCase = true;
     }
 }
 
