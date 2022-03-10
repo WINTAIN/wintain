@@ -1361,7 +1361,7 @@ hr.blue_breaker {
 }
 
 #review_h_scroll_container {
-  height: 235px;
+  height: 237px;
 }
 
 .h_scroll_review {
@@ -1377,7 +1377,7 @@ hr.blue_breaker {
   display: flex;
   box-sizing: border-box;
   padding: 3px 8px;
-  height: 48px;
+  height: 46px;
   width: 148px;
   font-family: NotoSansKR;
   font-style: normal;
