@@ -109,7 +109,7 @@ nav.inactive_nav {
 
   color: #3f1acc;
 
-  transition: color 1s;
+  transition: color 0.3s;
 }
 
 .nav_main_elem_t .b_circle {
@@ -120,7 +120,7 @@ nav.inactive_nav {
   height: 8px;
   border-radius: 4px;
   background-color: #3f1acc;
-  transition: background-color 1s;
+  transition: background-color 0.3s;
 }
 
 .nav_main_elem_t .b_circle_inactive {
@@ -159,7 +159,7 @@ nav.inactive_nav {
 
   color: #3f1acc;
 
-  transition: max-height 0.5s, margin-bottom 0.5s, color 1s;
+  transition: max-height 0.3s, margin-bottom 0.3s, color 0.3s;
 }
 
 .nav_main_elem_m_l {

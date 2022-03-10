@@ -25,6 +25,10 @@ navProduct.addEventListener("click", handleNavProduct);
 
 function handleNormalBlue(e){
     closeNavProduct();
+    for(var i=1; i<navTitles.length; i++){
+        navTitles[i].querySelector(".b_circle").classList.add('b_circle_inactive');
+    }
+
     e.currentTarget.querySelector(".b_circle").classList.toggle('b_circle_inactive');
 }
 
