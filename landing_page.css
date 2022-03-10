@@ -1,3 +1,10 @@
+#kakao_councel {
+  position: fixed;
+  z-index: 3;
+  right: 30px;
+  bottom: 55px;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -205,7 +212,6 @@ main {
   position: absolute;
   height: 46px;
   left: 20px;
-  right: 85px;
   top: 50px;
   font-family: CaviarDreams;
   font-style: normal;
@@ -225,13 +231,13 @@ main {
 
 #third_p2 {
   position: absolute;
-  bottom: 130px;
+  top: 102px;
   left: 20px;
   z-index: 1;
   font-family: NotoSansKR;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 140%;
   /* or 22px */
 
@@ -248,7 +254,7 @@ main {
   font-family: NotoSansKR;
   font-style: normal;
   font-weight: 300;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 160%;
   /* or 19px */
 
@@ -280,7 +286,6 @@ main {
 
 #fourth_p2 {
   position: absolute;
-  width: 167px;
   height: 48px;
   left: 20px;
   top: 98px;
@@ -288,7 +293,7 @@ main {
   font-family: NotoSansKR;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 140%;
   /* or 22px */
 
@@ -301,12 +306,12 @@ main {
   width: 167px;
   height: 48px;
   left: 20px;
-  top: 120px;
+  top: 128px;
 
   font-family: NotoSansKR;
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 24px;
   line-height: 140%;
   /* or 22px */
 
@@ -332,8 +337,8 @@ main {
 
   font-family: NotoSansKR;
   font-style: normal;
-  font-weight: 300;
-  font-size: 12px;
+  font-weight: 400;
+  font-size: 14px;
   line-height: 160%;
   /* or 19px */
   letter-spacing: -0.06em;
@@ -367,8 +372,8 @@ main {
 
   font-family: NotoSansKR;
   font-style: normal;
-  font-weight: 300;
-  font-size: 12px;
+  font-weight: 400;
+  font-size: 14px;
   line-height: 160%;
   /* or 19px */
 
@@ -409,8 +414,8 @@ main {
   /* Body_12 */
   font-family: NotoSansKR;
   font-style: normal;
-  font-weight: 300;
-  font-size: 12px;
+  font-weight: 400;
+  font-size: 14px;
   line-height: 160%;
   /* or 19px */
   letter-spacing: -0.06em;
@@ -450,8 +455,8 @@ main {
 
   font-family: NotoSansKR;
   font-style: normal;
-  font-weight: 300;
-  font-size: 12px;
+  font-weight: 400;
+  font-size: 14px;
   line-height: 160%;
   /* or 19px */
 
@@ -494,14 +499,16 @@ main {
 
   font-family: NotoSansKR;
   font-style: normal;
-  font-weight: 300;
-  font-size: 12px;
+  font-weight: 700;
+  font-size: 16px;
   line-height: 160%;
-  /* or 19px */
+  /* identical to box height, or 26px */
 
   letter-spacing: -0.06em;
 
-  color: #ffffff;
+  /* Sub_neon */
+
+  color: #e8ff5a;
 
   /* Inside auto layout */
 
@@ -541,7 +548,6 @@ main {
 
 #fifth_p2 {
   position: absolute;
-  width: 164px;
   height: 44px;
   left: 20px;
   top: 98px;
@@ -550,8 +556,8 @@ main {
 
   font-family: NotoSansKR;
   font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 20px;
   line-height: 140%;
   /* or 22px */
 
@@ -570,7 +576,7 @@ main {
 }
 
 #first_line {
-  margin-top: 148px;
+  margin-top: 161px;
 }
 
 .fifth_line:last-child {
@@ -613,17 +619,16 @@ main {
 
 .fifth_line_r {
   position: absolute;
-  width: 170px;
   height: 38px;
-  left: 50%;
+  left: 42%;
   top: 20px;
 
   /* Body_12 */
 
   font-family: NotoSansKR;
   font-style: normal;
-  font-weight: 300;
-  font-size: 12px;
+  font-weight: 400;
+  font-size: 14px;
   line-height: 160%;
   /* or 19px */
 
@@ -637,7 +642,7 @@ main {
 #area6 {
   position: relative;
   width: 100vw;
-  height: 774px;
+  height: 824px;
 }
 
 #sixth_p1 {
@@ -658,7 +663,6 @@ main {
 
 #sixth_p2 {
   position: absolute;
-  width: 150px;
   height: 44px;
   left: 20px;
   top: 98px;
@@ -667,8 +671,8 @@ main {
 
   font-family: NotoSansKR;
   font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 20px;
   line-height: 140%;
   /* or 22px */
 
@@ -679,12 +683,12 @@ main {
 
 .g_border {
   position: absolute;
-  height: 26px;
+  height: 33px;
 
   font-family: NotoSansKR;
   font-style: normal;
-  font-weight: bold;
-  font-size: 12px;
+  font-weight: 700;
+  font-size: 14px;
   line-height: 150%;
   /* identical to box height, or 18px */
 
@@ -698,7 +702,7 @@ main {
   flex-grow: 0;
 
   /* Sub_neon */
-  padding: 5px 10px 7px;
+  padding: 7px 10px 7px;
   border: 1px solid #e8ff5a;
   box-sizing: border-box;
   border-radius: 30px;
@@ -709,26 +713,26 @@ g {
 }
 
 #g_border1 {
-  width: 84px;
+  width: 94px;
   top: 183px;
   left: calc(50% - 70px - 84px);
 }
 
 #g_border2 {
-  width: 82px;
+  width: 92px;
   top: 183px;
   left: calc(50% + 14px);
 }
 
 #g_border3 {
-  width: 71px;
-  top: 481px;
+  width: 81px;
+  top: 506px;
   left: calc(50% - 71px - 83px);
 }
 
 #g_border4 {
-  width: 104px;
-  top: 481px;
+  width: 114px;
+  top: 506px;
   left: calc(50% + 14px);
 }
 
@@ -739,7 +743,7 @@ g {
   font-family: NotoSansKR;
   font-style: normal;
   font-weight: 300;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 160%;
   /* or 19px */
 
@@ -779,7 +783,7 @@ g {
   width: 103px;
   height: 109.49px;
   left: calc(50% - 103px / 2 - 86.5px);
-  top: 524.5px;
+  top: 550px;
 }
 
 #sixth_img4 {
@@ -787,43 +791,39 @@ g {
   width: 103px;
   height: 120.25px;
   left: calc(50% - 103px / 2 + 84.5px);
-  top: 515.7px;
+  top: 540px;
 }
 
 #sixth_ul1 {
-  width: 139px;
-  height: 76px;
-  left: calc(50% - 14.5px - 139px + 10px);
+  width: 42%;
+  left: calc(50% - 14.5px - 42% + 10px);
   top: 354px;
 }
 
 #sixth_ul2 {
-  width: 140px;
-  height: 38px;
+  width: 42%;
   left: calc(50% + 14px + 10px);
   top: 354px;
 }
 
 #sixth_ul3 {
-  width: 140px;
-  height: 76px;
-  left: calc(50% - 14.5px - 139px + 10px);
-  top: 652px;
+  width: 42%;
+  left: calc(50% - 14.5px - 42% + 10px);
+  top: 670px;
 }
 
 #sixth_ul4 {
-  width: 140px;
-  height: 38px;
+  width: 42%;
   left: calc(50% + 14px + 10px);
-  top: 652px;
+  top: 670px;
 }
 
 #sixth_v1 {
   position: absolute;
   left: 50%;
-  top: 178px;
+  top: 184px;
   width: 0.5px;
-  height: 258px;
+  height: 286px;
   /* Sub_neon */
   background-color: #e8ff5a;
 }
@@ -831,9 +831,9 @@ g {
 #sixth_v2 {
   position: absolute;
   left: 50%;
-  top: 466px;
+  top: 496px;
   width: 0.5px;
-  height: 258px;
+  height: 289px;
   /* Sub_neon */
   background-color: #e8ff5a;
 }
@@ -843,7 +843,7 @@ g {
   width: 150px;
   height: 0.5px;
   left: calc(50% - 10px - 150px);
-  top: 451px;
+  top: 482px;
   /* Sub_neon */
 
   background-color: #e8ff5a;
@@ -854,7 +854,7 @@ g {
   width: 150px;
   height: 0.5px;
   left: calc(50% + 10px);
-  top: 451px;
+  top: 482px;
   /* Sub_neon */
 
   background-color: #e8ff5a;
@@ -864,7 +864,7 @@ g {
 
 #area7 {
   position: relative;
-  height: 417px;
+  height: 421.5px;
 }
 
 #seventh_p1 {
@@ -890,15 +890,14 @@ g {
 
 #seventh_p2 {
   position: absolute;
-  width: 174px;
   height: 22px;
   left: 20px;
   top: 98px;
 
   font-family: NotoSansKR;
   font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 20px;
   line-height: 140%;
   /* or 22px */
 
@@ -909,6 +908,7 @@ g {
 
 c {
   font-family: CaviarDreams;
+  font-weight: bold;
 }
 
 .h_scroll {
@@ -921,7 +921,7 @@ c {
 
 #arrival_h_scroll {
   height: 218px;
-  top: 147px;
+  top: 151.5px;
   padding-left: 20px;
 }
 
@@ -1021,7 +1021,6 @@ c {
 
 #eighth_p2 {
   position: absolute;
-  width: 198px;
   height: 22px;
   left: 20px;
   top: 96px;
@@ -1031,7 +1030,7 @@ c {
   font-family: NotoSansKR;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 140%;
   /* or 22px */
 
@@ -1050,7 +1049,7 @@ c {
 
 #subscribe_h_scroll {
   height: 395px;
-  top: 148px;
+  top: 154px;
   padding-left: 20px;
 }
 
