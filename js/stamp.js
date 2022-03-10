@@ -7,6 +7,8 @@ const stampHeight = stamp.getBoundingClientRect().bottom - stamp.getBoundingClie
 const leftMax = blockImg.getBoundingClientRect().right - blockImg.getBoundingClientRect().left - stampWidth;
 const topMax = blockImg.getBoundingClientRect().bottom - blockImg.getBoundingClientRect().top - stampHeight;
 
+const stampMovingTime = window.getComputedStyle(stamp,null).transitionDuration[0];
+
 
 function getRandomInt(min, max) {
     min = Math.ceil(min);
@@ -65,7 +67,9 @@ function setEdge(edge){
 }
 
 function setTransition(){
+
     stamp.setAttribute('style', `left:${stampLeft}px; top:${stampTop}px`)
 }
 
-setInterval(setCoord,500);
+setCoord();
+setInterval(setCoord,stampMovingTime*1000);
