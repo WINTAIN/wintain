@@ -6,19 +6,18 @@
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.6);
-  transition: background-color 1s;
+  transition: background-color 0.3s;
 }
 
 nav {
+  z-index: 10;
   position: fixed;
   top: 0px;
   right: 0px;
-  z-index: 10;
-  right: 0px;
-  width: 264px;
+  width: 100vw;
   height: 100vh;
-  background-color: #ffffff;
-  transition: right 1s;
+  background: #fcffec;
+  transition: right 0.3s;
 }
 
 #transparent_layer.inactive_transparent_layer {
@@ -26,197 +25,172 @@ nav {
 }
 
 nav.inactive_nav {
-  right: -264px;
+  right: -100vw;
 }
 
 /*************************fixed hamburger**************************/
 
-#top_bread {
+#fixed_hamburger {
   position: fixed;
-  z-index: 12;
+  width: 40px;
+  height: 20px;
+  right: 28px;
   top: 38px;
-  right: 20px;
+  z-index: 12;
+}
+
+.hamburger_line {
+  position: absolute;
+  width: 40px;
   height: 1px;
   background-color: black;
-  transition: transform 0.5s, width 0.5s, top 0.5s linear, right 0.5s linear;
+  transition: transform 0.15s, width 0.15s, top 0.15s linear, right 0.15s linear;
+}
+
+#top_bread {
+  top: 0px;
+  right: 0px;
 }
 
 #patty {
-  position: fixed;
-  z-index: 12;
-  top: 43px;
-  right: 20px;
-  height: 1px;
-  background-color: black;
-  transition: transform 0.5s, width 0.5s, top 0.5s linear, right 0.5s linear;
+  top: 5px;
+  right: 0px;
 }
 
 #bottom_bread {
-  position: fixed;
-  z-index: 12;
-  top: 48px;
-  right: 20px;
-  height: 1px;
-  background-color: black;
-  transition: transform 0.5s, width 0.5s, top 0.5s linear, right 0.5s linear;
-}
-
-#fixed_hamburger .long {
-  width: 40px;
-}
-
-#fixed_hamburger .short {
-  width: 20px;
+  top: 10px;
+  right: 0px;
 }
 
 #fixed_hamburger .one_line {
-  top: 43px;
-  right: 22.93px;
+  top: 5.571px;
+  right: 2.86px;
 }
 
 #fixed_hamburger .X_1 {
-  position: absolute;
-  top: 48.86px;
-  right: 25.86px;
+  top: 11.142px;
+  right: 5.72px;
   transform: rotate(45deg);
+  background-color: #3f1acc;
 }
 
 #fixed_hamburger .X_2 {
-  position: absolute;
-  top: 48.86px;
-  right: 25.86px;
+  top: 11.142px;
+  right: 5.72px;
   transform: rotate(-45deg);
+  background-color: #3f1acc;
 }
 
 /*************************fixed hamburger Finish**************************/
 
-#nav_logo {
-  position: absolute;
-  left: 20px;
-  top: 34px;
-  width: 147px;
-  height: 28px;
-}
-
-.X_line {
-  width: 40px;
-  height: 1px;
-  background-color: #000000;
-}
-
-#d-45 {
-  position: absolute;
-  top: 48.86px;
-  right: 25.86px;
-  transform: rotate(45deg);
-}
-
-#d45 {
-  position: absolute;
-  top: 48.86px;
-  right: 25.86px;
-  transform: rotate(-45deg);
-}
-
 #nav_main {
-  margin-top: 99px;
-  margin-left: 20px;
+  margin-top: 60px;
   height: 300px;
+}
+
+.nav_main_elem {
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
 .nav_main_elem_t {
   position: relative;
-  margin-bottom: 15px;
+  display: flex;
+  margin-bottom: 30px;
 
   font-family: CaviarDreams;
   font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 25px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
 
-  color: #e0e0e0;
+  text-align: center;
+
+  color: #3f1acc;
 
   transition: color 1s;
 }
 
-.nav_main_elem_m {
+.nav_main_elem_t .b_circle {
+  position: absolute;
+  top: 0px;
+  right: -8px;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background-color: #3f1acc;
+  transition: background-color 1s;
+}
+
+.nav_main_elem_t .b_circle_inactive {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.nav_main_hiding_elem {
+  display: flex;
+  justify-content: center;
   position: relative;
-  max-height: 0px;
+  margin-top: -18px;
+  max-height: 20px;
+  margin-bottom: 34px;
   overflow: hidden;
 
+  transition: margin 0.3s, max-height 0.3s;
+}
+
+.inv_elem {
+  margin-top: 0px;
+  max-height: 0px;
+  margin-bottom: 0px;
+}
+
+.nav_main_elem_m {
+  position: relative;
+  overflow: hidden;
+  height: 20px;
+  margin: 0px 20px;
   font-family: CaviarDreams;
   font-style: normal;
   font-weight: normal;
-  font-size: 10px;
-  line-height: 12px;
+  font-size: 14px;
+  line-height: 16px;
   /* identical to box height */
 
-  color: #d0d0d0;
+  color: #3f1acc;
 
   transition: max-height 0.5s, margin-bottom 0.5s, color 1s;
 }
 
 .nav_main_elem_m_l {
+  top: 18px;
   position: absolute;
   height: 0.5px;
-  left: 21px;
-  left: 21px;
+  left: 0px;
+  right: 100%;
   background-color: #3f1acc;
 }
 
-#nav_new_in_line {
-  top: 151px;
-  left: 21px;
-}
-
-.nav_new_in_line_active {
+.nav_main_elem_m_l_active {
   animation-duration: 1s;
-  animation-name: nav_new_in_line_move;
+  animation-name: nav_main_elem_m_l_move;
   animation-iteration-count: infinite;
 }
 
-@keyframes nav_new_in_line_move {
+@keyframes nav_main_elem_m_l_move {
   from {
-    left: 21px;
-    right: 243px;
+    left: 0px;
+    right: 100%;
   }
 
   50% {
-    left: 21px;
-    right: 214px;
+    left: 0px;
+    right: 0px;
   }
 
   to {
-    left: 51px;
-    right: 214px;
-  }
-}
-
-#nav_curtain_line {
-  top: 176px;
-  left: 21px;
-}
-
-.nav_curtain_line_active {
-  animation-duration: 1s;
-  animation-name: nav_curtain_line_move;
-  animation-iteration-count: infinite;
-}
-
-@keyframes nav_curtain_line_move {
-  from {
-    left: 21px;
-    right: 243px;
-  }
-
-  50% {
-    left: 21px;
-    right: 209px;
-  }
-
-  to {
-    left: 55px;
-    right: 214px;
+    left: 100%;
+    right: 0px;
   }
 }
 
@@ -252,23 +226,11 @@ nav.inactive_nav {
   opacity: 0;
 }
 
-.nav_s_line {
-  height: 15px;
-  font-family: CaviarDreams;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 15px;
-  letter-spacing: -0.02em;
-  /* Main_blue */
-
-  color: #3f1acc;
-}
-
 #nav_personal {
   padding: 38px 0px;
   height: 117px;
   margin: 0px 15px;
+  margin-top: 45px;
   border-top: 0.5px solid #3f1acc;
   border-bottom: 0.5px solid #3f1acc;
 }
@@ -277,6 +239,24 @@ nav.inactive_nav {
   margin-left: 5px;
   margin-right: 5px;
   transform: translateY(2px);
+}
+
+.nav_s_line {
+  display: flex;
+  justify-content: center;
+  height: 15px;
+  font-family: CaviarDreams;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+  letter-spacing: -0.02em;
+
+  /* Main_blue */
+
+  color: #3f1acc;
 }
 
 #nav_home {

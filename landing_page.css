@@ -744,10 +744,19 @@ g {
   /* or 19px */
 
   letter-spacing: -0.06em;
-  list-style-type: disc;
-
+  list-style-image: url("https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/li_w.svg");
+  vertical-align: middle;
   color: #ffffff;
   display: table-row;
+}
+
+.sixth_ul li {
+  background: url("https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/li_w.svg")
+    no-repeat left top 9px; /* <-- change `left` & `top` too for extra control */
+  padding: 3px 0px 3px 10px;
+  /* reset styles (optional): */
+  list-style: none;
+  margin: 0;
 }
 
 #sixth_img1 {
@@ -1142,6 +1151,7 @@ c {
 }
 .v_scroll_container ul {
   margin-left: 14px;
+  list-style-image: url("https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/li_b.svg");
 }
 
 .v_scroll_container ul li {
@@ -1150,7 +1160,6 @@ c {
   font-weight: 300;
   font-size: 14px;
   line-height: 150%;
-  list-style-type: disc;
 }
 
 .v_scroll_color_bar {

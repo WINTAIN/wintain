@@ -1,5 +1,4 @@
 const logo = document.querySelector('#logo');
-const hamb = document.querySelector("#hamburger");
 const home = document.querySelector('#home');
 const homeNumber = document.querySelector('#home_number');
 
@@ -11,14 +10,12 @@ function getLogoHeight(){
 }
 
 function setLogoSize(){
-    if (window.scrollY <= 19){
+    if (window.scrollY >= 0 && window.scrollY <= 19){
         logoWidth = (47-window.scrollY) * logoRatio;
-        hamb.className="long_hamb";
         home.className="inv_home";
         homeNumber.className="inv_home";
     }else{
         logoWidth=144;
-        hamb.className="short_hamb"
         home.className="vis_home";
         homeNumber.className="vis_home";
     }

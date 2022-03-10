@@ -1,14 +1,10 @@
 
 const navProduct = document.querySelector("#nav_product");
+const navMainHidingElem = document.querySelector(".nav_main_hiding_elem");
 const navTitles = document.querySelectorAll(".nav_main_elem_t");
 const navMenus = document.querySelectorAll(".nav_main_elem_m");
-const navMenuLines = document.querySelectorAll(".nav_main_elem_m_l");
 
-navProduct.addEventListener("click", handleNavProduct)
-navMenus[0].addEventListener("click", handleBlue);
-navMenus[0].addEventListener("click", handleNewInLine);
-navMenus[1].addEventListener("click", handleBlue);
-navMenus[1].addEventListener("click", handleCurtainLine);
+let isNavProductOpen = false;
 
 function handleNavProduct(){
     const gCircle = document.querySelector("#nav_product .g_circle");
@@ -17,18 +13,40 @@ function handleNavProduct(){
     navMenus[1].classList.toggle("vis_nav_product_curtain");
 }
 
-for(var i=0; i<navTitles.length; i++){
-    navTitles[i].addEventListener("click", handleBlue);
+for(var i=1; i<navTitles.length; i++){
+    navTitles[i].addEventListener("click", handleNormalBlue);
 }
 
-function handleBlue(e){
-    e.currentTarget.classList.toggle('blue_text');
+for(var i=0; i<navMenus.length; i++){
+    navMenus[i].addEventListener("click", handleMenuLine);
 }
 
-function handleNewInLine(){
-    navMenuLines[0].classList.toggle("nav_new_in_line_active")
+navProduct.addEventListener("click", handleNavProduct);
+
+function handleNormalBlue(e){
+    closeNavProduct();
+    e.currentTarget.querySelector(".b_circle").classList.toggle('b_circle_inactive');
 }
 
-function handleCurtainLine(){
-    navMenuLines[1].classList.toggle("nav_curtain_line_active")
+function openNavProduct(){
+    navProduct.querySelector(".b_circle").classList.remove('b_circle_inactive');
+    navMainHidingElem.classList.remove("inv_elem");
+    isNavProductOpen = true;
+}
+
+function closeNavProduct(){
+    navProduct.querySelector(".b_circle").classList.add('b_circle_inactive');
+    navMainHidingElem.classList.add("inv_elem");
+    isNavProductOpen = false;
+}
+
+function handleNavProduct(){
+    isNavProductOpen ? closeNavProduct() : openNavProduct();
+}
+
+
+function handleMenuLine(e){
+    console.log("hello");
+    e.currentTarget.querySelector(".nav_main_elem_m_l").classList.toggle("nav_main_elem_m_l_active");
+
 }

@@ -38,7 +38,7 @@ header {
 #home_number {
   position: absolute;
   height: 13px;
-  right: 60px;
+  right: 84px;
   top: 35px;
 
   font-family: CaviarDreams;
@@ -57,7 +57,7 @@ header {
 #home {
   position: absolute;
   top: 28px;
-  right: 51px;
+  right: 75px;
   width: 24px;
   height: 24px;
   transition: opacity 0.3s;

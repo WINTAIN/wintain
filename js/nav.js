@@ -1,71 +1,67 @@
-let fixHamburgerCase=false;
-
-
 const transparentLayer = document.querySelector("#transparent_layer");
-const hamb_menu = document.querySelector("#hamburger");
 const nav = document.querySelector('nav');
-const X_1 = document.querySelector("#d45");
-const X_2 = document.querySelector("#d-45");
+const switchHamb = document.querySelector("#fixed_hamburger");
+
+let navSwitch = true;
 
 
-const fixedHamburger = document.querySelector("#fixed_hamburger");
-
-
-/******************fixHamburgerCase False****************/
-
-if (!fixHamburgerCase){
-    hamb_menu.addEventListener("click", turnOnNav1);
-    X_1.addEventListener("click", turnOffNav1);
-    X_2.addEventListener("click", turnOffNav1);
-    transparentLayer.addEventListener("click", turnOffNav1);
-}
-
-function turnOnNav1(){
-    transparentLayer.classList.remove("inactive_transparent_layer");
-    nav.classList.remove("inactive_nav");
-    transparentLayer.setAttribute("style", "");
-}
-
-function turnOffNav1(){
-    transparentLayer.classList.add("inactive_transparent_layer");
-    setTimeout(hideTransparentLayer,1000);
-    nav.classList.add("inactive_nav");
-}
-
-function hideTransparentLayer(){
-    transparentLayer.setAttribute("style", "z-index:-1;");
-}
-
-/******************fixHamburgerCase True****************/
-if (fixHamburgerCase){
-    hamb_menu.style="display:none";
-    fixedHamburger.style="";
-    X_1.style="display:none;"
-    X_2.style="display:none;"
-
-    hamb_menu.addEventListener("click", turnOnNav1);
-    X_1.addEventListener("click", turnOffNav1);
-    X_2.addEventListener("click", turnOffNav1);
-    fixedHamburger.addEventListener('click', turnOnNav2);
-}
-
+switchHamb.addEventListener("click", handleSwitch);
 
 const topBread = document.querySelector("#top_bread");
 const patty = document.querySelector("#patty");
 const bottomBread = document.querySelector("#bottom_bread");
 
-function turnOnNav2(){
-    topBread.classList.add('one_line')
-    patty.classList.add('one_line')
-    bottomBread.classList.add('one_line')
-    setTimeout(makeX, 500);
+const hambTransitionTime = window.getComputedStyle(topBread,null).transitionDuration[0];
+
+transparentLayer.addEventListener("click", inactivateNav);
+
+function handleSwitch(){
+    if (navSwitch){
+        activateNav();
+    }else{
+        inactivateNav();
+    }
+}
+
+function activateNav(){
     nav.classList.remove("inactive_nav");
-    transparentLayer.setAttribute("style", "");
+    makeOneLine();
+    setTimeout(makeX, hambTransitionTime);
+    transparentLayer.classList.remove("inactive_transparent_layer");
+    navSwitch=false;
+}
+
+function inactivateNav() {
+    nav.classList.add("inactive_nav");
+    makeOneLine();
+    setTimeout(makeThreeLine, hambTransitionTime);
+    transparentLayer.classList.add("inactive_transparent_layer");
+    navSwitch=true;
 }
 
 
+function makeOneLine(){
+    topBread.classList.remove('X_1')
+    patty.classList.remove('X_2')
+    bottomBread.classList.remove('X_2')
+    topBread.classList.add('one_line')
+    patty.classList.add('one_line')
+    bottomBread.classList.add('one_line')
+}
+
+function makeThreeLine(){
+    topBread.classList.remove('one_line')
+    patty.classList.remove('one_line')
+    bottomBread.classList.remove('one_line')
+    topBread.classList.remove('X_1')
+    patty.classList.remove('X_2')
+    bottomBread.classList.remove('X_2')
+}
 
 function makeX(){
+    topBread.classList.remove('one_line')
+    patty.classList.remove('one_line')
+    bottomBread.classList.remove('one_line')
     topBread.classList.add('X_1')
     patty.classList.add('X_2')
     bottomBread.classList.add('X_2')
