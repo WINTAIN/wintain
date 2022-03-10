@@ -37,8 +37,8 @@ const ArrivalHscroll = new Hscroll(ArrivalHscrollNode);
 const SubscribeHscrollNode = document.querySelector('#subscribe_h_scroll');
 const SubscribeHscroll = new Hscroll(SubscribeHscrollNode);
 
-const MagazineHscrollNode = document.querySelector("#magazine_h_scroll");
-const MagazineHscroll = new Hscroll(MagazineHscrollNode);
+// const MagazineHscrollNode = document.querySelector("#magazine_h_scroll");
+// const MagazineHscroll = new Hscroll(MagazineHscrollNode);
 
 const ReviewHscrollNode = document.querySelector("#review_h_scroll");
 const ReviewHscroll = new Hscroll(ReviewHscrollNode);

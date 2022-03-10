@@ -748,7 +748,6 @@ g {
   /* or 19px */
 
   letter-spacing: -0.06em;
-  list-style-image: url("https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/li_w.svg");
   vertical-align: middle;
   color: #ffffff;
   display: table-row;
@@ -756,7 +755,7 @@ g {
 
 .sixth_ul li {
   background: url("https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/li_w.svg")
-    no-repeat left top 9px; /* <-- change `left` & `top` too for extra control */
+    no-repeat left top 11px; /* <-- change `left` & `top` too for extra control */
   padding: 3px 0px 3px 10px;
   /* reset styles (optional): */
   list-style: none;
@@ -1091,13 +1090,9 @@ c {
   text-align: center;
   letter-spacing: -0.055em;
 
-  /* Main_blue */
-
-  color: #3f1acc;
-  /* Sub_neon */
-
-  background: #e8ff5a;
-  /* Main_blue */
+  background-color: #f4f4f4;
+  color: #000000;
+  transition: color 0.3s, background-color 0.3s;
 
   border-bottom: 0.5px solid #3f1acc;
   box-sizing: border-box;
@@ -1156,6 +1151,12 @@ c {
 }
 
 .v_scroll_container ul li {
+  background: url("https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/li_b.svg")
+    no-repeat left top 13px; /* <-- change `left` & `top` too for extra control */
+  padding: 5px 0px 5px 10px;
+  /* reset styles (optional): */
+  list-style: none;
+  margin: 0;
   font-family: NotoSansKR;
   font-style: normal;
   font-weight: 300;
@@ -1216,6 +1217,14 @@ c {
   margin: 0px 3px;
 }
 
+.subscribe_model_description strong {
+  font-family: NotoSansKR;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 125%;
+}
+
 .subscribe_model_button {
   display: flex;
   justify-content: center;
@@ -1233,13 +1242,9 @@ c {
   text-align: center;
   letter-spacing: -0.055em;
 
-  /* Main_blue */
-
-  color: #3f1acc;
-  /* Sub_neon */
-
-  background: #e8ff5a;
-  /* Main_blue */
+  background-color: #f4f4f4;
+  color: #000000;
+  transition: background-color 0.3s, color 0.3s;
 
   border-top: 0.5px solid #3f1acc;
   box-sizing: border-box;
@@ -1249,6 +1254,13 @@ c {
   margin-left: 3.85px;
   width: 19.34px;
   height: 12.54px;
+  margin-bottom: 3px;
+}
+
+.subscribe_model_act {
+  /** There is redefinition **/
+  color: #3f1acc;
+  background: #e8ff5a;
 }
 
 /**********************AREA9*************************/
@@ -1522,7 +1534,7 @@ hr.blue_breaker {
   font-family: NotoSansKR;
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 125%;
   /* or 20px */
 
@@ -1533,7 +1545,7 @@ hr.blue_breaker {
 }
 
 #twelveth_div {
-  margin-top: 16px;
+  margin-top: 13px;
   display: flex;
   font-family: NotoSansKR;
   font-style: normal;
@@ -1629,7 +1641,7 @@ footer {
   width: calc(100% - 125px);
   font-family: NotoSansKR;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 8px;
   line-height: 125%;
   /* or 10px */
@@ -1639,7 +1651,8 @@ footer {
   color: #ffffff;
 }
 
-.footer_info_row_l bold {
+.footer_info_row_l strong {
+  margin-right: 2px;
   font-weight: 500;
 }
 .footer_info_row_c {
