@@ -1280,53 +1280,50 @@ c {
 
 #nineth_p2 {
   position: absolute;
-  width: 153px;
   height: 44px;
   left: 20px;
-  top: 96px;
+  top: 102px;
 
   /* Body_16 */
 
   font-family: NotoSansKR;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 140%;
-  /* or 22px */
+  /* or 28px */
 
   letter-spacing: -0.05em;
 
   color: #000000;
+
+  color: #000000;
 }
 
-#magazine_h_scroll {
-  top: 167px;
-  padding-left: 20px;
-  height: 395px;
-}
+.coming_soon {
+  font-family: "CaviarDreams";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 110%;
+  /* or 40px */
 
-#magazine_h_scroll_container {
-  height: 363.93px;
-}
+  text-align: center;
 
-.magazine_img_crop {
-  min-width: 264px;
-  min-height: 363.83px;
-}
+  color: #e0e0e0;
+  height: 364px;
 
-.magazine_img {
-  width: 264px;
-  height: 363.83px;
-}
+  /* Sub_gray */
 
-#magazine_color_bar {
-  top: 394px;
-}
+  margin: 0px 20px;
+  margin-top: 183px;
 
-#magazine_basic_bar {
-  top: 394px;
+  width: calc(100% - 40px);
+  background: #f4f4f4;
 }
-
 hr.blue_breaker {
   position: absolute;
   bottom: 1px;
