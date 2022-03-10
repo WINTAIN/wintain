@@ -10,16 +10,21 @@ function Hscroll(hscroll){
     this.container.addEventListener("scroll", moveHscrollBar(this));
 }
 
-function moveHscrollBar(Hscroll){
-    return function (){
-        const xMove = Hscroll.basicScrollBarWidth * Hscroll.container.scrollLeft/Hscroll.scrollWidth;
-        if (xMove>Hscroll.basicScrollBarWidth){
-            xMove = Hscroll.basicScrollBarWidth;
-        }else if (xMove<0){
-            xMove=0;
-        }
-        Hscroll.colorScrollBar.setAttribute("style", `width:${Hscroll.colorScrollBarWidth}px;transform:translateX(${xMove}px);`)
+
+function setXMove(Hscroll){
+    const xMove = Hscroll.basicScrollBarWidth * Hscroll.container.scrollLeft/Hscroll.scrollWidth;
+    if (xMove > Hscroll.basicScrollBarWidth){
+        xMove = Hscroll.basicScrollBarWidth;
+    }else if (xMove < 0){
+        xMove = 0;
     }
+    Hscroll.colorScrollBar.setAttribute("style", `width:${Hscroll.colorScrollBarWidth}px;transform:translateX(${xMove}px);`)
+}
+
+function moveHscrollBar(Hscroll){
+    return function () {//Because Of Scroll
+        setTimeout(setXMove(Hscroll),10);
+    };
 }
 
 function initHscrollBar(Hscroll){
