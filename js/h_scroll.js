@@ -11,7 +11,7 @@ function Hscroll(hscroll){
 }
 
 function moveHscrollBar(Hscroll){
-    return function (){
+    return setTimeout(function (){//Because Of Scroll Delay
         const xMove = Hscroll.basicScrollBarWidth * Hscroll.container.scrollLeft/Hscroll.scrollWidth;
         if (xMove > Hscroll.basicScrollBarWidth){
             xMove = Hscroll.basicScrollBarWidth;
@@ -19,7 +19,7 @@ function moveHscrollBar(Hscroll){
             xMove = 0;
         }
         Hscroll.colorScrollBar.setAttribute("style", `width:${Hscroll.colorScrollBarWidth}px;transform:translateX(${xMove}px);`)
-    }
+    },10);
 }
 
 function initHscrollBar(Hscroll){
