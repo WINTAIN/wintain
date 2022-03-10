@@ -4,11 +4,14 @@
   right: 30px;
   bottom: 55px;
 }
-
 main {
   display: flex;
   flex-direction: column;
   width: 100vw;
+}
+
+main::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
 }
 
 .area {
@@ -236,7 +239,7 @@ main {
   z-index: 1;
   font-family: NotoSansKR;
   font-style: normal;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 20px;
   line-height: 140%;
   /* or 22px */
@@ -267,7 +270,7 @@ main {
 /*--------------------AREA4----------------------*/
 #area4 {
   position: relative;
-  height: 838px;
+  height: 876px;
 }
 
 #fourth_p1 {
@@ -347,9 +350,9 @@ main {
 
 #arrow_right_g {
   position: absolute;
-  width: 19px;
-  height: 9px;
-  left: calc(50% - 19px / 2 - 5.5px);
+  width: 30px;
+  height: 14.21px;
+  left: calc(50% - 19px / 2 - 10.5px);
   top: 231px;
 }
 
@@ -391,8 +394,8 @@ main {
 
 #arrow_down_g1 {
   position: absolute;
-  width: 9px;
-  height: 19px;
+  width: 14.21px;
+  height: 30px;
   right: calc(50% - 84px);
   top: 398px;
 }
@@ -430,8 +433,8 @@ main {
 
 #arrow_left_g {
   position: absolute;
-  width: 19px;
-  height: 9px;
+  width: 30px;
+  height: 14.21px;
   left: calc(50% - 19px / 2 - 5.5px);
   top: 484px;
 }
@@ -474,8 +477,8 @@ main {
 
 #arrow_down_g2 {
   position: absolute;
-  width: 9px;
-  height: 19px;
+  width: 14.21px;
+  height: 30px;
   left: calc(50% - 88px);
   top: 621px;
 }

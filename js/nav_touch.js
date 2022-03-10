@@ -32,7 +32,14 @@ function handleNormalBlue(e){
     e.currentTarget.querySelector(".b_circle").classList.toggle('b_circle_inactive');
 }
 
+function closeNavTitles(){
+    for(var i=1; i<navTitles.length; i++){
+        navTitles[i].querySelector(".b_circle").classList.remove('b_circle_inactive');
+    }
+}
+
 function openNavProduct(){
+    closeNavTitles();
     navProduct.querySelector(".b_circle").classList.remove('b_circle_inactive');
     navMainHidingElem.classList.remove("inv_elem");
     isNavProductOpen = true;
