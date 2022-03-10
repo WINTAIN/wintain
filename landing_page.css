@@ -924,6 +924,7 @@ c {
   top: 0px;
   left: 20px;
   overflow: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 .h_scroll_container {
@@ -1114,6 +1115,7 @@ c {
   width: 100%;
   height: 146px;
   overflow: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 .v_scroll_container {

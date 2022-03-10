@@ -13,10 +13,10 @@ function Hscroll(hscroll){
 function moveHscrollBar(Hscroll){
     return function (){
         const xMove = Hscroll.basicScrollBarWidth * Hscroll.container.scrollLeft/Hscroll.scrollWidth;
-        if (xMove>Hscroll.basicScrollBarWidth){
+        if (xMove > Hscroll.basicScrollBarWidth){
             xMove = Hscroll.basicScrollBarWidth;
-        }else if (xMove<0){
-            xMove=0;
+        }else if (xMove < 0){
+            xMove = 0;
         }
         Hscroll.colorScrollBar.setAttribute("style", `width:${Hscroll.colorScrollBarWidth}px;transform:translateX(${xMove}px);`)
     }
