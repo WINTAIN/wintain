@@ -1,16 +1,5 @@
 let fixHamburgerCase=false;
 
-function test() {
-    if (!confirm("햄버거를 고정시킬까요? (확인: 네, 취소: 아니오)")) {
-        alert("전체 네비게이션이 슬라이드 됩니다.");
-        fixHamburgerCase = false;
-    } else {
-        alert("햄버거를 제외한 네이게이션이 슬라이드 됩니다. 시간관계로 햄버거메뉴가 작아지는 것과 되돌아오는 기능은 만들지 않았습니다.");
-        fixHamburgerCase = true;
-    }
-}
-
-test();
 
 const transparentLayer = document.querySelector("#transparent_layer");
 const hamb_menu = document.querySelector("#hamburger");
