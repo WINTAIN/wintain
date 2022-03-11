@@ -110,6 +110,7 @@ main::-webkit-scrollbar {
 
 #area2 {
   display: flex;
+  height: 640px;
   position: relative;
   flex-direction: column;
   align-items: center;
@@ -145,12 +146,12 @@ main::-webkit-scrollbar {
 #area_box2 {
   position: relative;
   margin-top: 169px;
-  height: calc(100vh - 330px);
+  height: 310px;
 }
 
 #deco1 {
   position: absolute;
-  left: calc(50% - 112px / 2 + 36.1272vh - 119.22px);
+  left: calc(50% + 57px);
   top: -27px;
   z-index: 0;
 }
@@ -163,7 +164,7 @@ main::-webkit-scrollbar {
 
 #preference {
   position: relative;
-  height: calc(100vh - 330px);
+  height: 310px;
   z-index: 1;
 }
 
