@@ -36,3 +36,6 @@ const VScrollMonth3 = new Vscroll(VScrollMonth3Node);
 
 const VScrollMonth6Node = document.querySelector("#v_scroll_month6");
 const VScrollMonth6 = new Vscroll(VScrollMonth6Node);
+
+const VScrollMonth12Node = document.querySelector("#v_scroll_month12");
+const VScrollMonth12 = new Vscroll(VScrollMonth12Node);
