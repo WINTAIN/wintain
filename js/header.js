@@ -14,7 +14,10 @@ function setLogoSize(){
         logoWidth = (47-mainContainer.scrollTop) * logoRatio;
         home.className="inv_home";
         homeNumber.className="inv_home";
-    }else{
+    }else if (mainContainer.scrollTop < 0){
+        logoWidth=242;
+    }
+    else{
         logoWidth=144;
         home.className="vis_home";
         homeNumber.className="vis_home";
