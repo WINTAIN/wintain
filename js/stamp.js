@@ -4,8 +4,18 @@ const blockImg = document.querySelector("#first_img");
 const stampWidth = stamp.getBoundingClientRect().right - stamp.getBoundingClientRect().left;
 const stampHeight = stamp.getBoundingClientRect().bottom - stamp.getBoundingClientRect().top;
 
-const leftMax = blockImg.getBoundingClientRect().right - blockImg.getBoundingClientRect().left - stampWidth;
-const topMax = blockImg.getBoundingClientRect().bottom - blockImg.getBoundingClientRect().top - stampHeight;
+let stampLeft = leftMax;  
+let stampTop = getRandomInt(0,topMax);
+let leftMax;
+let rightMax;
+
+function setStampBlock(){
+    leftMax = blockImg.getBoundingClientRect().right - blockImg.getBoundingClientRect().left - stampWidth;
+    topMax = blockImg.getBoundingClientRect().bottom - blockImg.getBoundingClientRect().top - stampHeight;
+    stampLeft = leftMax;  
+    stampTop = getRandomInt(0,topMax);
+}
+
 
 const stampMovingTime = window.getComputedStyle(stamp,null).transitionDuration[0];
 
@@ -16,8 +26,7 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min; //최댓값도 포함, 최솟값도 포함
   }
 
-let stampLeft = leftMax;  
-let stampTop = getRandomInt(0,topMax);
+
 
 function findCurrentEdge(){
     if (stampLeft==0){
@@ -72,11 +81,11 @@ function setEdge(edge){
 }
 
 function setTransition(){
-
     stamp.setAttribute('style', `left:${stampLeft}px; top:${stampTop}px`)
 }
 
 function initStamp(){
+    setStampBlock();
     setTimeout(firstMove,100);
     setInterval(setCoord,stampMovingTime*1000);
 }
