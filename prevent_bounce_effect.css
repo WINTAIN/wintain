@@ -1,11 +1,16 @@
-/*******************Prevent Bounce Effect**********************/
-body,
-html {
-  position: fixed;
-  width: 100%;
+html,
+body {
+  height: 100%;
   overflow: hidden;
-  transform: translate3d(0, 0, 0);
-  -webkit-transform: translateZ(0);
+}
+
+#main-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: auto;
 }
 
 header {

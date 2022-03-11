@@ -1,7 +1,7 @@
 const logo = document.querySelector('#logo');
 const home = document.querySelector('#home');
 const homeNumber = document.querySelector('#home_number');
-
+const mainContainer = document.querySelector("#main-container");
 const logoRatio = 242/47;
 let logoWidth = 242;
 
@@ -10,8 +10,8 @@ function getLogoHeight(){
 }
 
 function setLogoSize(){
-    if (window.scrollY >= 0 && window.scrollY <= 19){
-        logoWidth = (47-window.scrollY) * logoRatio;
+    if (mainContainer.scrollTop >= 0 && mainContainer.scrollTop <= 19){
+        logoWidth = (47-mainContainer.scrollTop) * logoRatio;
         home.className="inv_home";
         homeNumber.className="inv_home";
     }else{
@@ -22,7 +22,7 @@ function setLogoSize(){
     logo.setAttribute("style", `width:${logoWidth}px; height:${getLogoHeight()}px;`)
 }
 
-window.addEventListener("scroll", scrollHeaderEventHandler )
+mainContainer.addEventListener("scroll", scrollHeaderEventHandler )
 
 function scrollHeaderEventHandler(){
     console.log()

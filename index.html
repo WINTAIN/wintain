@@ -13,383 +13,385 @@
     <link rel="stylesheet" href="philo.css">
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="landing_page.css">
-    <!-- <link rel="stylesheet" href="prevent_bounce_effect.css"> -->
+    <link rel="stylesheet" href="prevent_bounce_effect.css">
     <title>Wintain</title>
 </head>
 <body>
-    <header>
-        <img id="logo" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/logo.svg"/>
-        <img class="inv_home" id="home" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_home.svg">
-        <p class="inv_home" id="home_number">1</p>
-    </header>
-    <div id="fixed_hamburger">
-        <div class="hamburger_line" id="top_bread"></div>
-        <div class="hamburger_line" id="patty"></div>
-        <div class="hamburger_line" id="bottom_bread"></div>
-    </div>
-    <div class="inactive_transparent_layer" id="transparent_layer"></div>
-    <nav class="inactive_nav">
-        <div id="nav_main">
-            <div class="nav_main_elem">
-                <div class="nav_main_elem_t" id="nav_product">Product<div class="b_circle b_circle_inactive"></div></div>
-            </div>
-            <div class="nav_main_hiding_elem inv_elem">
-                <div class="nav_main_elem_m">New In<div id="nav_new_in_line" class="nav_main_elem_m_l"></div></div>
-                <div class="nav_main_elem_m">Curtain<div id="nav_curtain_line" class="nav_main_elem_m_l"></div></div>
-            </div>
-            <div class="nav_main_elem">
-                <div class="nav_main_elem_t">Subscribe<div class="b_circle b_circle_inactive"></div></div>
-            </div>
-            <div class="nav_main_elem">
-                <div class="nav_main_elem_t">Magazine<div class="b_circle b_circle_inactive"></div></div>
-            </div>
-            <div class="nav_main_elem">
-                <div class="nav_main_elem_t">Review<div class="b_circle b_circle_inactive"></div></div>
-            </div>
-            <div class="nav_main_elem">
-                <div class="nav_main_elem_t">Notice & Event<div class="b_circle b_circle_inactive"></div></div>
-            </div>
+    <div id="main-container">
+        <header>
+            <img id="logo" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/logo.svg"/>
+            <img class="inv_home" id="home" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_home.svg">
+            <p class="inv_home" id="home_number">1</p>
+        </header>
+        <div id="fixed_hamburger">
+            <div class="hamburger_line" id="top_bread"></div>
+            <div class="hamburger_line" id="patty"></div>
+            <div class="hamburger_line" id="bottom_bread"></div>
         </div>
-        <div id="nav_personal">
-            <div class="nav_s_line" id="nav_home"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_home_off_c_s.svg">My Home (0)</div>
-            <div class="nav_s_line"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_like_off_c_s.svg">Loves</div>
-        </div>
-        <div id="nav_etc">
-            <div class="nav_s_line"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/instagram.svg">Instagram</div>
-        </div>
-    </nav>
-    <main>
-        <a id="kakao_councel"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/kakao_councel.png"></a>
-        <div class="area" id="area1">
-            <div id="area_box1">
-                <img id="stamp" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/deco/stamp.png">
-                <img id="first_img" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/first.png">
-                <p id="subscribe_mention">당신을 위한 공간 리추얼</p>
-                <a id="subscribe" class="button">
-                    <p>커튼 구독</p>
+        <div class="inactive_transparent_layer" id="transparent_layer"></div>
+        <nav class="inactive_nav">
+            <div id="nav_main">
+                <div class="nav_main_elem">
+                    <div class="nav_main_elem_t" id="nav_product">Product<div class="b_circle b_circle_inactive"></div></div>
+                </div>
+                <div class="nav_main_hiding_elem inv_elem">
+                    <div class="nav_main_elem_m">New In<div id="nav_new_in_line" class="nav_main_elem_m_l"></div></div>
+                    <div class="nav_main_elem_m">Curtain<div id="nav_curtain_line" class="nav_main_elem_m_l"></div></div>
+                </div>
+                <div class="nav_main_elem">
+                    <div class="nav_main_elem_t">Subscribe<div class="b_circle b_circle_inactive"></div></div>
+                </div>
+                <div class="nav_main_elem">
+                    <div class="nav_main_elem_t">Magazine<div class="b_circle b_circle_inactive"></div></div>
+                </div>
+                <div class="nav_main_elem">
+                    <div class="nav_main_elem_t">Review<div class="b_circle b_circle_inactive"></div></div>
+                </div>
+                <div class="nav_main_elem">
+                    <div class="nav_main_elem_t">Notice & Event<div class="b_circle b_circle_inactive"></div></div>
+                </div>
+            </div>
+            <div id="nav_personal">
+                <div class="nav_s_line" id="nav_home"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_home_off_c_s.svg">My Home (0)</div>
+                <div class="nav_s_line"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_like_off_c_s.svg">Loves</div>
+            </div>
+            <div id="nav_etc">
+                <div class="nav_s_line"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/instagram.svg">Instagram</div>
+            </div>
+        </nav>
+        <main>
+            <a id="kakao_councel"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/kakao_councel.png"></a>
+            <div class="area" id="area1">
+                <div id="area_box1">
+                    <img id="stamp" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/deco/stamp.png">
+                    <img id="first_img" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/first.png">
+                    <p id="subscribe_mention">당신을 위한 공간 리추얼</p>
+                    <a id="subscribe" class="button">
+                        <p>커튼 구독</p>
+                    </a>
+                </div>
+            </div>
+            <div class="area_blue" id="area2">
+                <p id="second_p1">당신의 집은<br>누구의<br>취향인가요?</p>
+                <img id="wave" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/deco/wave.png">
+                <div id="area_box2">
+                    <img id="deco1" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/deco/deco1.png">
+                    <img id='preference' src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/preference.png">
+                </div>
+                <p id="second_p2">이제 내 취향껏<br>공간을 리추얼해보세요.</p>
+                <a class="button_g" id="jindan">
+                    <p>취향 진단하기</p>
                 </a>
             </div>
-        </div>
-        <div class="area_blue" id="area2">
-            <p id="second_p1">당신의 집은<br>누구의<br>취향인가요?</p>
-            <img id="wave" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/deco/wave.png">
-            <div id="area_box2">
-                <img id="deco1" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/deco/deco1.png">
-                <img id='preference' src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/preference.png">
+            <div class="area_photo" id="area3">
+                <p id="third_p1">ABOUT wintain</p>
+                <img id="about_img" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/about_wintain.png">
+                <p id="third_p2">집 안 가득 채우는<br>한 폭의 마법</p>
+                <p id="third_p3">창을 통해 들어온 빛과 공기, 그리고 바람.<br>이 모든 것을 조율하는 커튼에 고마움을 느낍니다.<br>
+                    풍성한 빛을 머금은 채 물결치는 실루엣과 커튼 사이로 엿보이는<br>생경한 풍경에 시선이 머물 때 우리는 가슴 설레곤 합니다.</p>
             </div>
-            <p id="second_p2">이제 내 취향껏<br>공간을 리추얼해보세요.</p>
-            <a class="button_g" id="jindan">
-                <p>취향 진단하기</p>
-            </a>
-        </div>
-        <div class="area_photo" id="area3">
-            <p id="third_p1">ABOUT wintain</p>
-            <img id="about_img" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/about_wintain.png">
-            <p id="third_p2">집 안 가득 채우는<br>한 폭의 마법</p>
-            <p id="third_p3">창을 통해 들어온 빛과 공기, 그리고 바람.<br>이 모든 것을 조율하는 커튼에 고마움을 느낍니다.<br>
-                풍성한 빛을 머금은 채 물결치는 실루엣과 커튼 사이로 엿보이는<br>생경한 풍경에 시선이 머물 때 우리는 가슴 설레곤 합니다.</p>
-        </div>
-        <div class="area_blue" id="area4">
-            <p id="fourth_p1">our PHILOSOPHY</p>
-            <p id="fourth_p2">내 공간을 더 아껴주는 법</p>
-            <p id="fourth_p3">커튼 구독</p>
-            <div id="philo1">
-                <img id="philo_img1" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/deco/philosophy_img1.svg">
-                <p class="philo_p" id="philo_p1">1년 내내 방치된 커튼은 그만.</p>
-            </div>
-            <img class="philo" id="arrow_right_g" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_right_g.svg">
-            <div id="philo2">
-                <img id="philo_img2" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/deco/philosophy_img2.svg">
-                <p class="philo_p" id="philo_p2">먼지 쌓인 커튼도 세탁 걱정 없이 보내고</p>
-            </div>
-            <img class="philo" id="arrow_down_g1" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_down_g.svg">
-            <div id="philo3">
-                <img id="philo_img3" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/deco/philosophy_img3.svg">
-                <p class="philo_p" id="philo_p3">내 취향의 프리미엄 커튼을 설치까지 한 번에</p>
-            </div>
-            <img class="philo" id="arrow_left_g" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_left_g.svg">
-            <div id="philo4">
-                <img id="philo_img4" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/deco/philosophy_img4.svg">
-                <p class="philo_p" id="philo_p4">공간을 나답게,<br>지금의 집을 더 사랑하는 법</p>
-            </div>
-            <img class="philo" id="arrow_down_g2" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_down_g.svg">
-            <div id="philo5">
-                <img id="philo_img5" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/deco/philosophy_img5.svg">
-                <p class="philo_p" id="philo_p5">커튼 구독 라이프 윈튼</p>
-            </div>
-        </div>
-        <div class="area" id="area5">
-            <p id='fifth_p1'>WHY wintain?</p>
-            <p id='fifth_p2'>빛과 바람이 쉬어가는 곳<br>윈튼을 해야하는 이유</p>
-            <div class="fifth_line" id="first_line">
-                <div class='circle_g'></div>
-                <p class="fifth_line_l">Reason 1</p>
-                <p class="fifth_line_r">기능적인 커튼 +<br>당신의 취향을 존중하는 곳</p>
-            </div>
-            <div class="fifth_line">
-                <div class='circle_g'></div>
-                <p class="fifth_line_l">Reason 2</p>
-                <p class="fifth_line_r">쓰고 버려지는 패브릭만 매년 000톤!<br>친환경으로 나눠 쓰니까</p>
-            </div>
-            <div class="fifth_line">
-                <div class='circle_g'></div>
-                <p class="fifth_line_l">Reason 3</p>
-                <p class="fifth_line_r">퀄리티는 말해 뭐해,<br>디자이너가 엄선한  프리미엄 커튼</p>
-            </div>
-            <div class="fifth_line">
-                <div class='circle_g'></div>
-                <p class="fifth_line_l">Reason 4</p>
-                <p class="fifth_line_r">아차, 싶은 나의 선택.<br>바꾸고 싶을 때 바꿀 수 있으니까. </p>
-            </div>
-            <div class="fifth_line">
-                <div class='circle_g'></div>
-                <p class="fifth_line_l">Reason 5</p>
-                <p class="fifth_line_r">이사 걱정도 끝!<br>수선할 필요 없이 윈튼으로 OK. </p>
-            </div>
-        </div>
-        <div class="area_blue" id="area6">
-            <p id="sixth_p1">we RECOMMEND</p>
-            <p id="sixth_p2">지친다 지쳐!<br>이런 분들께 추천드려요.</p>
-            <div id="g_border1" class="g_border"><g>#</g> 커튼 유목민</div>
-            <img id="sixth_img1" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/deco/recommend_img1.svg">
-            <ul id="sixth_ul1" class="sixth_ul">
-                <li>마음에 드는 커튼을 찾아<br>여러 번 헤맸던 분</li>
-                <li>이사가 잦아 마음에 드는<br>커튼을 설치하지 못했던 분</li>
-            </ul>
-            <div id="g_border2" class="g_border"><g>#</g> 취향입문자</div>
-            <img id="sixth_img2" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/deco/recommend_img2.svg">
-            <ul id="sixth_ul2" class="sixth_ul">
-                <li>마음에 드는 커튼을 찾아<br>여러 번 헤맸던 분</li>
-                <li>이사가 잦아 마음에 드는<br>커튼을 설치하지 못했던 분</li>
-            </ul>
-            <div id="g_border3" class="g_border"><g>#</g> 귀차니즘</div>
-            <img id="sixth_img3" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/deco/recommend_img3.svg">
-            <ul id="sixth_ul3" class="sixth_ul">
-                <li>마음에 드는 커튼을 찾아<br>여러 번 헤맸던 분</li>
-                <li>이사가 잦아 마음에 드는<br>커튼을 설치하지 못했던 분</li>
-            </ul>
-            <div id="g_border4" class="g_border"><g>#</g> 인테리어 초보러</div>
-            <img id="sixth_img4" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/deco/recommend_img4.svg">
-            <ul id="sixth_ul4" class="sixth_ul">
-                <li>마음에 드는 커튼을 찾아<br>여러 번 헤맸던 분</li>
-                <li>이사가 잦아 마음에 드는<br>커튼을 설치하지 못했던 분</li>
-            </ul>
-            <div id="sixth_v1"></div>
-            <div id="sixth_v2"></div>
-            <div id="sixth_h1"></div>
-            <div id="sixth_h2"></div>
-        </div>
-        <div class="area" id="area7">
-            <p id="seventh_p1">new ARRIVAL</p>
-            <p id="seventh_p2">4월의 커튼 <c>Coming soon!</c></p>
-            <div class="h_scroll" id="arrival_h_scroll">
-                <div class="h_scroll_container" id="arrival_h_scroll_container">
-                    <div class="h_scroll_img_crop arrival_img_crop">
-                        <img class="h_scroll_img arrival_img" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/arrival_sample1.png">
-                    </div>
-                    <div class="h_scroll_img_crop arrival_img_crop">
-                        <img class="h_scroll_img arrival_img" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/arrival_sample1.png">
-                    </div>
-                    <div class="h_scroll_img_crop arrival_img_crop">
-                        <img class="h_scroll_img arrival_img" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/arrival_sample1.png">
-                    </div>
+            <div class="area_blue" id="area4">
+                <p id="fourth_p1">our PHILOSOPHY</p>
+                <p id="fourth_p2">내 공간을 더 아껴주는 법</p>
+                <p id="fourth_p3">커튼 구독</p>
+                <div id="philo1">
+                    <img id="philo_img1" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/deco/philosophy_img1.svg">
+                    <p class="philo_p" id="philo_p1">1년 내내 방치된 커튼은 그만.</p>
                 </div>
-                <div class="h_scroll_color_bar" id="arrival_color_bar"></div>
-                <div class="h_scroll_basic_bar" id="arrival_basic_bar"></div>
-            </div>
-        </div>
-        <div class="area_blue" id="area8">
-            <p id="eighth_p1">SUBSCRIBE</p>
-            <p id="eighth_p2">우리집에 맞는 정기 구독을 시작!</p>
-            <div class="h_scroll" id="subscribe_h_scroll">
-                <div class="h_scroll_container" id="subscribe_h_scroll_container">
-                    <div class="subscribe_model" id="month3">
-                        <div class="subscribe_model_month_num"><strong>3</strong>개월</div>
-                        <div class="v_scroll" id="v_scroll_month3">
-                            <div class="v_scroll_container">
-                                <p>기간</p>
-                                <ul>
-                                    <li>3 ~ 5개월</li>
-                                </ul>
-                                <p>혜택</p>
-                                <ul>
-                                    <li>프리미엄 커튼 1회 제공</li>
-                                </ul>
-                                <br>
-                                <p class="subscribe_model_description"><strong>확인해주세요!</strong><br>- 위 금액은 S사이즈 기준 구독 금액입니다.<br>- 해당 서비스 비용은 기간별 총 금액으로 결제되며, 해당 기간 할부 이용 시<br>결제 금액입니다.</p>
-                            </div>
-                            <div class="v_scroll_color_bar"></div>
-                            <div class="v_scroll_basic_bar"></div>
-                        </div>
-                        <div class="subscribe_model_price">월 <strong> 9,000</strong>원 부터~</div>
-                        <div class="subscribe_model_button">구독하기<img class="" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_right_c.svg"></div>
-                    </div>
-                    <div class="subscribe_model" id="month6">
-                        <div class="subscribe_model_month_num"><strong>6</strong>개월</div>
-                        <div class="v_scroll" id="v_scroll_month6">
-                            <div class="v_scroll_container">
-                                <p>기간</p>
-                                <ul>
-                                    <li>6 ~ 11개월</li>
-                                </ul>
-                                <p>혜택</p>
-                                <ul>
-                                    <li>프리미엄 커튼 1회 제공</li>
-                                    <li>커튼 1회 교환권 증정</li>
-                                    <li>교환권 미사용 시 10% 적립</li>
-                                </ul>
-                                <br>
-                                <p class="subscribe_model_description"><strong>확인해주세요!</strong><br>- 적립금은 구독기간 완료 후 지급됩니다.<br>- 아래 금액은 s사이즈 기준 금액입니다.</p>
-                            </div>
-                            <div class="v_scroll_color_bar"></div>
-                            <div class="v_scroll_basic_bar"></div>
-                        </div>
-                        <div class="subscribe_model_price">월 <strong> 9,000</strong>원 부터~</div>
-                        <div class="subscribe_model_button">구독하기<img class="" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_right_c.svg"></div>
-                    </div>
-                    <div class="subscribe_model" id="month12">
-                        <div class="subscribe_model_month_num"><strong>12</strong>개월</div>
-                        <div class="v_scroll" id="v_scroll_month12">
-                            <div class="v_scroll_container">
-                                <p>기간</p>
-                                <ul>
-                                    <li>12개월</li>
-                                </ul>
-                                <p>혜택</p>
-                                <ul>
-                                    <li>프리미엄 커튼 1회 제공</li>
-                                    <li>커튼 1회 교환권 증정</li>
-                                    <li>교환권 미사용 시 10% 적립</li>
-                                    <li>무료 설치 서비스 제공</li>
-                                    <li>설치 미사용 시 10% 추가 적립</li>
-                                </ul>
-                                <br>
-                                <p class="subscribe_model_description"><strong>확인해주세요!</strong><br>- 적립금은 구독기간 완료 후 지급됩니다.</p>
-                            </div>
-                            <div class="v_scroll_color_bar"></div>
-                            <div class="v_scroll_basic_bar"></div>
-                        </div>
-                        <div class="subscribe_model_price">월 <strong> 9,000</strong>원 부터~</div>
-                        <div class="subscribe_model_button">구독하기<img class="" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_right_c.svg"></div>
-                    </div>
+                <img class="philo" id="arrow_right_g" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_right_g.svg">
+                <div id="philo2">
+                    <img id="philo_img2" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/deco/philosophy_img2.svg">
+                    <p class="philo_p" id="philo_p2">먼지 쌓인 커튼도 세탁 걱정 없이 보내고</p>
                 </div>
-                <div class="h_scroll_color_bar" id="subscribe_color_bar"></div>
-                <div class="h_scroll_basic_bar" id="subscribe_basic_bar"></div>
-            </div>
-        </div>
-        <div class="area" id="area9">
-            <p id="nineth_p1">our MAGAZINE</p>
-            <p id="nineth_p2">취향도 제각각.<br>사는 방식도 다 다르니까!</p>
-            <div class="coming_soon">
-                coming_soon:)
-            </div>
-            <!-- <div class="h_scroll" id="magazine_h_scroll">
-                <div class="h_scroll_container" id="magazine_h_scroll_container">
-                    <div class="h_scroll_img_crop magazine_img_crop">
-                        <img class="h_scroll_img magazine_img" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/magazine1.png">
-                    </div>
-                    <div class="h_scroll_img_crop magazine_img_crop">
-                        <img class="h_scroll_img magazine_img" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/magazine2.png">
-                    </div>
+                <img class="philo" id="arrow_down_g1" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_down_g.svg">
+                <div id="philo3">
+                    <img id="philo_img3" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/deco/philosophy_img3.svg">
+                    <p class="philo_p" id="philo_p3">내 취향의 프리미엄 커튼을 설치까지 한 번에</p>
                 </div>
-                <div class="h_scroll_color_bar" id="magazine_color_bar"></div>
-                <div class="h_scroll_basic_bar" id="magazine_basic_bar"></div>
-            </div> -->
-            <hr class="blue_breaker">
-        </div>
-        <div class="area" id="area10">
-            <p id="tenth_p1">REVIEW</p>
-            <div class="h_scroll" id="review_h_scroll">
-                <div class="h_scroll_container" id="review_h_scroll_container">
-                    <div class="h_scroll_review">
-                        <div class="h_scroll_img_crop review_img_crop">
-                            <img class="h_scroll_img review_img" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/review1.png">
-                        </div>
-                        <div class="h_scroll_review_content">
-                            <p class="h_scroll_review_content_l">리뷰원고추가 리뷰원고추가 리뷰원고추가</p>
-                            <div class="h_scroll_review_content_r">
-                                <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_right_c.svg">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="h_scroll_review">
-                        <div class="h_scroll_img_crop review_img_crop">
-                            <img class="h_scroll_img review_img" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/review2.png">
-                        </div>
-                        <div class="h_scroll_review_content">
-                            <p class="h_scroll_review_content_l">리뷰원고추가 리뷰원고추가 리뷰원고추가</p>
-                            <div class="h_scroll_review_content_r">
-                                <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_right_c.svg">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="h_scroll_review">
-                        <div class="h_scroll_img_crop review_img_crop">
-                            <img class="h_scroll_img review_img" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/review2.png">
-                        </div>
-                        <div class="h_scroll_review_content">
-                            <p class="h_scroll_review_content_l">리뷰원고추가 리뷰원고추가 리뷰원고추가</p>
-                            <div class="h_scroll_review_content_r">
-                                <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_right_c.svg">
-                            </div>
-                        </div>
-                    </div>
+                <img class="philo" id="arrow_left_g" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_left_g.svg">
+                <div id="philo4">
+                    <img id="philo_img4" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/deco/philosophy_img4.svg">
+                    <p class="philo_p" id="philo_p4">공간을 나답게,<br>지금의 집을 더 사랑하는 법</p>
                 </div>
-                <div class="h_scroll_color_bar" id="review_color_bar"></div>
-                <div class="h_scroll_basic_bar" id="review_basic_bar"></div>
+                <img class="philo" id="arrow_down_g2" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_down_g.svg">
+                <div id="philo5">
+                    <img id="philo_img5" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/deco/philosophy_img5.svg">
+                    <p class="philo_p" id="philo_p5">커튼 구독 라이프 윈튼</p>
+                </div>
             </div>
-            <hr class="blue_breaker">
-        </div>
-        <div class="area" id="area11">
-            <p id="eleventh_p1">INSTAGRAM</p>
-            <p id="eleventh_p2">@Curtainery_wintain</p>
-            <div class="instagram_flow">
-                <div class="crop_instagram_img"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/instagram1.png"></div>
-                <div class="crop_instagram_img"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/instagram2.png"></div>
-                <div class="crop_instagram_img"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/instagram3.png"></div>
-                <div class="crop_instagram_img"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/instagram4.png"></div>
-                <div class="crop_instagram_img"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/instagram5.png"></div>
-                <div class="crop_instagram_img"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/instagram6.png"></div>
-                <div class="crop_instagram_img"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/instagram7.png"></div>
-                <div class="crop_instagram_img"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/instagram8.png"></div>
+            <div class="area" id="area5">
+                <p id='fifth_p1'>WHY wintain?</p>
+                <p id='fifth_p2'>빛과 바람이 쉬어가는 곳<br>윈튼을 해야하는 이유</p>
+                <div class="fifth_line" id="first_line">
+                    <div class='circle_g'></div>
+                    <p class="fifth_line_l">Reason 1</p>
+                    <p class="fifth_line_r">기능적인 커튼 +<br>당신의 취향을 존중하는 곳</p>
+                </div>
+                <div class="fifth_line">
+                    <div class='circle_g'></div>
+                    <p class="fifth_line_l">Reason 2</p>
+                    <p class="fifth_line_r">쓰고 버려지는 패브릭만 매년 000톤!<br>친환경으로 나눠 쓰니까</p>
+                </div>
+                <div class="fifth_line">
+                    <div class='circle_g'></div>
+                    <p class="fifth_line_l">Reason 3</p>
+                    <p class="fifth_line_r">퀄리티는 말해 뭐해,<br>디자이너가 엄선한  프리미엄 커튼</p>
+                </div>
+                <div class="fifth_line">
+                    <div class='circle_g'></div>
+                    <p class="fifth_line_l">Reason 4</p>
+                    <p class="fifth_line_r">아차, 싶은 나의 선택.<br>바꾸고 싶을 때 바꿀 수 있으니까. </p>
+                </div>
+                <div class="fifth_line">
+                    <div class='circle_g'></div>
+                    <p class="fifth_line_l">Reason 5</p>
+                    <p class="fifth_line_r">이사 걱정도 끝!<br>수선할 필요 없이 윈튼으로 OK. </p>
+                </div>
             </div>
-        </div>
-        <div class="area_blue" id="area12">
-            <img id="bell" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/deco/bell.png">
-            <p id="twelveth_p1">버튼만 누르면 집 앞까지!<br>원하는 스케줄에</p>
-            <div id="twelveth_div"><div class="bold_28px">나만의 커튼이 도착</div>합니다.</div>
-            <div class="refresh">Refresh for your space</div>
-        </div>
-    </main>
-    <footer>
-        <div class="footer_info">
-            <p id="place">경상북도 포항시 남구 이동로 14 커트너리 윈튼</p>
-            <div class="footer_info_row">
-                <a class="footer_info_row_l"><strong>대표자</strong>노현희</a>
-                <a class="footer_info_row_c">CALL CENTER</a>
-                <a class="footer_info_row_r">ABOUT US</a>
+            <div class="area_blue" id="area6">
+                <p id="sixth_p1">we RECOMMEND</p>
+                <p id="sixth_p2">지친다 지쳐!<br>이런 분들께 추천드려요.</p>
+                <div id="g_border1" class="g_border"><g>#</g> 커튼 유목민</div>
+                <img id="sixth_img1" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/deco/recommend_img1.svg">
+                <ul id="sixth_ul1" class="sixth_ul">
+                    <li>마음에 드는 커튼을 찾아<br>여러 번 헤맸던 분</li>
+                    <li>이사가 잦아 마음에 드는<br>커튼을 설치하지 못했던 분</li>
+                </ul>
+                <div id="g_border2" class="g_border"><g>#</g> 취향입문자</div>
+                <img id="sixth_img2" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/deco/recommend_img2.svg">
+                <ul id="sixth_ul2" class="sixth_ul">
+                    <li>마음에 드는 커튼을 찾아<br>여러 번 헤맸던 분</li>
+                    <li>이사가 잦아 마음에 드는<br>커튼을 설치하지 못했던 분</li>
+                </ul>
+                <div id="g_border3" class="g_border"><g>#</g> 귀차니즘</div>
+                <img id="sixth_img3" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/deco/recommend_img3.svg">
+                <ul id="sixth_ul3" class="sixth_ul">
+                    <li>마음에 드는 커튼을 찾아<br>여러 번 헤맸던 분</li>
+                    <li>이사가 잦아 마음에 드는<br>커튼을 설치하지 못했던 분</li>
+                </ul>
+                <div id="g_border4" class="g_border"><g>#</g> 인테리어 초보러</div>
+                <img id="sixth_img4" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/deco/recommend_img4.svg">
+                <ul id="sixth_ul4" class="sixth_ul">
+                    <li>마음에 드는 커튼을 찾아<br>여러 번 헤맸던 분</li>
+                    <li>이사가 잦아 마음에 드는<br>커튼을 설치하지 못했던 분</li>
+                </ul>
+                <div id="sixth_v1"></div>
+                <div id="sixth_v2"></div>
+                <div id="sixth_h1"></div>
+                <div id="sixth_h2"></div>
             </div>
-            <div class="footer_info_row">
-                <a class="footer_info_row_l"><strong>사업자등록번호</strong>805-16-00968</a>
-                <a class="footer_info_row_c">BANK INFO</a>
-                <a class="footer_info_row_r">AGREEMENT</a>
+            <div class="area" id="area7">
+                <p id="seventh_p1">new ARRIVAL</p>
+                <p id="seventh_p2">4월의 커튼 <c>Coming soon!</c></p>
+                <div class="h_scroll" id="arrival_h_scroll">
+                    <div class="h_scroll_container" id="arrival_h_scroll_container">
+                        <div class="h_scroll_img_crop arrival_img_crop">
+                            <img class="h_scroll_img arrival_img" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/arrival_sample1.png">
+                        </div>
+                        <div class="h_scroll_img_crop arrival_img_crop">
+                            <img class="h_scroll_img arrival_img" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/arrival_sample1.png">
+                        </div>
+                        <div class="h_scroll_img_crop arrival_img_crop">
+                            <img class="h_scroll_img arrival_img" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/arrival_sample1.png">
+                        </div>
+                    </div>
+                    <div class="h_scroll_color_bar" id="arrival_color_bar"></div>
+                    <div class="h_scroll_basic_bar" id="arrival_basic_bar"></div>
+                </div>
             </div>
-            <div class="footer_info_row">
-                <a class="footer_info_row_l"><strong>통신판매업신고번호</strong>2019-경북포항-0463</a>
-                <a class="footer_info_row_c">INSTAGRAM</a>
-                <a class="footer_info_row_r">PRIVACY</a>
+            <div class="area_blue" id="area8">
+                <p id="eighth_p1">SUBSCRIBE</p>
+                <p id="eighth_p2">우리집에 맞는 정기 구독을 시작!</p>
+                <div class="h_scroll" id="subscribe_h_scroll">
+                    <div class="h_scroll_container" id="subscribe_h_scroll_container">
+                        <div class="subscribe_model" id="month3">
+                            <div class="subscribe_model_month_num"><strong>3</strong>개월</div>
+                            <div class="v_scroll" id="v_scroll_month3">
+                                <div class="v_scroll_container">
+                                    <p>기간</p>
+                                    <ul>
+                                        <li>3 ~ 5개월</li>
+                                    </ul>
+                                    <p>혜택</p>
+                                    <ul>
+                                        <li>프리미엄 커튼 1회 제공</li>
+                                    </ul>
+                                    <br>
+                                    <p class="subscribe_model_description"><strong>확인해주세요!</strong><br>- 위 금액은 S사이즈 기준 구독 금액입니다.<br>- 해당 서비스 비용은 기간별 총 금액으로 결제되며, 해당 기간 할부 이용 시<br>결제 금액입니다.</p>
+                                </div>
+                                <div class="v_scroll_color_bar"></div>
+                                <div class="v_scroll_basic_bar"></div>
+                            </div>
+                            <div class="subscribe_model_price">월 <strong> 9,000</strong>원 부터~</div>
+                            <div class="subscribe_model_button">구독하기<img class="" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_right_c.svg"></div>
+                        </div>
+                        <div class="subscribe_model" id="month6">
+                            <div class="subscribe_model_month_num"><strong>6</strong>개월</div>
+                            <div class="v_scroll" id="v_scroll_month6">
+                                <div class="v_scroll_container">
+                                    <p>기간</p>
+                                    <ul>
+                                        <li>6 ~ 11개월</li>
+                                    </ul>
+                                    <p>혜택</p>
+                                    <ul>
+                                        <li>프리미엄 커튼 1회 제공</li>
+                                        <li>커튼 1회 교환권 증정</li>
+                                        <li>교환권 미사용 시 10% 적립</li>
+                                    </ul>
+                                    <br>
+                                    <p class="subscribe_model_description"><strong>확인해주세요!</strong><br>- 적립금은 구독기간 완료 후 지급됩니다.<br>- 아래 금액은 s사이즈 기준 금액입니다.</p>
+                                </div>
+                                <div class="v_scroll_color_bar"></div>
+                                <div class="v_scroll_basic_bar"></div>
+                            </div>
+                            <div class="subscribe_model_price">월 <strong> 9,000</strong>원 부터~</div>
+                            <div class="subscribe_model_button">구독하기<img class="" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_right_c.svg"></div>
+                        </div>
+                        <div class="subscribe_model" id="month12">
+                            <div class="subscribe_model_month_num"><strong>12</strong>개월</div>
+                            <div class="v_scroll" id="v_scroll_month12">
+                                <div class="v_scroll_container">
+                                    <p>기간</p>
+                                    <ul>
+                                        <li>12개월</li>
+                                    </ul>
+                                    <p>혜택</p>
+                                    <ul>
+                                        <li>프리미엄 커튼 1회 제공</li>
+                                        <li>커튼 1회 교환권 증정</li>
+                                        <li>교환권 미사용 시 10% 적립</li>
+                                        <li>무료 설치 서비스 제공</li>
+                                        <li>설치 미사용 시 10% 추가 적립</li>
+                                    </ul>
+                                    <br>
+                                    <p class="subscribe_model_description"><strong>확인해주세요!</strong><br>- 적립금은 구독기간 완료 후 지급됩니다.</p>
+                                </div>
+                                <div class="v_scroll_color_bar"></div>
+                                <div class="v_scroll_basic_bar"></div>
+                            </div>
+                            <div class="subscribe_model_price">월 <strong> 9,000</strong>원 부터~</div>
+                            <div class="subscribe_model_button">구독하기<img class="" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_right_c.svg"></div>
+                        </div>
+                    </div>
+                    <div class="h_scroll_color_bar" id="subscribe_color_bar"></div>
+                    <div class="h_scroll_basic_bar" id="subscribe_basic_bar"></div>
+                </div>
             </div>
-            <div class="footer_info_row">
-                <a class="footer_info_row_l"><strong>개인정보보호책임자</strong>노현희</a>
-                <a class="footer_info_row_c">BLOG</a>
-                <a class="footer_info_row_r">GUIDE</a>
+            <div class="area" id="area9">
+                <p id="nineth_p1">our MAGAZINE</p>
+                <p id="nineth_p2">취향도 제각각.<br>사는 방식도 다 다르니까!</p>
+                <div class="coming_soon">
+                    coming_soon:)
+                </div>
+                <!-- <div class="h_scroll" id="magazine_h_scroll">
+                    <div class="h_scroll_container" id="magazine_h_scroll_container">
+                        <div class="h_scroll_img_crop magazine_img_crop">
+                            <img class="h_scroll_img magazine_img" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/magazine1.png">
+                        </div>
+                        <div class="h_scroll_img_crop magazine_img_crop">
+                            <img class="h_scroll_img magazine_img" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/magazine2.png">
+                        </div>
+                    </div>
+                    <div class="h_scroll_color_bar" id="magazine_color_bar"></div>
+                    <div class="h_scroll_basic_bar" id="magazine_basic_bar"></div>
+                </div> -->
+                <hr class="blue_breaker">
             </div>
-        </div>
-        <div class="copyright">
-            <p>Copyright 2022 WINTAIN.ALL rights reserved.</p>
-            <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/logo.svg">
-        </div>
-    </footer>
+            <div class="area" id="area10">
+                <p id="tenth_p1">REVIEW</p>
+                <div class="h_scroll" id="review_h_scroll">
+                    <div class="h_scroll_container" id="review_h_scroll_container">
+                        <div class="h_scroll_review">
+                            <div class="h_scroll_img_crop review_img_crop">
+                                <img class="h_scroll_img review_img" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/review1.png">
+                            </div>
+                            <div class="h_scroll_review_content">
+                                <p class="h_scroll_review_content_l">리뷰원고추가 리뷰원고추가 리뷰원고추가</p>
+                                <div class="h_scroll_review_content_r">
+                                    <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_right_c.svg">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="h_scroll_review">
+                            <div class="h_scroll_img_crop review_img_crop">
+                                <img class="h_scroll_img review_img" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/review2.png">
+                            </div>
+                            <div class="h_scroll_review_content">
+                                <p class="h_scroll_review_content_l">리뷰원고추가 리뷰원고추가 리뷰원고추가</p>
+                                <div class="h_scroll_review_content_r">
+                                    <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_right_c.svg">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="h_scroll_review">
+                            <div class="h_scroll_img_crop review_img_crop">
+                                <img class="h_scroll_img review_img" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/review2.png">
+                            </div>
+                            <div class="h_scroll_review_content">
+                                <p class="h_scroll_review_content_l">리뷰원고추가 리뷰원고추가 리뷰원고추가</p>
+                                <div class="h_scroll_review_content_r">
+                                    <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_right_c.svg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="h_scroll_color_bar" id="review_color_bar"></div>
+                    <div class="h_scroll_basic_bar" id="review_basic_bar"></div>
+                </div>
+                <hr class="blue_breaker">
+            </div>
+            <div class="area" id="area11">
+                <p id="eleventh_p1">INSTAGRAM</p>
+                <p id="eleventh_p2">@Curtainery_wintain</p>
+                <div class="instagram_flow">
+                    <div class="crop_instagram_img"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/instagram1.png"></div>
+                    <div class="crop_instagram_img"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/instagram2.png"></div>
+                    <div class="crop_instagram_img"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/instagram3.png"></div>
+                    <div class="crop_instagram_img"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/instagram4.png"></div>
+                    <div class="crop_instagram_img"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/instagram5.png"></div>
+                    <div class="crop_instagram_img"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/instagram6.png"></div>
+                    <div class="crop_instagram_img"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/instagram7.png"></div>
+                    <div class="crop_instagram_img"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/instagram8.png"></div>
+                </div>
+            </div>
+            <div class="area_blue" id="area12">
+                <img id="bell" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/deco/bell.png">
+                <p id="twelveth_p1">버튼만 누르면 집 앞까지!<br>원하는 스케줄에</p>
+                <div id="twelveth_div"><div class="bold_28px">나만의 커튼이 도착</div>합니다.</div>
+                <div class="refresh">Refresh for your space</div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer_info">
+                <p id="place">경상북도 포항시 남구 이동로 14 커트너리 윈튼</p>
+                <div class="footer_info_row">
+                    <a class="footer_info_row_l"><strong>대표자</strong>노현희</a>
+                    <a class="footer_info_row_c">CALL CENTER</a>
+                    <a class="footer_info_row_r">ABOUT US</a>
+                </div>
+                <div class="footer_info_row">
+                    <a class="footer_info_row_l"><strong>사업자등록번호</strong>805-16-00968</a>
+                    <a class="footer_info_row_c">BANK INFO</a>
+                    <a class="footer_info_row_r">AGREEMENT</a>
+                </div>
+                <div class="footer_info_row">
+                    <a class="footer_info_row_l"><strong>통신판매업신고번호</strong>2019-경북포항-0463</a>
+                    <a class="footer_info_row_c">INSTAGRAM</a>
+                    <a class="footer_info_row_r">PRIVACY</a>
+                </div>
+                <div class="footer_info_row">
+                    <a class="footer_info_row_l"><strong>개인정보보호책임자</strong>노현희</a>
+                    <a class="footer_info_row_c">BLOG</a>
+                    <a class="footer_info_row_r">GUIDE</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright 2022 WINTAIN.ALL rights reserved.</p>
+                <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/logo.svg">
+            </div>
+        </footer>
+    </div>
 </body>
 <script src="js/header.js"></script>
 <script src="js/nav.js"></script>
@@ -399,5 +401,4 @@
 <script src="js/v_scroll.js"></script>
 <script src="js/philosophy.js"></script>
 <script src="js/subscribe_model.js"></script>
-<script src="js/bounce_scroll.js"></script>
 </html>

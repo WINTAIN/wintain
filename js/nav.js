@@ -13,8 +13,6 @@ const bottomBread = document.querySelector("#bottom_bread");
 
 const hambTransitionTime = parseFloat(window.getComputedStyle(topBread,null).transitionDuration.split(" ")[0].slice(0, -2))*1000;
 
-console.log(hambTransitionTime)
-
 transparentLayer.addEventListener("click", inactivateNav);
 
 function handleSwitch(){
