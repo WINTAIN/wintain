@@ -4,8 +4,8 @@ const blockImg = document.querySelector("#first_img");
 const stampWidth = stamp.getBoundingClientRect().right - stamp.getBoundingClientRect().left;
 const stampHeight = stamp.getBoundingClientRect().bottom - stamp.getBoundingClientRect().top;
 
-let stampLeft = leftMax;  
-let stampTop = getRandomInt(0,topMax);
+let stampLeft;
+let stampTop;
 let leftMax;
 let rightMax;
 
