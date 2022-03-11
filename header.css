@@ -75,8 +75,8 @@ header {
   background-color: black;
   -webkit-transform: translateZ(0);
   -webkit-transform: translate3d(0, 0, 0);
-  transition: -webkit-transform 5s linear, transform 5s linear, top 5s linear,
-    right 5s linear, background-color 10s;
+  transition: -webkit-transform 0.2s linear, transform 0.2s linear,
+    top 0.2s linear, right 0.2s linear, background-color 0.4s;
 }
 
 #top_bread {
