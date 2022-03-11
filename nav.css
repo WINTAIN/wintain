@@ -35,7 +35,7 @@ nav.inactive_nav {
   position: fixed;
   width: 40px;
   height: 20px;
-  right: 28px;
+  right: 20px;
   top: 38px;
   z-index: 12;
 }
