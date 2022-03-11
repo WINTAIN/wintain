@@ -40,6 +40,11 @@ function setCoord(){
     setTransition();
 }
 
+function firstMove(){
+    setEdge("right");
+    setTransition();
+}
+
 function getRandomEdge(except){
     const randomDirectionArray = direction.filter( x => x != except);
     return randomDirectionArray[getRandomInt(0,2)];
@@ -71,5 +76,11 @@ function setTransition(){
     stamp.setAttribute('style', `left:${stampLeft}px; top:${stampTop}px`)
 }
 
-setCoord();
-setInterval(setCoord,stampMovingTime*1000);
+function initStamp(){
+    setTimeout(firstMove,100);
+    setInterval(setCoord,stampMovingTime*1000);
+}
+
+window.onload = function() {
+    initStamp();
+};
