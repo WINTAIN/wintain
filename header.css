@@ -51,7 +51,7 @@ header {
   letter-spacing: -0.02em;
 
   color: #000000;
-  transition: opacity 0.3s;
+  transition: opacity 0.5s;
 }
 
 #home {
@@ -60,7 +60,7 @@ header {
   right: 75px;
   width: 24px;
   height: 24px;
-  transition: opacity 0.3s;
+  transition: opacity 0.5s;
 }
 
 .inv_home {

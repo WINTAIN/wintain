@@ -11,7 +11,7 @@ function getLogoHeight(){
 
 function setLogoSize(){
     if (window.scrollY <= 19){
-        logoWidth = (47-window.scrollY) * logoRatio;
+        logoWidth = (47 - window.scrollY) * logoRatio;
         if (logoWidth >242){
             logoWidth = 242;
         }
