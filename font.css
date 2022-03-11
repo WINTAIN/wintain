@@ -15,6 +15,22 @@
 }
 
 @font-face {
+  font-family: "CaviarDreams";
+  src: url("https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/fonts/caviardreams.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CaviarDreams";
+  src: url("https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/fonts/caviardreams_bold.woff")
+    format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "NotoSansKR";
   src: url("https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/fonts/NotoSansKR-100.woff")
     format("woff");
@@ -37,9 +53,9 @@
 }
 @font-face {
   font-family: "NotoSansKR";
-  src: url("https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/fonts/NotoSansKR-500.woff")
+  src: url("https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/fonts/NotoSansKR-400.woff")
     format("woff");
-  font-weight: 500;
+  font-weight: normal;
   font-style: normal;
 }
 @font-face {
@@ -51,8 +67,19 @@
 }
 @font-face {
   font-family: "NotoSansKR";
+  src: url("https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/fonts/NotoSansKR-500.woff")
+    format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSansKR";
   src: url("https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/fonts/NotoSansKR-900.woff")
     format("woff");
   font-weight: 900;
   font-style: normal;
+}
+
+* {
+  font-family: NotoSansKR;
 }

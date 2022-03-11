@@ -19,6 +19,11 @@ main::-webkit-scrollbar {
   height: 100vh;
 }
 
+.text_stroke {
+  text-shadow: -0.1px -0.1px 0 currentColor, 0.1px -0.1px 0 currentColor,
+    -0.1px 0.1px 0 currentColor, 0.1px 0.1px 0 currentColor;
+}
+
 #area1 {
   height: auto;
 }
@@ -225,7 +230,6 @@ main::-webkit-scrollbar {
   line-height: 46px;
   z-index: 1;
   color: #e8ff5a;
-  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
 }
 
 #area3 img {
@@ -1086,7 +1090,7 @@ c {
 
   font-family: NotoSansKR;
   font-style: normal;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 20px;
   line-height: 125%;
   /* or 25px */
@@ -1226,7 +1230,7 @@ c {
 .subscribe_model_description strong {
   font-family: NotoSansKR;
   font-style: normal;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 8px;
   line-height: 125%;
 }
@@ -1240,7 +1244,7 @@ c {
 
   font-family: NotoSansKR;
   font-style: normal;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 16px;
   line-height: 125%;
   /* or 20px */
@@ -1555,7 +1559,7 @@ hr.blue_breaker {
   display: flex;
   font-family: NotoSansKR;
   font-style: normal;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 26.81px;
   line-height: 125%;
   /* or 20px */
@@ -1622,7 +1626,7 @@ footer {
 
   font-family: NotoSansKR;
   font-style: normal;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 8px;
   line-height: 125%;
   /* identical to box height, or 10px */
@@ -1659,7 +1663,7 @@ footer {
 
 .footer_info_row_l strong {
   margin-right: 2px;
-  font-weight: 500;
+  font-weight: bold;
 }
 .footer_info_row_c {
   font-family: CaviarDreams;
