@@ -173,12 +173,18 @@ nav.inactive_nav {
 }
 
 #nav_personal {
-  padding: 38px 0px;
-  height: 117px;
-  margin: 0px 15px;
-  margin-top: 45px;
+  position: absolute;
+  top: 68.12%;
+  bottom: 12.19%;
+  left: 20px;
+  right: 20px;
   border-top: 0.5px solid #3f1acc;
   border-bottom: 0.5px solid #3f1acc;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 #nav_personal img {
@@ -209,9 +215,19 @@ nav.inactive_nav {
   margin-bottom: 30px;
 }
 
+#nav_etc {
+  position: absolute;
+  top: 87.81%;
+  bottom: 0px;
+  left: 20px;
+  right: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 #nav_etc .nav_s_line {
-  margin-top: 40px;
-  margin-left: 20.3px;
 }
 
 #nav_etc img {
