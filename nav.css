@@ -29,61 +29,6 @@ nav.inactive_nav {
   right: -100vw;
 }
 
-/*************************fixed hamburger**************************/
-
-#fixed_hamburger {
-  position: fixed;
-  width: 40px;
-  height: 20px;
-  right: 20px;
-  top: 38px;
-  z-index: 12;
-}
-
-.hamburger_line {
-  position: absolute;
-  width: 40px;
-  height: 1px;
-  background-color: black;
-  transition: transform 0.15s, width 0.15s, top 0.15s linear, right 0.15s linear;
-}
-
-#top_bread {
-  top: 0px;
-  right: 0px;
-}
-
-#patty {
-  top: 5px;
-  right: 0px;
-}
-
-#bottom_bread {
-  top: 10px;
-  right: 0px;
-}
-
-#fixed_hamburger .one_line {
-  top: 5.571px;
-  right: 2.86px;
-}
-
-#fixed_hamburger .X_1 {
-  top: 11.142px;
-  right: 5.72px;
-  transform: rotate(45deg);
-  background-color: #3f1acc;
-}
-
-#fixed_hamburger .X_2 {
-  top: 11.142px;
-  right: 5.72px;
-  transform: rotate(-45deg);
-  background-color: #3f1acc;
-}
-
-/*************************fixed hamburger Finish**************************/
-
 #nav_main {
   margin-top: 60px;
   height: 300px;

@@ -43,8 +43,10 @@ main::-webkit-scrollbar {
 
 #stamp {
   position: absolute;
+  width: 90px;
+  height: 90px;
   left: 0px;
-  top: 20px;
+  top: 0px;
   transition: left 4s linear, top 4s linear;
 }
 
@@ -208,7 +210,7 @@ main::-webkit-scrollbar {
 .area_photo {
   position: relative;
   width: 100vw;
-  max-height: 142.222222222vw;
+  max-height: 142vw;
 }
 
 #third_p1 {
@@ -270,6 +272,7 @@ main::-webkit-scrollbar {
 /*--------------------AREA4----------------------*/
 #area4 {
   position: relative;
+  margin-top: -1px; /*********whide line debug************/
   height: 876px;
 }
 
