@@ -73,6 +73,8 @@ header {
   width: 40px;
   height: 1px;
   background-color: black;
+  -webkit-transform: translateZ(0);
+  -webkit-transform: translate3d(0, 0, 0);
   transition: -webkit-transform 0.15s linear, transform 0.15s linear,
     top 0.15s linear, right 0.15s linear;
 }
