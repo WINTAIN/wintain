@@ -13,8 +13,8 @@ function Hscroll(hscroll){
 
 function setXMove(Hscroll){
     const xMove = Hscroll.basicScrollBarWidth * Hscroll.container.scrollLeft/Hscroll.scrollWidth;
-    if (xMove > Hscroll.basicScrollBarWidth-colorScrollBarWidth){
-        xMove = Hscroll.basicScrollBarWidth-colorScrollBarWidth;
+    if (xMove > Hscroll.basicScrollBarWidth-Hscroll.colorScrollBarWidth){
+        xMove = Hscroll.basicScrollBarWidth-Hscroll.colorScrollBarWidth;
     }else if (xMove < 0){
         xMove = 0;
     }
