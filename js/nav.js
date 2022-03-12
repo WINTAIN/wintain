@@ -1,19 +1,16 @@
+export default initNav;
+
 const transparentLayer = document.querySelector("#transparent_layer");
 const nav = document.querySelector('nav');
 const switchHamb = document.querySelector("#fixed_hamburger");
 
 let navSwitch = true;
 
-
-switchHamb.addEventListener("click", handleSwitch);
-
 const topBread = document.querySelector("#top_bread");
 const patty = document.querySelector("#patty");
 const bottomBread = document.querySelector("#bottom_bread");
 
 const hambTransitionTime = parseFloat(window.getComputedStyle(topBread,null).transitionDuration.split(" ")[0].slice(0, -2))*1000;
-
-transparentLayer.addEventListener("click", inactivateNav);
 
 function handleSwitch(){
     if (navSwitch){
@@ -75,4 +72,8 @@ function makeX(){
     topBread.classList.add('X_1')
     patty.classList.add('X_2')
     bottomBread.classList.add('X_2')
+}
+
+function initNav(){
+    switchHamb.addEventListener("click", handleSwitch);
 }

@@ -1,3 +1,5 @@
+export default initHscroll;
+
 function Hscroll(hscroll){
     this.container = hscroll.querySelector(".h_scroll_container");
     this.containerWidth = this.container.getBoundingClientRect().right - this.container.getBoundingClientRect().left;
@@ -31,14 +33,16 @@ function initHscrollBar(Hscroll){
     Hscroll.colorScrollBar.setAttribute("style", `width:${Hscroll.colorScrollBarWidth}px;`)
 }
 
-const ArrivalHscrollNode = document.querySelector('#arrival_h_scroll');
-const ArrivalHscroll = new Hscroll(ArrivalHscrollNode);
+function initHscroll(){
+    const ArrivalHscrollNode = document.querySelector('#arrival_h_scroll');
+    const ArrivalHscroll = new Hscroll(ArrivalHscrollNode);
 
-const SubscribeHscrollNode = document.querySelector('#subscribe_h_scroll');
-const SubscribeHscroll = new Hscroll(SubscribeHscrollNode);
+    const SubscribeHscrollNode = document.querySelector('#subscribe_h_scroll');
+    const SubscribeHscroll = new Hscroll(SubscribeHscrollNode);
 
-// const MagazineHscrollNode = document.querySelector("#magazine_h_scroll");
-// const MagazineHscroll = new Hscroll(MagazineHscrollNode);
+    // const MagazineHscrollNode = document.querySelector("#magazine_h_scroll");
+    // const MagazineHscroll = new Hscroll(MagazineHscrollNode);
 
-const ReviewHscrollNode = document.querySelector("#review_h_scroll");
-const ReviewHscroll = new Hscroll(ReviewHscrollNode);
+    const ReviewHscrollNode = document.querySelector("#review_h_scroll");
+    const ReviewHscroll = new Hscroll(ReviewHscrollNode);
+}

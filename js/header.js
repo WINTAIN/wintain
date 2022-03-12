@@ -1,3 +1,5 @@
+export default initHeader;
+
 const logo = document.querySelector('#logo');
 const home = document.querySelector('#home');
 const homeNumber = document.querySelector('#home_number');
@@ -26,14 +28,11 @@ function setLogoSize(){
     logo.setAttribute("style", `width:${logoWidth}px; height:${getLogoHeight()}px;`)
 }
 
-window.addEventListener("scroll", scrollHeaderEventHandler )
-
 function scrollHeaderEventHandler(){
     console.log()
     setLogoSize();
 }
 
-
-
-
-
+function initHeader(){
+    window.addEventListener("scroll", scrollHeaderEventHandler)
+}

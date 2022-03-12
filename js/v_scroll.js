@@ -1,3 +1,5 @@
+export default initVscroll;
+
 function Vscroll(vscroll){
     this.container = vscroll.querySelector(".v_scroll_container");
     this.containerHeight = this.container.getBoundingClientRect().bottom - this.container.getBoundingClientRect().top;
@@ -31,11 +33,12 @@ function initVscrollBar(Vscroll){
     Vscroll.colorScrollBar.setAttribute("style", `height:${Vscroll.colorScrollBarHeight}px;`)
 }
 
-const VScrollMonth3Node = document.querySelector("#v_scroll_month3");
-const VScrollMonth3 = new Vscroll(VScrollMonth3Node);
 
-const VScrollMonth6Node = document.querySelector("#v_scroll_month6");
-const VScrollMonth6 = new Vscroll(VScrollMonth6Node);
-
-const VScrollMonth12Node = document.querySelector("#v_scroll_month12");
-const VScrollMonth12 = new Vscroll(VScrollMonth12Node);
+function initVscroll(){
+    const VScrollMonth3Node = document.querySelector("#v_scroll_month3");
+    const VScrollMonth3 = new Vscroll(VScrollMonth3Node);
+    const VScrollMonth6Node = document.querySelector("#v_scroll_month6");
+    const VScrollMonth6 = new Vscroll(VScrollMonth6Node);
+    const VScrollMonth12Node = document.querySelector("#v_scroll_month12");
+    const VScrollMonth12 = new Vscroll(VScrollMonth12Node);
+}

@@ -1,3 +1,6 @@
+
+export default initStamp;
+
 const stamp = document.querySelector("#stamp");
 const blockImg = document.querySelector("#first_img");
 
@@ -7,7 +10,7 @@ const stampHeight = stamp.getBoundingClientRect().bottom - stamp.getBoundingClie
 let stampLeft;
 let stampTop;
 let leftMax;
-let rightMax;
+let topMax;
 
 function setStampBlock(){
     leftMax = blockImg.getBoundingClientRect().right - blockImg.getBoundingClientRect().left - stampWidth;
@@ -84,12 +87,14 @@ function setTransition(){
     stamp.setAttribute('style', `left:${stampLeft}px; top:${stampTop}px`)
 }
 
-function initStamp(){
+function setStamp(){
     setStampBlock();
     setTimeout(firstMove,100);
     setInterval(setCoord,stampMovingTime*1000);
 }
 
-window.onload = function() {
-    initStamp();
-};
+function initStamp(){
+    window.onload = function() {
+        setStamp();
+    };
+}

@@ -1,9 +1,8 @@
-window.addEventListener('scroll', checkWatchPhilo)
+export default initPhilo;
 
 const philoArea = document.querySelector('#area4');
 const philos = document.querySelectorAll(".philo");
 const philoShowTime = 300;
-
 
 let philoShowing = false
 
@@ -24,4 +23,8 @@ function makeVisiblePhilo(philo){
     return function (){
         philo.classList.add("vis_philo");
     }
+}
+
+function initPhilo(){
+    window.addEventListener('scroll', checkWatchPhilo)   
 }
