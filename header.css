@@ -35,8 +35,8 @@ header {
   letter-spacing: -0.02em;
 
   color: #000000;
-  transition: opacity 0.3s;
-  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.4s;
+  -webkit-transition: opacity 0.4s;
 }
 
 #home {
@@ -45,8 +45,8 @@ header {
   right: 75px;
   width: 24px;
   height: 24px;
-  transition: opacity 0.3s;
-  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.4s;
+  -webkit-transition: opacity 0.4s;
 }
 
 .inv_home {
@@ -77,8 +77,8 @@ header {
   -webkit-transform: translateZ(0);
   -webkit-transform: translate3d(0, 0, 0);
   /**chrome-ios/position fixed issue**/
-  transition: -webkit-transform 0.15s linear, transform 0.15s linear,
-    top 0.15s linear, right 0.15s linear, background-color 0.3s;
+  transition: -webkit-transform 0.2s linear, transform 0.2s linear,
+    top 0.2s linear, right 0.2s linear, background-color 0.4s;
 }
 
 #top_bread {

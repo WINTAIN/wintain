@@ -6,7 +6,7 @@
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.6);
-  transition: background-color 0.3s;
+  transition: background-color 0.4s;
 }
 
 #transparent_layer.inactive_transparent_layer {
@@ -25,7 +25,7 @@ nav {
   width: 100vw;
   height: 100vh;
   background: #fcffec;
-  transition: right 0.3s;
+  transition: right 0.4s;
 }
 
 nav.inactive_nav {

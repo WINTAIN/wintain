@@ -15,7 +15,6 @@ function Vscroll(vscroll){
 
 function setYMove(Vscroll){
     let yMove = Vscroll.basicScrollBarHeight * Vscroll.container.scrollTop/Vscroll.scrollHeight;
-    console.log(Vscroll.basicScrollBarHeight-Vscroll.colorScrollBarHeight, yMove);
     if (yMove>Vscroll.basicScrollBarHeight-Vscroll.colorScrollBarHeight){
         yMove = Vscroll.basicScrollBarHeight-Vscroll.colorScrollBarHeight;
     }else if (yMove<0){
