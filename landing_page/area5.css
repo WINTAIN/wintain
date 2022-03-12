@@ -1,0 +1,103 @@
+#area5 {
+  position: relative;
+  width: 100vw;
+  height: 572px;
+}
+
+#fifth_p1 {
+  position: absolute;
+  height: 46px;
+  left: 20px;
+  top: 50px;
+}
+
+#fifth_p2 {
+  position: absolute;
+  height: 44px;
+  left: 20px;
+  top: 98px;
+
+  /* Body_16 */
+
+  font-family: NotoSansKR;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  /* or 22px */
+
+  letter-spacing: -0.05em;
+
+  color: #000000;
+}
+
+.fifth_line {
+  position: relative;
+  margin: 0px 20px;
+  box-sizing: border-box;
+  height: 78px;
+  width: calc(100vw - 40px);
+  border-bottom: 0.25px solid #3f1acc;
+}
+
+#first_line {
+  margin-top: 161px;
+}
+
+.fifth_line:last-child {
+  border-bottom: none;
+}
+
+.circle_g {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  top: 20px;
+  left: 0px;
+  /* Sub_neon */
+
+  background: #e8ff5a;
+}
+
+.fifth_line_l {
+  position: absolute;
+  height: 23px;
+  left: 5px;
+  top: 21px;
+
+  font-family: CaviarDreams;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+
+  letter-spacing: -0.02em;
+
+  /* Main_blue */
+
+  color: #3f1acc;
+
+  /* Main_blue */
+}
+
+.fifth_line_r {
+  position: absolute;
+  height: 38px;
+  left: 42%;
+  top: 20px;
+
+  /* Body_12 */
+
+  font-family: NotoSansKR;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  /* or 19px */
+
+  letter-spacing: -0.06em;
+
+  color: #000000;
+}

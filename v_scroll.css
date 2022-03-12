@@ -1,0 +1,32 @@
+/*********Need width, height, padding, backgorund-color********/
+.v_scroll {
+  position: relative;
+  box-sizing: border-box;
+}
+
+/*********Need height********/
+.v_scroll_container {
+  width: 100%;
+  overflow: scroll;
+  -webkit-overflow-scrolling: auto;
+}
+
+.v_scroll_container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.v_scroll_container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
+}
+
+/*********Need top(initial-pos) right, width, height, backgorund-color********/
+.v_scroll_color_bar {
+  position: absolute;
+  z-index: 1;
+}
+
+/*********Need top right, width, height, backgorund-color********/
+.v_scroll_basic_bar {
+  position: absolute;
+}

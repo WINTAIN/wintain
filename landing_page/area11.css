@@ -1,0 +1,56 @@
+#area11 {
+  position: relative;
+  height: calc(50vw + 152px);
+}
+
+#eleventh_p1 {
+  position: absolute;
+  height: 46px;
+  left: 20px;
+  top: 50px;
+}
+
+#eleventh_p2 {
+  position: absolute;
+  height: 8px;
+  right: 20px;
+  top: 103px;
+
+  font-family: CaviarDreams;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 6px;
+  line-height: 125%;
+  /* identical to box height, or 8px */
+
+  text-align: right;
+
+  color: #000000;
+}
+
+.instagram_flow {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 116px;
+  width: calc(100% - 40px);
+  margin-left: 20px;
+}
+
+.crop_instagram_img {
+  margin-right: 8px;
+  margin-bottom: 8px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: calc(25vw - 16px);
+  height: calc(25vw - 16px);
+}
+
+.crop_instagram_img:nth-child(4n) {
+  margin-right: 0px;
+}
+
+.crop_instagram_img img {
+  width: 100%;
+}

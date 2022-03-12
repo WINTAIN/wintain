@@ -1,8 +1,0 @@
-.philo {
-  transition: opacity 1s;
-  opacity: 0;
-}
-
-.vis_philo {
-  opacity: 1;
-}

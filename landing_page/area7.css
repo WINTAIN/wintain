@@ -1,0 +1,69 @@
+@import "../h_scroll.css";
+#area7 {
+  height: 421.5px;
+}
+
+#seventh_p1 {
+  position: absolute;
+  height: 46px;
+  left: 20px;
+  top: 50px;
+
+  color: #3f1acc;
+  /* Main_blue */
+}
+
+#seventh_p2 {
+  position: absolute;
+  height: 22px;
+  left: 20px;
+  top: 98px;
+
+  font-family: NotoSansKR;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  /* or 22px */
+
+  letter-spacing: -0.05em;
+
+  color: #000000;
+}
+
+#seventh_p2 b {
+  font-family: CaviarDreams;
+  font-weight: bold;
+}
+
+#arrival_h_scroll {
+  height: 218px;
+  top: 151.5px;
+  padding-left: 20px;
+}
+
+#arrival_h_scroll_container {
+  height: 187px;
+  width: calc(100vw - 20px);
+}
+
+.arrival_img_crop {
+  margin-right: 16px;
+  min-width: 187px;
+  height: 187px;
+}
+
+.arrival_img {
+  min-height: 187px;
+  min-width: 187px;
+}
+
+#arrival_color_bar {
+  background-color: #3f1acc;
+  top: 217px;
+}
+
+#arrival_basic_bar {
+  top: 217px;
+  background-color: #f3f3f3;
+}

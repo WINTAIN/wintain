@@ -55,6 +55,6 @@ function handleNavProduct(){
 
 function handleMenuLine(e){
     console.log("hello");
-    e.currentTarget.querySelector(".nav_main_elem_m_l").classList.toggle("nav_main_elem_m_l_active");
+    e.currentTarget.querySelector(".nav_main_elem_m_line").classList.toggle("nav_main_elem_m_line_active");
 
 }

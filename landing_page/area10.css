@@ -1,0 +1,84 @@
+@import "../h_scroll.css";
+
+#area10 {
+  height: 432px;
+}
+
+#tenth_p1 {
+  position: absolute;
+  height: 46px;
+  left: 20px;
+  top: 50px;
+
+  color: #3f1acc;
+}
+
+#review_h_scroll {
+  top: 116px;
+  padding-left: 20px;
+  height: 265px;
+}
+
+#review_h_scroll_container {
+  height: 237px;
+  width: calc(100vw - 20px);
+}
+
+.h_scroll_review {
+  position: relative;
+  box-sizing: border-box;
+  width: 187px;
+  height: 235px;
+  margin-right: 16px;
+  border: 1px solid #3f1acc;
+}
+
+.h_scroll_review_content_l {
+  display: flex;
+  box-sizing: border-box;
+  padding: 3px 8px;
+  height: 46px;
+  width: 148px;
+  font-family: NotoSansKR;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 160%;
+  /* or 19px */
+
+  letter-spacing: -0.06em;
+
+  border-right: 1px solid #3f1acc;
+  color: #000000;
+}
+
+.h_scroll_review_content_r {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 39px;
+  height: 48px;
+  bottom: 0px;
+  right: 0px;
+}
+
+.review_img_crop {
+  min-width: 185px;
+  height: 187px;
+  border-bottom: 1px solid #3f1acc;
+}
+
+.review_img {
+  width: 187px;
+  height: 187px;
+}
+
+#review_color_bar {
+  top: 264px;
+  background-color: #3f1acc;
+}
+
+#review_basic_bar {
+  top: 264px;
+}

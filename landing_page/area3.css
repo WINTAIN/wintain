@@ -1,0 +1,53 @@
+#area3 {
+  position: relative;
+  width: 100vw;
+  max-height: 142vw;
+}
+
+#third_p1 {
+  position: absolute;
+  height: 46px;
+  left: 20px;
+  top: 50px;
+}
+
+#area3 img {
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+
+#third_p2 {
+  position: absolute;
+  top: 102px;
+  left: 20px;
+  z-index: 1;
+  font-family: NotoSansKR;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 140%;
+  /* or 22px */
+
+  letter-spacing: -0.05em;
+  text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+}
+
+#third_p3 {
+  position: absolute;
+  bottom: 50px;
+  left: 20px;
+  z-index: 1;
+  font-family: NotoSansKR;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 160%;
+  /* or 19px */
+
+  letter-spacing: -0.06em;
+
+  color: #ffffff;
+  text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
+}

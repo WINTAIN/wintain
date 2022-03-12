@@ -1,0 +1,73 @@
+#area12 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 358px;
+}
+
+#bell {
+  width: 58px;
+  height: 51px;
+  margin-top: 79px;
+}
+
+#twelveth_p1 {
+  margin-top: 30px;
+  font-family: NotoSansKR;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 125%;
+  /* or 20px */
+
+  text-align: center;
+  letter-spacing: -0.07em;
+
+  color: #ffffff;
+}
+
+#twelveth_div {
+  margin-top: 13px;
+  display: flex;
+  font-family: NotoSansKR;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26.81px;
+  line-height: 125%;
+  /* or 20px */
+
+  text-align: center;
+  letter-spacing: -0.07em;
+
+  color: #ffffff;
+}
+
+.bold_28px {
+  font-size: 28px;
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.refresh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: CaviarDreams;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  /* Sub_neon */
+
+  color: #e8ff5a;
+  width: 100vw;
+  height: 47px;
+  margin-top: 67px;
+
+  border-top: 1px solid #e8ff5a;
+}

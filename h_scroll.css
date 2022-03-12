@@ -1,0 +1,52 @@
+/*********Need height, top(position), padding-left********/
+.h_scroll {
+  display: flex;
+  width: 100vw;
+  box-sizing: border-box;
+  position: absolute;
+  overflow: hidden;
+}
+
+/*********Need height, width********/
+.h_scroll_container {
+  display: flex;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0px;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.h_scroll_container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.h_scroll_container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
+}
+
+/*********Need margin-right, min-width, height********/
+/*********Img needs min-width, min-height********/
+.h_scroll_crop {
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+/*********Need background-color, top********/
+.h_scroll_color_bar {
+  position: absolute;
+  width: 60px;
+  height: 1px;
+  left: 20px;
+  z-index: 1;
+}
+
+/*********Need background-color, top********/
+.h_scroll_basic_bar {
+  position: absolute;
+  width: calc(100vw - 20px);
+  height: 1px;
+  left: 20px;
+  background-color: #f3f3f3;
+}

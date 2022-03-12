@@ -1,0 +1,62 @@
+#area9 {
+  height: 612px;
+}
+
+#nineth_p1 {
+  position: absolute;
+  height: 44px;
+  left: 20px;
+  top: 48px;
+}
+
+#nineth_p2 {
+  position: absolute;
+  height: 44px;
+  left: 20px;
+  top: 102px;
+
+  font-family: NotoSansKR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 140%;
+  /* or 28px */
+
+  letter-spacing: -0.05em;
+
+  color: #000000;
+}
+
+.coming_soon {
+  font-family: "CaviarDreams";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 110%;
+  /* or 40px */
+
+  text-align: center;
+
+  color: #e0e0e0;
+  height: 364px;
+
+  /* Sub_gray */
+  margin: 0px 20px;
+  margin-top: 183px;
+  width: calc(100% - 40px);
+  background: #f4f4f4;
+}
+hr.blue_breaker {
+  position: absolute;
+  bottom: 1px;
+  left: 20px;
+  right: 20px;
+  background-color: #3f1acc;
+  height: 1px;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+}

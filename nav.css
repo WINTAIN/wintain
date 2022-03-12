@@ -9,6 +9,14 @@
   transition: background-color 0.3s;
 }
 
+#transparent_layer.inactive_transparent_layer {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#transparent_layer.hide_to_back {
+  z-index: -1;
+}
+
 nav {
   z-index: 10;
   position: fixed;
@@ -18,11 +26,6 @@ nav {
   height: 100vh;
   background: #fcffec;
   transition: right 0.3s;
-}
-
-#transparent_layer.inactive_transparent_layer {
-  z-index: -1;
-  background-color: rgba(0, 0, 0, 0);
 }
 
 nav.inactive_nav {
@@ -108,7 +111,7 @@ nav.inactive_nav {
   transition: max-height 0.3s, margin-bottom 0.3s, color 0.3s;
 }
 
-.nav_main_elem_m_l {
+.nav_main_elem_m_line {
   top: 18px;
   position: absolute;
   height: 0.5px;
@@ -117,13 +120,13 @@ nav.inactive_nav {
   background-color: #3f1acc;
 }
 
-.nav_main_elem_m_l_active {
+.nav_main_elem_m_line_active {
   animation-duration: 1s;
-  animation-name: nav_main_elem_m_l_move;
+  animation-name: nav_main_elem_m_line_move;
   animation-iteration-count: infinite;
 }
 
-@keyframes nav_main_elem_m_l_move {
+@keyframes nav_main_elem_m_line_move {
   from {
     left: 0px;
     right: 100%;
@@ -226,8 +229,6 @@ nav.inactive_nav {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-#nav_etc .nav_s_line {
 }
 
 #nav_etc img {

@@ -1,0 +1,237 @@
+@import "../h_scroll.css";
+@import "../v_scroll.css";
+#area8 {
+  position: relative;
+  height: 595px;
+}
+
+#eighth_p1 {
+  position: absolute;
+  height: 46px;
+  left: 20px;
+  top: 48px;
+}
+
+#eighth_p2 {
+  position: absolute;
+  height: 22px;
+  left: 20px;
+  top: 96px;
+
+  /* Body_16 */
+
+  font-family: NotoSansKR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 140%;
+  /* or 22px */
+
+  letter-spacing: -0.05em;
+
+  color: #ffffff;
+}
+
+.subscribe_model {
+  display: flex;
+  flex-direction: column;
+  width: 264px;
+  height: 354.09px;
+  margin-right: 16px;
+}
+
+#subscribe_h_scroll {
+  height: 395px;
+  top: 154px;
+  padding-left: 20px;
+}
+
+#subscribe_h_scroll_container {
+  height: 354.09px;
+  width: calc(100vw - 20px);
+}
+
+#subscribe_color_bar {
+  background: #e8ff5a;
+  top: 394px;
+}
+
+#subscribe_basic_bar {
+  background-color: rgba(243, 243, 243, 0.5);
+  top: 394px;
+}
+
+.subscribe_model_month_num {
+  /* Auto layout */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7.94061px;
+
+  width: 264px;
+  height: 56.65px;
+
+  font-family: NotoSansKR;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 125%;
+  /* or 25px */
+
+  letter-spacing: -0.055em;
+
+  background-color: #f4f4f4;
+  color: #000000;
+  transition: color 0.3s, background-color 0.3s;
+
+  border-bottom: 0.5px solid #3f1acc;
+  box-sizing: border-box;
+}
+
+.subscribe_model_month_num strong {
+  font-family: CaviarDreams;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 2px;
+}
+
+.subscribe_v_scroll {
+  height: 188.55px;
+  width: 100%;
+  padding: 21.35px 18px;
+  background-color: #ffffff;
+}
+
+.subscribe_v_scroll_container {
+  height: 146px;
+}
+
+.subscribe_v_scroll_container p {
+  font-family: NotoSansKR;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.subscribe_v_scroll_container p.subscribe_model_description {
+  font-family: NotoSansKR;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 8px;
+  line-height: 150%;
+}
+.subscribe_v_scroll_container ul {
+  margin-left: 14px;
+  list-style-image: url("https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/li_b.svg");
+}
+
+.subscribe_v_scroll_container ul li {
+  background: url("https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/li_b.svg")
+    no-repeat left top 13px; /* <-- change `left` & `top` too for extra control */
+  padding: 5px 0px 5px 10px;
+  /* reset styles (optional): */
+  list-style: none;
+  margin: 0;
+  font-family: NotoSansKR;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.subscribe_color_bar {
+  top: 14.35px;
+  right: 12px;
+  width: 1px;
+  height: 44px;
+  background-color: #3f1acc;
+}
+
+.subscribe_basic_bar {
+  top: 14.35px;
+  right: 12px;
+  width: 1px;
+  height: 158px;
+  background-color: #e0e0e0;
+}
+
+.subscribe_model_price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 54.79px;
+  left: calc(50% - 108px / 2 - 28px);
+  top: 4799px;
+
+  font-family: NotoSansKR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  /* or 21px */
+
+  text-align: center;
+  letter-spacing: -0.07em;
+
+  border-top: 0.5px solid #3f1acc;
+  color: #000000;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+.subscribe_model_price strong {
+  font-family: CaviarDreams;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0px 3px;
+}
+
+.subscribe_model_description strong {
+  font-family: NotoSansKR;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 8px;
+  line-height: 125%;
+}
+
+.subscribe_model_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 264px;
+  height: 54px;
+
+  font-family: NotoSansKR;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 125%;
+  /* or 20px */
+
+  text-align: center;
+  letter-spacing: -0.055em;
+
+  background-color: #f4f4f4;
+  color: #000000;
+  transition: background-color 0.3s, color 0.3s;
+
+  border-top: 0.5px solid #3f1acc;
+  box-sizing: border-box;
+}
+
+.subscribe_model_button img {
+  margin-left: 3.85px;
+  width: 19.34px;
+  height: 12.54px;
+  margin-bottom: 3px;
+}
+
+.subscribe_model_act {
+  /** There is redefinition **/
+  color: #3f1acc;
+  background: #e8ff5a;
+}

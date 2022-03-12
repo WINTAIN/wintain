@@ -1,0 +1,75 @@
+#area1 {
+  height: auto;
+}
+
+#area_box1 {
+  position: relative;
+  width: calc(100% - 40px);
+  left: 20px;
+  margin-top: 87px;
+}
+
+#first_img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#stamp {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  left: 0px;
+  top: 0px;
+  transition: left 4s linear, top 4s linear;
+}
+
+.button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 113px;
+  height: 48px;
+  background-color: #3f1acc;
+  border: 2px solid #3f1acc;
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+
+#subscribe_mention {
+  position: absolute;
+  width: 100%;
+  height: 18px;
+  bottom: 113px;
+
+  font-family: NotoSansKR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 100%;
+  /* identical to box height, or 18px */
+  text-align: center;
+  letter-spacing: -0.05em;
+
+  color: #ffffff;
+}
+
+#subscribe {
+  position: absolute;
+  left: calc(50% - 113px / 2 - 0.5px);
+  bottom: 55px;
+}
+
+#subscribe p {
+  position: absolute;
+  top: 8px;
+  height: 29px;
+  font-family: NotoSansKR;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 29px;
+  color: white;
+  text-align: center;
+  letter-spacing: -0.07em;
+}

@@ -28,6 +28,7 @@ function activateNav(){
     makeOneLine();
     setTimeout(makeX, hambTransitionTime);
     transparentLayer.classList.remove("inactive_transparent_layer");
+    showTransParentLayer();
     navSwitch=false;
 }
 
@@ -35,10 +36,19 @@ function inactivateNav() {
     nav.classList.add("inactive_nav");
     makeOneLine();
     setTimeout(makeThreeLine, hambTransitionTime);
+    setTimeout(hideTransparentLayer,hambTransitionTime*2);
     transparentLayer.classList.add("inactive_transparent_layer");
     navSwitch=true;
 }
 
+function hideTransparentLayer(){
+    transparentLayer.classList.add("hide_to_back");
+}
+
+function showTransParentLayer(){
+    transparentLayer.classList.remove("hide_to_back");
+
+}
 
 function makeOneLine(){
     topBread.classList.remove('X_1')
