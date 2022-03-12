@@ -20,7 +20,7 @@
   height: 90px;
   left: 0px;
   top: 0px;
-  transition: left 4s linear, top 4s linear;
+  transition: left 3s linear, top 3s linear;
 }
 
 .button {
