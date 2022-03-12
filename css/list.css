@@ -1,0 +1,254 @@
+.search {
+  margin-top: 68px;
+  padding: 25px 20px 22px 20px;
+  width: 100vw;
+  height: 75px;
+  box-sizing: border-box;
+}
+
+.search_block {
+  display: flex;
+  align-items: center;
+  padding-left: 9px;
+  width: 100%;
+  height: 28px;
+  border-radius: 14px;
+  box-sizing: border-box;
+  border: 0.5px solid #3f1acc;
+}
+
+.search_block img {
+  width: 20px;
+  height: 20px;
+}
+
+input[name="search"] {
+  border: none;
+  outline: none;
+}
+
+#above_list {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  height: 33px;
+  width: 100vw;
+  padding: 0px 20px;
+  box-sizing: border-box;
+}
+
+#above_list h1 {
+  height: 30px;
+  margin-bottom: 3px;
+  margin-right: 18px;
+
+  font-family: CaviarDreams;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+
+  /* Main_blue */
+
+  color: #3f1acc;
+  text-shadow: -0.1px -0.1px 0 currentColor, 0.1px -0.1px 0 currentColor,
+    -0.1px 0.1px 0 currentColor, 0.1px 0.1px 0 currentColor;
+}
+
+#above_list h2 {
+  height: 10px;
+  margin-bottom: 8px;
+
+  font-family: CaviarDreams;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8px;
+  line-height: 10px;
+
+  color: #aaaaaa;
+}
+
+#filter_switch {
+  position: absolute;
+  margin-right: 5.5px;
+  right: 29px;
+  bottom: 8px;
+  font-family: CaviarDreams;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8px;
+  line-height: 10px;
+  text-align: right;
+
+  /* Main_blue */
+
+  color: #3f1acc;
+}
+
+#filter_switch img {
+  position: absolute;
+  right: -10px;
+  top: 1px;
+
+  width: 4px;
+  height: 10px;
+
+  transition: transform 0.4s;
+}
+
+#filter_switch img.active {
+  transform: rotate(90deg);
+}
+
+#item_list {
+  display: grid;
+  width: 100vw;
+  padding: 0px 20px;
+  box-sizing: border-box;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.item {
+  position: relative;
+  width: 100%;
+  height: calc(50vw + 51px);
+  background-color: #ffffff;
+  border-top: 0.25px solid #3f1acc;
+}
+
+.item h3 {
+  position: absolute;
+  height: 19px;
+  left: 0px;
+  bottom: 37px;
+
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 160%;
+  /* or 16px */
+
+  letter-spacing: -0.06em;
+
+  color: #000000;
+}
+
+.item h3 b {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 160%;
+}
+
+.item_img_container {
+  position: absolute;
+  top: 20px;
+  right: 8px;
+  left: 0px;
+  bottom: 59px;
+}
+
+.item_img_container:nth-child(odd) {
+  left: 8px;
+}
+
+.item_new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 26px;
+  height: 26px;
+  border-radius: 13px;
+  background-color: ;
+  transform: rotate(-30deg);
+
+  font-family: CaviarDreams;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+
+  background: #e8ff5a;
+  color: #3f1acc;
+}
+
+.item_img {
+  width: calc(50vw - 28px);
+}
+
+.item_heart {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  bottom: 5px;
+  right: 5px;
+  z-index: 1;
+}
+
+.item_color {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  right: 8px;
+  bottom: 39px;
+}
+
+.item_price {
+  position: absolute;
+  left: 0px;
+  height: 18px;
+  bottom: 17px;
+  height: 18px;
+  font-family: NotoSansKR;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 12px;
+  color: #3f1acc;
+}
+
+.item_price b {
+  font-family: CaviarDreams;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.item_price img {
+  width: 9.6px;
+  height: 9.6px;
+}
+
+.item:nth-child(2n + 1) {
+  border-right: 0.25px solid #3f1acc;
+}
+
+#show_more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: CaviarDreams;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  letter-spacing: -0.02em;
+
+  color: #3f1acc;
+  margin-left: 20px;
+  margin-bottom: 48px;
+  width: calc(100vw - 40px);
+  height: 39px;
+  border-top: 1px solid #3f1acc;
+  border-bottom: 1px solid #3f1acc;
+}

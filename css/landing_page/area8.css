@@ -74,7 +74,7 @@
 
   font-family: NotoSansKR;
   font-style: normal;
-  font-weight: noraml;
+  font-weight: normal;
   font-size: 20px;
   line-height: 125%;
   /* or 25px */
@@ -187,7 +187,8 @@
   font-family: CaviarDreams;
   font-weight: bold;
   font-size: 18px;
-  margin: 0px 3px;
+  margin-left: 3px;
+  margin-right: 1px;
 }
 
 .subscribe_model_description strong {
