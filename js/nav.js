@@ -66,9 +66,6 @@ function makeThreeLine(){
 }
 
 function makeX(){
-    topBread.classList.remove('one_line')
-    patty.classList.remove('one_line')
-    bottomBread.classList.remove('one_line')
     topBread.classList.add('X_1')
     patty.classList.add('X_2')
     bottomBread.classList.add('X_2')

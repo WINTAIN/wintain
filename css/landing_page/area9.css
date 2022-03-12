@@ -28,27 +28,63 @@
 }
 
 .coming_soon {
-  font-family: "CaviarDreams";
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 110%;
-  /* or 40px */
-
-  text-align: center;
-
-  color: #e0e0e0;
-  height: 364px;
-
-  /* Sub_gray */
-  margin: 0px 20px;
-  margin-top: 183px;
-  width: calc(100% - 40px);
-  background: #f4f4f4;
+  position: absolute;
+  top: 183px;
+  bottom: 50px;
+  left: 0px;
+  right: 0px;
+  z-index: 1;
+  background-color: #ffffff;
+  opacity: 0.9;
 }
+
+.circle_coming_soon {
+  position: absolute;
+  width: 174.22px;
+  height: 210.16px;
+  top: 88.92px;
+  left: calc(50% - 87.11px);
+  animation: move_circle 6s linear infinite;
+}
+
+#coming_soon_img {
+  position: absolute;
+  left: 11.06px;
+  top: 0px;
+  width: 163.15px;
+  height: 63.15px;
+}
+
+#circle_genie {
+  position: absolute;
+  width: 105px;
+  height: 132px;
+  top: 128px;
+  left: calc(50% - 52.5px);
+}
+
+@keyframes move_circle {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#magazine_h_scroll {
+  height: 414px;
+  top: 183px;
+  padding-left: 20px;
+}
+
+.magazine_img_crop {
+  min-height: 364px;
+  min-width: 264px;
+  margin-right: 20px;
+}
+
 hr.blue_breaker {
   position: absolute;
   bottom: 1px;

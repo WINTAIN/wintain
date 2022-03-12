@@ -15,7 +15,7 @@ header {
 #logo {
   position: absolute;
   top: 20px;
-  width: 242px;
+  width: 144px;
   left: 20px;
 }
 
@@ -97,21 +97,16 @@ header {
 }
 
 #fixed_hamburger .one_line {
-  top: 5.571px;
-  right: 2.86px;
+  top: 5px;
 }
 
 #fixed_hamburger .X_1 {
-  top: 11.142px;
-  right: 5.72px;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
   background-color: #3f1acc;
 }
 
 #fixed_hamburger .X_2 {
-  top: 11.142px;
-  right: 5.72px;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   background-color: #3f1acc;

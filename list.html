@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/list.css">
+    <!-- <link rel="stylesheet" href="css/prevent_bounce_effect.css"> -->
+    <title>Wintain</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img id="logo" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/logo.svg"/></a>
+        <img id="home" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_home.svg">
+        <p id="home_number">1</p>
+    </header>
+    <div id="fixed_hamburger">
+        <div class="hamburger_line" id="top_bread"></div>
+        <div class="hamburger_line" id="patty"></div>
+        <div class="hamburger_line" id="bottom_bread"></div>
+    </div>
+    <div class="inactive_transparent_layer hide_to_back" id="transparent_layer"></div>
+    <nav class="inactive_nav">
+        <div id="nav_main">
+            <div class="nav_main_elem">
+                <div class="nav_main_elem_t" id="nav_product">Product<div class="b_circle b_circle_inactive"></div></div>
+            </div>
+            <div class="nav_main_hiding_elem inv_elem">
+                <div href="list.html" class="nav_main_elem_m">New In<div id="nav_new_in_line" class="nav_main_elem_m_line"></div></div>
+                <div href="list.html" class="nav_main_elem_m">Curtain<div id="nav_curtain_line" class="nav_main_elem_m_line"></div></div>
+            </div>
+            <div class="nav_main_elem">
+                <div class="nav_main_elem_t">Subscribe<div class="b_circle b_circle_inactive"></div></div>
+            </div>
+            <div class="nav_main_elem">
+                <div class="nav_main_elem_t">Magazine<div class="b_circle b_circle_inactive"></div></div>
+            </div>
+            <div class="nav_main_elem">
+                <div class="nav_main_elem_t">Review<div class="b_circle b_circle_inactive"></div></div>
+            </div>
+            <div class="nav_main_elem">
+                <div class="nav_main_elem_t">Notice & Event<div class="b_circle b_circle_inactive"></div></div>
+            </div>
+        </div>
+        <div id="nav_personal">
+            <div class="nav_s_line" id="nav_home"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_home_off_c_s.svg">My Home (0)</div>
+            <div class="nav_s_line"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_like_off_c_s.svg">Loves</div>
+        </div>
+        <div id="nav_etc">
+            <div class="nav_s_line"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/instagram.svg">Instagram</div>
+        </div>
+    </nav>
+    <main>
+        <div class="">
+            <div class="">
+                <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_search_off_c.svg">
+                <input type="text">
+            </div>
+        </div>
+        <div id="above_list">
+            <h1 class="">Curtain</h1>
+            <h2 class="">product /15</h1>
+            <div id="fitler_switch">Filters<img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/chevron_r_c.svg"></div>
+        </div>
+        <div class="filter">
+
+        </div>
+        <div class="item_list">
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="footer_info">
+            <p id="place">경상북도 포항시 남구 이동로 14 커트너리 윈튼</p>
+            <div class="footer_info_row">
+                <a class="footer_info_row_l"><strong>대표자</strong>노현희</a>
+                <a class="footer_info_row_c">CALL CENTER</a>
+                <a class="footer_info_row_r">ABOUT US</a>
+            </div>
+            <div class="footer_info_row">
+                <a class="footer_info_row_l"><strong>사업자등록번호</strong>805-16-00968</a>
+                <a class="footer_info_row_c">BANK INFO</a>
+                <a class="footer_info_row_r">AGREEMENT</a>
+            </div>
+            <div class="footer_info_row">
+                <a class="footer_info_row_l"><strong>통신판매업신고번호</strong>2019-경북포항-0463</a>
+                <a class="footer_info_row_c">INSTAGRAM</a>
+                <a class="footer_info_row_r">PRIVACY</a>
+            </div>
+            <div class="footer_info_row">
+                <a class="footer_info_row_l"><strong>개인정보보호책임자</strong>노현희</a>
+                <a class="footer_info_row_c">BLOG</a>
+                <a class="footer_info_row_r">GUIDE</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright 2022 WINTAIN.ALL rights reserved.</p>
+            <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/logo.svg">
+        </div>
+    </footer>
+</body>
+<script type="module" src="./js/list.js"></script>
+</html>

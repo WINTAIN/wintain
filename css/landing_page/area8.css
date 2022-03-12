@@ -74,7 +74,7 @@
 
   font-family: NotoSansKR;
   font-style: normal;
-  font-weight: bold;
+  font-weight: noraml;
   font-size: 20px;
   line-height: 125%;
   /* or 25px */
@@ -207,8 +207,8 @@
 
   font-family: NotoSansKR;
   font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
+  font-weight: 500;
+  font-size: 18px;
   line-height: 125%;
   /* or 20px */
 

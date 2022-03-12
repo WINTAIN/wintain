@@ -37,10 +37,13 @@ function handleNavProduct(){
 }
 
 
-function handleMenuLine(e){
-    console.log("hello");
-    e.currentTarget.querySelector(".nav_main_elem_m_line").classList.toggle("nav_main_elem_m_line_active");
+function touchEndMenu(e){
+    const newLink = e.currentTarget.getAttribute("href");
+    location.href = newLink;
+}
 
+function touchStartMenu(e){
+    e.currentTarget.querySelector(".nav_main_elem_m_line").classList.toggle("nav_main_elem_m_line_active");
 }
 
 function initNavTouch(){
@@ -48,7 +51,10 @@ function initNavTouch(){
         navTitles[i].addEventListener("click", handleNormalBlue);
     }
     for(var i=0; i<navMenus.length; i++){
-        navMenus[i].addEventListener("click", handleMenuLine);
+        navMenus[i].addEventListener("touchstart", touchStartMenu);
+        navMenus[i].addEventListener("mousedown", touchStartMenu);
+        navMenus[i].addEventListener("touchend", touchEndMenu);
+        navMenus[i].addEventListener("mouseup", touchEndMenu);
     }
     navProduct.addEventListener("click", handleNavProduct);
 }

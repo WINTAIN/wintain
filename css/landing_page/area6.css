@@ -106,6 +106,7 @@
 }
 
 .sixth_ul li {
+  word-break: keep-all;
   background: url("https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/li_w.svg")
     no-repeat left top 11px; /* <-- change `left` & `top` too for extra control */
   padding: 3px 0px 3px 10px;
@@ -142,7 +143,7 @@
   width: 103px;
   height: 120.25px;
   right: calc(25% - 103px / 4 - 15px);
-  top: 540px;
+  top: 547px;
 }
 
 #sixth_ul1 {
@@ -157,12 +158,12 @@
 
 #sixth_ul3 {
   left: calc(50% - 14.5px - 42% + 10px);
-  top: 670px;
+  top: 673px;
 }
 
 #sixth_ul4 {
   left: calc(50% + 14px + 10px);
-  top: 670px;
+  top: 673px;
 }
 
 #sixth_v1 {
