@@ -1,2 +1,3 @@
 # wintain
-Not It's available on GANZIPRO and MACGANZI
+
+Now It's available on GANZIPRO and MACGANZI
