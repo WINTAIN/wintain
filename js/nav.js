@@ -75,6 +75,5 @@ function makeX(){
 }
 
 function initNav(){
-    console.log("LET's GO", hambTransitionTime);
     switchHamb.addEventListener("click", handleSwitch);
 }
