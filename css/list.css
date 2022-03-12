@@ -172,7 +172,6 @@ input[name="search"] {
   width: 26px;
   height: 26px;
   border-radius: 13px;
-  background-color: ;
   transform: rotate(-30deg);
 
   font-family: CaviarDreams;
@@ -182,7 +181,7 @@ input[name="search"] {
   line-height: 13px;
   text-align: center;
 
-  background: #e8ff5a;
+  background-color: #e8ff5a;
   color: #3f1acc;
 }
 
