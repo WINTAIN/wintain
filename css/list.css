@@ -113,7 +113,7 @@ input[name="search"] {
   width: 100%;
   height: calc(50vw + 51px);
   background-color: #ffffff;
-  border-top: 0.25px solid #3f1acc;
+  border-bottom: 0.25px solid #3f1acc;
 }
 
 .item h3 {
@@ -142,16 +142,23 @@ input[name="search"] {
   line-height: 160%;
 }
 
+.item_box {
+  position: absolute;
+  width: 100%;
+  padding-right: 8px;
+  height: 100%;
+}
+
+.item:nth-child(even) .item_box {
+  left: 8px;
+}
+
 .item_img_container {
   position: absolute;
   top: 20px;
-  right: 8px;
+  right: 0px;
   left: 0px;
   bottom: 59px;
-}
-
-.item_img_container:nth-child(odd) {
-  left: 8px;
 }
 
 .item_new {
@@ -188,7 +195,7 @@ input[name="search"] {
   width: 16px;
   height: 16px;
   bottom: 5px;
-  right: 5px;
+  right: 13px;
   z-index: 1;
 }
 
@@ -197,7 +204,7 @@ input[name="search"] {
   width: 10px;
   height: 10px;
   border-radius: 5px;
-  right: 8px;
+  right: 16px;
   bottom: 39px;
 }
 

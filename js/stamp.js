@@ -88,7 +88,7 @@ function setTransition(){
 }
 
 function initStamp(){
-    setStampBlock();
+    setTimeout(setStampBlock,100);
     firstMove();
     setInterval(setCoord,stampMovingTime*1000);
 }
