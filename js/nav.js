@@ -10,7 +10,7 @@ const topBread = document.querySelector("#top_bread");
 const patty = document.querySelector("#patty");
 const bottomBread = document.querySelector("#bottom_bread");
 
-const hambTransitionTime = parseFloat(window.getComputedStyle(topBread,null).transitionDuration.split(" ")[0].slice(0, -2))*1000;
+const hambTransitionTime = 200;
 
 function handleSwitch(){
     if (navSwitch){
