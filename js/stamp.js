@@ -87,14 +87,8 @@ function setTransition(){
     stamp.setAttribute('style', `left:${stampLeft}px; top:${stampTop}px`)
 }
 
-function setStamp(){
-    setStampBlock();
-    setTimeout(firstMove,100);
-    setInterval(setCoord,stampMovingTime*1000);
-}
-
 function initStamp(){
-    window.onload = function() {
-        setStamp();
-    };
+    setStampBlock();
+    firstMove();
+    setInterval(setCoord,stampMovingTime*1000);
 }

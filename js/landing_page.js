@@ -7,11 +7,13 @@ import initNav from "./nav.js";
 import initHeader from "./header.js";
 import initNavTouch from "./nav_touch.js";
 
-initNav();
-initNavTouch();
-initStamp();
-initHscroll();
-initVscroll();
-initHeader();
-initPhilo();
-initSubScribeModels();
+window.onload = function (){
+    initNav();
+    initNavTouch();
+    initStamp();
+    initHscroll();
+    initVscroll();
+    initHeader();
+    initPhilo();
+    initSubScribeModels();
+}
