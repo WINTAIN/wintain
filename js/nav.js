@@ -10,7 +10,7 @@ const topBread = document.querySelector("#top_bread");
 const patty = document.querySelector("#patty");
 const bottomBread = document.querySelector("#bottom_bread");
 
-const hambTransitionTime = 200;
+const hambTransitionTime = 2000;
 
 function handleSwitch(){
     if (navSwitch){
