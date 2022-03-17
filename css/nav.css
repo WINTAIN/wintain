@@ -217,6 +217,11 @@ nav.inactive_nav {
   color: #3f1acc;
 }
 
+#insta_logo{
+  width: 12.31px;
+  height: 12.31px;
+}
+
 #nav_etc {
   position: absolute;
   top: 90.14%;

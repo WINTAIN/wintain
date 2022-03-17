@@ -38,12 +38,13 @@ function handleNavProduct(){
 
 
 function touchEndMenu(e){
+    e.currentTarget.querySelector(".nav_main_elem_m_line").classList.remove("nav_main_elem_m_line_active");
     const newLink = e.currentTarget.getAttribute("href");
     location.href = newLink;
 }
 
 function touchStartMenu(e){
-    e.currentTarget.querySelector(".nav_main_elem_m_line").classList.toggle("nav_main_elem_m_line_active");
+    e.currentTarget.querySelector(".nav_main_elem_m_line").classList.add("nav_main_elem_m_line_active");
 }
 
 function initNavTouch(){
