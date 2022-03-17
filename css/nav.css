@@ -177,17 +177,20 @@ nav.inactive_nav {
 
 #nav_personal {
   position: absolute;
-  top: 68.12%;
-  bottom: 12.19%;
+  top: 65.56%;
+  bottom: 9.86%;
   left: 20px;
   right: 20px;
   border-top: 0.5px solid #3f1acc;
   border-bottom: 0.5px solid #3f1acc;
 
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  justify-content: space-between;
+
+  padding:4.54vh 0px;
+
+  box-sizing: border-box;
 }
 
 #nav_personal img {
@@ -214,16 +217,12 @@ nav.inactive_nav {
   color: #3f1acc;
 }
 
-#nav_home {
-  margin-bottom: 30px;
-}
-
 #nav_etc {
   position: absolute;
-  top: 87.81%;
+  top: 90.14%;
   bottom: 0px;
-  left: 20px;
-  right: 20px;
+  left: 0px;
+  right: 0px;
 
   display: flex;
   justify-content: center;
@@ -232,6 +231,40 @@ nav.inactive_nav {
 }
 
 #nav_etc img {
-  margin-right: 7.73px;
-  transform: translateY(0.5px);
+  width: 20px;
+  height: 20px;
+  margin-right: 4.4px;
+}
+
+.nav_etc_elem{
+  position: absolute;
+  top:10px;
+  bottom:10px;
+  display: flex;
+
+  box-sizing: border-box;
+
+  justify-content:center;
+  align-items: center;
+  font-family: CaviarDreams;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+  letter-spacing: -0.02em;
+  /* Main_blue */
+  color: #3F1ACC;
+}
+
+#nav_login{
+  border-right: 0.5px solid #3F1ACC;;
+  right:50%;
+  left:14.6px;
+  
+}
+
+#nav_join{
+  right:14.6px;
+  left:50%;
 }

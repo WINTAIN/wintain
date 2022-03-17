@@ -8,7 +8,6 @@ footer {
 .footer_info {
   display: flex;
   box-sizing: border-box;
-  flex-direction: column;
   padding: 0px 10px 0px 20px;
   padding-top: 35px;
   width: 100%;
@@ -18,11 +17,11 @@ footer {
 
 #place {
   height: 10px;
-  margin-bottom: 9px;
+  margin-bottom: 12px;
 
   font-family: NotoSansKR;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 8px;
   line-height: 125%;
   /* identical to box height, or 10px */
@@ -32,56 +31,94 @@ footer {
   color: #ffffff;
 }
 
-.footer_info_row {
+.footer_left{
   display: flex;
-  width: 100%;
-  margin-bottom: 5px;
+  flex-direction: column;
 }
 
-.footer_info_row a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.footer_info_row_l {
-  width: calc(100% - 125px);
+.footer_left_row{
   font-family: NotoSansKR;
   font-style: normal;
   font-weight: 300;
   font-size: 8px;
   line-height: 125%;
-  /* or 10px */
+  /* identical to box height, or 10px */
+  margin-bottom: 6px;
 
   letter-spacing: -0.07em;
 
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
-.footer_info_row_l strong {
+
+.footer_left_row strong {
   margin-right: 2px;
-  font-weight: bold;
+  font-weight: 500;
 }
-.footer_info_row_c {
+
+.footer_right{
+  position: absolute;
+  left:calc(50% + 16px);
+}
+
+.footer_right .green_info{
+  margin-bottom: 2px;
   font-family: CaviarDreams;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 7px;
   line-height: 125%;
-  /* or 9px */
-
-  color: #ffffff;
-  width: 84px;
+  color: #E8FF5A;
 }
-.footer_info_row_r {
+
+.call_center{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 9px;
+}
+
+#call_number{
   font-family: CaviarDreams;
   font-style: normal;
-  font-weight: bold;
-  font-size: 7px;
+  font-weight: 700;
+  font-size: 12px;
   line-height: 125%;
-  /* or 9px */
+  /* identical to box height, or 15px */
+  color: #FFFFFF;
+}
 
-  color: #ffffff;
-  width: 60px;
+.bank_info{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+#bank_info_text{
+  font-family: NotoSansKR;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 125%;
+  letter-spacing: -0.1em;
+
+  color: #FFFFFF;
+}
+
+#bank_info_text strong{
+  font-weight: 700;
+}
+
+#bank_info_text b{
+  margin: 0px 2px;
+  font-family: CaviarDreams;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.basic_infos{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .copyright {

@@ -17,6 +17,11 @@
   right: 30px;
   bottom: 55px;
 }
+
+#kakao_councel img{
+  height: 48px;
+  width: 48px;
+}
 main {
   display: flex;
   flex-direction: column;

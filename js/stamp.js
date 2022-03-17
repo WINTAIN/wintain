@@ -17,8 +17,13 @@ function setStampBlock(){
     topMax = blockImg.getBoundingClientRect().bottom - blockImg.getBoundingClientRect().top - stampHeight;
     stampLeft = leftMax;  
     stampTop = getRandomInt(0,topMax);
+    stamp.setAttribute('style', `left:0px; top:0px;`)
 }
 
+function sleep(ms) {
+    const wakeUpTime = Date.now() + ms;
+    while (Date.now() < wakeUpTime) {}
+  }
 
 const stampMovingTime = window.getComputedStyle(stamp,null).transitionDuration[0];
 
@@ -87,8 +92,8 @@ function setTransition(){
     stamp.setAttribute('style', `left:${stampLeft}px; top:${stampTop}px`)
 }
 
-function initStamp(){
-    setTimeout(setStampBlock,100);
+async function initStamp(){
+    setStampBlock();
     firstMove();
     setInterval(setCoord,stampMovingTime*1000);
 }
