@@ -22,11 +22,27 @@
 .search_block img {
   width: 20px;
   height: 20px;
+  margin-right: 5px;
 }
 
 input[name="search"] {
+  padding-top:5px;
+  display: flex;
+  align-items: center;
   border: none;
   outline: none;
+  font-family: NotoSansKR;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 160%;
+/* or 19px */
+
+letter-spacing: -0.06em;
+
+/* Main_blue */
+
+color: #3F1ACC;
 }
 
 #above_list {

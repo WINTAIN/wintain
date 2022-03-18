@@ -7,10 +7,17 @@ const navMenus = document.querySelectorAll(".nav_main_elem_m");
 
 let isNavProductOpen = false;
 
-function handleNormalBlue(e){
+function touchStartTitle(e){
     closeNavProduct();
     closeNavTitles();
     e.currentTarget.querySelector(".b_circle").classList.toggle('b_circle_inactive');
+}
+
+function touchEndTitle(e){
+    const newLink = e.currentTarget.getAttribute("href");
+    if (newLink){
+        location.href = newLink;
+    }
 }
 
 function closeNavTitles(){
@@ -49,7 +56,10 @@ function touchStartMenu(e){
 
 function initNavTouch(){
     for(var i=1; i<navTitles.length; i++){
-        navTitles[i].addEventListener("click", handleNormalBlue);
+        navTitles[i].addEventListener("touchstart", touchStartTitle);
+        navTitles[i].addEventListener("mousedown", touchEndTitle);
+        navTitles[i].addEventListener("touchend", touchStartTitle);
+        navTitles[i].addEventListener("mouseup", touchEndTitle);
     }
     for(var i=0; i<navMenus.length; i++){
         navMenus[i].addEventListener("touchstart", touchStartMenu);
