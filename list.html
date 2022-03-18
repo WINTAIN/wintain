@@ -67,7 +67,113 @@
             <h2>product /15</h2>
             <div id="filter_switch">Filters<img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/chevron_r_s_b.svg"></div>
         </div>
-        <div id="filter" class="active">
+        <div id="filter" class="inactive_filter">
+            <div class="filter_area">
+                <span class="filter_area_title">Shop All</span>
+                <div class="filter_elem" data-check="">
+                    <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/check_off.svg">
+                    <span>New</span>
+                </div>
+                <div class="filter_elem" data-check="">
+                    <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/check_off.svg">
+                    <span>Bestseller</span>
+                </div>
+            </div>
+            <div class="filter_area" id="filter_color">
+                <span class="filter_area_title">Color</span>
+                <div class="filter_color_area">
+                    <div class="filter_color_area_row">
+                        <div class="filter_color" data-color="">
+                            <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/check1_on.svg">
+                        </div>
+                        <div class="filter_color" data-color="">
+                            <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/check2_on.svg">
+                        </div>
+                        <div class="filter_color" data-color="">
+                            <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/check3_on.svg">
+                        </div>
+                        <div class="filter_color" data-color="">
+                            <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/check4_on.svg">
+                        </div>
+                        <div class="filter_color" data-color="">
+                            <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/check5_on.svg">
+                        </div>
+                        <div class="filter_color" data-color="">
+                            <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/check6_on.svg">
+                        </div>
+                    </div>
+                    <div class="filter_color_area_row">
+                        <div class="filter_color">
+                            <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/check7_on.svg">
+                        </div>
+                        <div class="filter_color">
+                            <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/check8_on.svg">
+                        </div>
+                        <div class="filter_color">
+                            <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/check9_on.svg">
+                        </div>
+                        <div class="filter_color">
+                            <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/check10_on.svg">
+                        </div>
+                        <div class="filter_color">
+                            <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/check11_on.svg">
+                        </div>
+                        <div class="filter_color">
+                            <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/check12_on.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="filter_area">
+                <span class="filter_area_title">Fabric</span>
+                <div class="filter_elem">
+                    <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/check_off.svg">
+                    <span>Linen</span>
+                </div>
+                <div class="filter_elem">
+                    <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/check_off.svg">
+                    <span>Cotton</span>
+                </div>
+                <div class="filter_elem">
+                    <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/check_off.svg">
+                    <span>Chiffon</span>
+                </div>
+                <div class="filter_elem">
+                    <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/check_off.svg">
+                    <span>Polyester</span>
+                </div>
+                <div class="filter_elem">
+                    <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/check_off.svg">
+                    <span>Viscose</span>
+                </div>
+                <div class="filter_elem">
+                    <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/check_off.svg">
+                    <span>Silk</span>
+                </div>
+            </div>
+            <div class="filter_area">
+                <span class="filter_area_title">Season</span>
+                <div class="filter_elem">
+                    <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/check_off.svg">
+                    <span>All</span>
+                </div>
+                <div class="filter_elem">
+                    <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/check_off.svg">
+                    <span>Spring</span>
+                </div>
+                <div class="filter_elem">
+                    <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/check_off.svg">
+                    <span>Summer</span>
+                </div>
+                <div class="filter_elem">
+                    <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/check_off.svg">
+                    <span>Fall</span>
+                </div>
+                <div class="filter_elem">
+                    <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/check_off.svg">
+                    <span>Winter</span>
+                </div>
+            </div>
         </div>
         <div id="item_list">
             <div class="item">
@@ -175,7 +281,7 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="item">
+            <div class="item">
                 <div class="item_box"  data-color="">
                     <div class="item_img_container">
                         <div class="item_new">New</div>
@@ -189,8 +295,7 @@
                         <b>13,000</b> / 월
                     </div>
                 </div>
-            </div> -->
-            
+            </div>
         </div>
         <div id="show_more">Show more</div>
     </main>
