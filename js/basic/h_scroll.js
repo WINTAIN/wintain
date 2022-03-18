@@ -34,15 +34,9 @@ function initHscrollBar(Hscroll){
 }
 
 function initHscroll(){
-    const ArrivalHscrollNode = document.querySelector('#arrival_h_scroll');
-    const ArrivalHscroll = new Hscroll(ArrivalHscrollNode);
-
-    const SubscribeHscrollNode = document.querySelector('#subscribe_h_scroll');
-    const SubscribeHscroll = new Hscroll(SubscribeHscrollNode);
-
-    // const MagazineHscrollNode = document.querySelector("#magazine_h_scroll");
-    // const MagazineHscroll = new Hscroll(MagazineHscrollNode);
-
-    const ReviewHscrollNode = document.querySelector("#review_h_scroll");
-    const ReviewHscroll = new Hscroll(ReviewHscrollNode);
+    const allHscrollElements = document.querySelectorAll(".h_scroll");
+    let allHscrolls = [];
+    for (var i=0; i<allHscrollElements.length; i++){
+        allHscrolls.push(new Hscroll(allHscrollElements[i]));
+    }
 }

@@ -35,10 +35,9 @@ function initVscrollBar(Vscroll){
 
 
 function initVscroll(){
-    const VScrollMonth3Node = document.querySelector("#v_scroll_month3");
-    const VScrollMonth3 = new Vscroll(VScrollMonth3Node);
-    const VScrollMonth6Node = document.querySelector("#v_scroll_month6");
-    const VScrollMonth6 = new Vscroll(VScrollMonth6Node);
-    const VScrollMonth12Node = document.querySelector("#v_scroll_month12");
-    const VScrollMonth12 = new Vscroll(VScrollMonth12Node);
+    const allVscrollElements = document.querySelectorAll(".v_scroll");
+    let allVscrolls = [];
+    for (var i=0; i<allVscrollElements.length; i++){
+        allVscrolls.push(new Vscroll(allVscrollElements[i]));
+    }
 }

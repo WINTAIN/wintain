@@ -87,6 +87,10 @@ footer {
   color: #FFFFFF;
 }
 
+#call_number a{ /* for Iphone call number blue issue */
+  color: #FFFFFF;
+}
+
 .bank_info{
   display: flex;
   flex-direction: column;
@@ -101,6 +105,10 @@ footer {
   line-height: 125%;
   letter-spacing: -0.1em;
 
+  color: #FFFFFF;
+}
+
+#bank_info_text a{ /* for Iphone call number blue issue */
   color: #FFFFFF;
 }
 
