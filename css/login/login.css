@@ -1,0 +1,303 @@
+h1#title{
+    position: relative;
+    margin-top: 88px;
+    margin-left:20px;
+
+    width: calc(100vw - 40px);
+    padding-bottom: 3px;
+    font-family: CaviarDreams;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+
+    /* Main_blue */
+    color: #3F1ACC;
+    border-bottom: 0.7px solid #3F1ACC;
+}
+
+body{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.login_selection{
+    display: flex;
+    width: calc(100vw - 40px);
+    margin-left: 20px;
+    height: 43px;
+    margin-top: 25px;
+}
+
+.login_selection_active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 43px;
+    width: 50%;
+    font-family: NotoSansKR;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 160%;
+    /* or 19px */
+
+    letter-spacing: -0.06em;
+
+    color: #FFFFFF;
+
+    background: #3F1ACC;
+}
+
+.login_selection_inactive{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    height: 43px;
+    width: 50%;
+    font-family: NotoSansKR;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 160%;
+    /* or 19px */
+    
+    letter-spacing: -0.06em;
+    
+    color: #B5B5B5;
+    
+
+    letter-spacing: -0.06em;
+
+    background: #FAFAFA;
+    border: 0.5px solid #D4D4D4
+}
+
+.login_inputs{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    width: calc(100vw - 40px);
+}
+
+
+.login_input:first-child{
+    border-bottom: none;
+}
+
+.login_input{
+    padding: 10px 20px;
+    box-sizing: border-box;
+    outline: none;
+    background: #FFFFFF;
+    border: 0.5px solid #D4D4D4;
+    width: 100%;
+    height: 50px;
+}
+
+.login_input::placeholder{
+    font-family: NotoSansKR;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 160%;
+/* or 19px */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.06em;
+
+color: #B5B5B5;
+}
+
+
+.login_options{
+    display: flex;
+    height: 24px;
+    margin-left: 20px;
+    width: calc(100vw - 40px);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login_store{
+    display: flex;
+    align-items: center;
+    /* or 19px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.06em;
+
+    color: #000000;
+}
+
+.login_store img{
+    width: 24px;
+    height: 24px;
+}
+
+.login_store span{
+    margin-left:4px;
+    margin-top: 3px;
+    font-family: NotoSansKR;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 160%;
+}
+
+.login_other_options{
+    display: flex;
+}
+
+.login_other_options a{
+    font-family: NotoSansKR;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 160%;
+    /* or 19px */
+
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: -0.06em;
+
+    margin-left: 20px;
+
+    color: #B5B5B5;
+}
+
+#login_breaker{
+    position: absolute;
+
+    bottom: calc(50vh - 88px);
+    display: flex;
+    align-items: center;
+    width: calc(100vw - 40px);
+    height: 19px;
+    margin-left: 20px;
+
+    font-family: CaviarDreams;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 160%;
+    /* or 19px */
+
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+    /* Main_blue */
+
+    color: #3F1ACC;
+}
+
+#login_breaker.non_user{
+    bottom: calc(50vh - 113px);
+}
+
+#login_breaker hr{
+    width: calc(50% - 8px);
+    border-color: #3F1ACC;
+    border-width: 0.25px;
+    margin-bottom: 10px;
+}
+
+#login_breaker_left{
+    margin-right: 6px;
+}
+
+#login_breaker_right{
+    margin-left: 6px;
+}
+
+#social_login_p{
+    position: absolute;
+    bottom: 156px;
+    right: 0px;
+    left: 0px;
+    font-family: NotoSansKR;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 160%;
+    /* or 19px */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.06em;
+
+    color: #000000;
+}
+
+#kakao_login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: NotoSansKR;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 160%;
+    /* or 19px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.06em;
+
+    color: #2A2A2A;
+
+    position: absolute;
+    height: 50px;
+    left: 20px;
+    right: 20px;
+    bottom: 90px;
+    background: #FAE64D;
+}
+
+#kakao_login img{
+    margin-right: 14px;
+}
+
+#naver_login{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 50px;
+    left: 20px;
+    right: 20px;
+    bottom: 30px;
+
+    font-family: NotoSansKR;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 160%;
+    /* identical to box height, or 19px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.06em;
+
+    color: #FFFFFF;
+    background: #5FC539;
+
+}
+
+#naver_login img{
+    margin-right: 18px;
+}

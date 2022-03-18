@@ -1,0 +1,16 @@
+h1#title{
+    margin-top: 88px;
+    margin-left:20px;
+
+    width: calc(100vw - 40px);
+    padding-bottom: 3px;
+    font-family: CaviarDreams;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+
+    /* Main_blue */
+    color: #3F1ACC;
+    border-bottom: 0.7px solid #3F1ACC;
+}

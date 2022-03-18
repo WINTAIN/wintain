@@ -60,12 +60,13 @@
     <main>
         <h1 id="title">Login</h1>
         <div class="login_selection">
-            <div class="login_selection_active">기존회원 로그인</div>
-            <a href="login_non_user.html" class="login_selection_inactive">비회원 배송조회</a>
+            <a href="login.html" class="login_selection_inactive">기존회원 로그인</a>
+            <div class="login_selection_active">비회원 배송조회</div>
         </div>
         <div class="login_inputs">
-            <input class="login_input" type="text" name="id" placeholder="아이디">
-            <input class="login_input" type="password" name="password" placeholder="비밀번호">
+            <input class="login_input" type="text" name="id" placeholder="주문자명">
+            <input class="login_input" type="text" name="password" placeholder="주문번호(하이픈(-) 포함)">
+            <input class="login_input" type="password" name="password" placeholder="비회원주문 비밀번호">
         </div>
         <div class="login_options">
             <div class="login_store">
@@ -77,7 +78,7 @@
                 <a href="joinus.html">회원가입</a>
             </div>
         </div>
-        <div id="login_breaker">
+        <div id="login_breaker" class="non_user">
             <hr id="login_breaker_left">
             or
             <hr id="login_breaker_right">
