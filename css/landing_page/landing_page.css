@@ -1,15 +1,15 @@
-@import url("./landing_page/area1.css");
-@import url("./landing_page/area2.css");
-@import url("./landing_page/area3.css");
-@import url("./landing_page/area4.css");
-@import url("./landing_page/area5.css");
-@import url("./landing_page/area6.css");
-@import url("./landing_page/area7.css");
-@import url("./landing_page/area8.css");
-@import url("./landing_page/area9.css");
-@import url("./landing_page/area10.css");
-@import url("./landing_page/area11.css");
-@import url("./landing_page/area12.css");
+@import url("./area1.css");
+@import url("./area2.css");
+@import url("./area3.css");
+@import url("./area4.css");
+@import url("./area5.css");
+@import url("./area6.css");
+@import url("./area7.css");
+@import url("./area8.css");
+@import url("./area9.css");
+@import url("./area10.css");
+@import url("./area11.css");
+@import url("./area12.css");
 
 #kakao_councel {
   position: fixed;
