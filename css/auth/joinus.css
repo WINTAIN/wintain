@@ -27,7 +27,7 @@ h1#title {
 }
 
 .join_input {
-  font-family: CaviarDreams, NotoSansKR;
+  font-family: inputfont;
   padding: 10px 20px;
   box-sizing: border-box;
   outline: none;
