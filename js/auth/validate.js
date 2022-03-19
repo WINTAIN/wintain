@@ -1,3 +1,5 @@
+export default initValidate;
+
 const emailInput = document.querySelector("input[name='email']");
 const passwordInput = document.querySelector("input[name='password']");
 const password2Input = document.querySelector("input[name='password2']");
@@ -70,28 +72,10 @@ function validateSame(e){
 }
 
 
-emailInput.addEventListener("input", validateEmail);
-passwordInput.addEventListener("input", validateEnglish);
-passwordInput.addEventListener("input", validateNumber);
-passwordInput.addEventListener("input", validateCount);
-password2Input.addEventListener("input", validateSame);
-
-
-const allCheckLines = document.querySelectorAll(".check_line");
-
-function changeOnOffSrc(src){
-    if (src.indexOf('_on') != -1){
-        return src.replace("_on", "_off");
-    }else{
-        return src.replace("_off", "_on");
-    }
-}
-
-function handleCheckLineClick(e){
-    const checkCircle = e.currentTarget.querySelector("img");
-    checkCircle.src = changeOnOffSrc(checkCircle.src);
-}
-
-for(var i=0; i<allCheckLines.length; i++){
-    allCheckLines[i].addEventListener("click", handleCheckLineClick);
+function initValidate(){
+    emailInput.addEventListener("input", validateEmail);
+    passwordInput.addEventListener("input", validateEnglish);
+    passwordInput.addEventListener("input", validateNumber);
+    passwordInput.addEventListener("input", validateCount);
+    password2Input.addEventListener("input", validateSame);
 }

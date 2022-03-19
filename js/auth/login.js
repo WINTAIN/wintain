@@ -13,4 +13,8 @@ function handleLoginStoreCheck(){
     loginStoreCheck.src = changeOnOffSrc(loginStoreCheck.src);
 }
 
-loginStoreCheck.addEventListener("click", handleLoginStoreCheck);
+function initLoginStoreCheck(){
+    loginStoreCheck.addEventListener("click", handleLoginStoreCheck);
+}
+
+initLoginStoreCheck();
