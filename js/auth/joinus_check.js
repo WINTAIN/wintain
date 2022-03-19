@@ -1,6 +1,5 @@
 export default initCheck;
 
-
 const allCheckLines = document.querySelectorAll(".check_line");
 const allAccept = document.querySelector("#all_accept");
 
