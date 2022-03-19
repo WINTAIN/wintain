@@ -85,18 +85,20 @@ body {
   width: calc(100vw - 40px);
 }
 
-.login_input:last-child {
-  border-top: none;
-}
-
 .login_input {
+  font-family: CaviarDreams, NotoSansKR;
   padding: 10px 20px;
   box-sizing: border-box;
   outline: none;
   background: #ffffff;
   border: 0.5px solid #d4d4d4;
+  border-bottom: none;
   width: 100%;
   height: 50px;
+}
+
+.login_input:nth-last-child(2) {
+  border-bottom: 0.5px solid #d5d5d5;
 }
 
 .login_input::placeholder {
