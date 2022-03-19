@@ -31,12 +31,12 @@ footer {
   color: #ffffff;
 }
 
-.footer_left{
+.footer_left {
   display: flex;
   flex-direction: column;
 }
 
-.footer_left_row{
+.footer_left_row {
   font-family: NotoSansKR;
   font-style: normal;
   font-weight: 300;
@@ -47,57 +47,57 @@ footer {
 
   letter-spacing: -0.07em;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
-
 
 .footer_left_row strong {
   margin-right: 2px;
   font-weight: 500;
 }
 
-.footer_right{
+.footer_right {
   position: absolute;
-  left:calc(50% + 16px);
+  left: calc(50% + 16px);
 }
 
-.footer_right .green_info{
+.footer_right .green_info {
   margin-bottom: 2px;
   font-family: CaviarDreams;
   font-style: normal;
   font-weight: 700;
   font-size: 7px;
   line-height: 125%;
-  color: #E8FF5A;
+  color: #e8ff5a;
 }
 
-.call_center{
+.call_center {
   display: flex;
   flex-direction: column;
   margin-bottom: 9px;
 }
 
-#call_number{
+#call_number {
   font-family: CaviarDreams;
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
   line-height: 125%;
   /* identical to box height, or 15px */
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-#call_number a{ /* for Iphone call number blue issue */
-  color: #FFFFFF;
+#call_number a {
+  /* for Iphone call number blue issue */
+  color: #ffffff;
 }
 
-.bank_info{
+.bank_info {
   display: flex;
   flex-direction: column;
   margin-bottom: 12px;
 }
 
-#bank_info_text{
+#bank_info_text {
   font-family: NotoSansKR;
   font-style: normal;
   font-weight: 500;
@@ -105,25 +105,26 @@ footer {
   line-height: 125%;
   letter-spacing: -0.1em;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-#bank_info_text a{ /* for Iphone call number blue issue */
-  color: #FFFFFF;
+#bank_info_text a {
+  /* for Iphone call number blue issue */
+  color: #ffffff;
 }
 
-#bank_info_text strong{
+#bank_info_text strong {
   font-weight: 700;
 }
 
-#bank_info_text b{
+#bank_info_text b {
   margin: 0px 2px;
   font-family: CaviarDreams;
   font-style: normal;
   font-weight: 700;
 }
 
-.basic_infos{
+.basic_infos {
   display: flex;
   justify-content: space-between;
   width: 100%;
