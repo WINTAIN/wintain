@@ -88,8 +88,8 @@ body{
 }
 
 
-.login_input:first-child{
-    border-bottom: none;
+.login_input:last-child{
+    border-top:none;
 }
 
 .login_input{
