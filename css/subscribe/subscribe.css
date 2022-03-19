@@ -315,7 +315,7 @@ color: #000000;
 }
 
 .subscribe_info li{
-    word-break: break-word;
+    word-break: keep-all;
     margin-left:8px;
     font-family: NotoSansKR;
     font-style: normal;
