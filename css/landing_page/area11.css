@@ -12,14 +12,14 @@
 
 #eleventh_p2 {
   position: absolute;
-  height: 8px;
+  height: 15px;
   right: 20px;
   top: 103px;
 
   font-family: CaviarDreams;
   font-style: normal;
   font-weight: normal;
-  font-size: 6px;
+  font-size: 12px;
   line-height: 125%;
   /* identical to box height, or 8px */
 

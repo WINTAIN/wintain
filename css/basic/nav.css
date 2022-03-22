@@ -23,7 +23,8 @@ nav {
   top: 0px;
   right: 0px;
   width: 100vw;
-  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+  padding-bottom: env(safe-area-inset-bottom);
   background: #fcffec;
   transition: right 0.4s;
 }
@@ -188,7 +189,7 @@ nav.inactive_nav {
   flex-direction: column;
   justify-content: space-between;
 
-  padding:4.54vh 0px;
+  padding: calc(var(--vh, 1vh) * 4.54) 0px;
 
   box-sizing: border-box;
 }
@@ -217,7 +218,7 @@ nav.inactive_nav {
   color: #3f1acc;
 }
 
-#insta_logo{
+#insta_logo {
   width: 12.31px;
   height: 12.31px;
 }
@@ -241,15 +242,15 @@ nav.inactive_nav {
   margin-right: 4.4px;
 }
 
-.nav_etc_elem{
+.nav_etc_elem {
   position: absolute;
-  top:10px;
-  bottom:10px;
+  top: 10px;
+  bottom: 10px;
   display: flex;
 
   box-sizing: border-box;
 
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   font-family: CaviarDreams;
   font-style: normal;
@@ -259,17 +260,16 @@ nav.inactive_nav {
   /* identical to box height */
   letter-spacing: -0.02em;
   /* Main_blue */
-  color: #3F1ACC;
+  color: #3f1acc;
 }
 
-#nav_login{
-  border-right: 0.5px solid #3F1ACC;;
-  right:50%;
-  left:14.6px;
-  
+#nav_login {
+  border-right: 0.5px solid #3f1acc;
+  right: 50%;
+  left: 14.6px;
 }
 
-#nav_join{
-  right:14.6px;
-  left:50%;
+#nav_join {
+  right: 14.6px;
+  left: 50%;
 }

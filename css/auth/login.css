@@ -1,6 +1,15 @@
+main {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 105vh;
+  min-height: 640px;
+}
+
 h1#title {
   position: relative;
-  margin-top: 88px;
+  padding-top: 88px;
   margin-left: 20px;
 
   width: calc(100vw - 40px);
@@ -14,14 +23,6 @@ h1#title {
   /* Main_blue */
   color: #3f1acc;
   border-bottom: 0.7px solid #3f1acc;
-}
-
-body {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  width: 100vw;
-  height: 100vh;
 }
 
 .login_selection {
@@ -76,16 +77,22 @@ body {
   border: 0.5px solid #d4d4d4;
 }
 
+.login_form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  width: calc(100vw - 40px);
+}
 .login_inputs {
   margin-top: 20px;
-  margin-left: 20px;
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
-  width: calc(100vw - 40px);
+  width: 100%;
 }
 
 .login_input {
+  border-radius: 0px;
   font-family: inputfont;
   padding: 10px 20px;
   box-sizing: border-box;
@@ -97,7 +104,7 @@ body {
   height: 50px;
 }
 
-.login_input:nth-last-child(2) {
+.login_input:last-child {
   border-bottom: 0.5px solid #d5d5d5;
 }
 
@@ -116,8 +123,7 @@ body {
   color: #b5b5b5;
 }
 
-.login_inputs button {
-  margin-top: 20px;
+.login_form button {
   width: 100%;
   height: 43px;
   background: #3f1acc;
@@ -140,10 +146,10 @@ body {
 }
 
 .login_options {
+  margin-bottom: 26px;
   display: flex;
   height: 24px;
-  margin-left: 20px;
-  width: calc(100vw - 40px);
+  width: 100%;
   align-items: center;
   justify-content: space-between;
 }
@@ -200,7 +206,7 @@ body {
 #login_breaker {
   position: absolute;
 
-  bottom: calc(50vh - 131px);
+  bottom: calc(50vh - 119px);
   display: flex;
   align-items: center;
   width: calc(100vw - 40px);
@@ -221,10 +227,6 @@ body {
   /* Main_blue */
 
   color: #3f1acc;
-}
-
-#login_breaker.non_user {
-  bottom: calc(50vh - 133px);
 }
 
 #login_breaker hr {

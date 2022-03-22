@@ -1,11 +1,11 @@
 form {
-  position: fixed;
+  position: relative;
   width: 100vw;
-  height: 100vh;
+  height: 105vh;
   top: 0px;
   left: 0px;
   overflow: scroll;
-  min-height: 616px;
+  min-height: 700px;
 }
 
 h1#title {
@@ -27,6 +27,7 @@ h1#title {
 }
 
 .join_input {
+  border-radius: 0px;
   font-family: inputfont;
   padding: 10px 20px;
   box-sizing: border-box;
@@ -170,7 +171,7 @@ hr.breaker {
 }
 
 button {
-  position: absolute;
+  position: fixed;
   width: 100vw;
   height: 60px;
   border: none;

@@ -1,284 +1,321 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/basic/basic.css">
-    <link rel="stylesheet" href="css/subscribe/subscribe.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/basic/basic.css" />
+    <link rel="stylesheet" href="css/subscribe/subscribe.css" />
     <title>Wintain</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <a href="index.html"><img id="logo" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/logo.svg"/></a>
-        <img  id="home" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_home.svg">
-        <p  id="home_number">1</p>
-        <div id="header_bottom_border"></div>
+      <a href="index.html"><img id="logo" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/logo.svg" /></a>
+      <img id="home" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_home.svg" />
+      <p id="home_number">1</p>
+      <div id="header_bottom_border"></div>
     </header>
     <div id="fixed_hamburger">
-        <div class="hamburger_line" id="top_bread"></div>
-        <div class="hamburger_line" id="patty"></div>
-        <div class="hamburger_line" id="bottom_bread"></div>
+      <div class="hamburger_line" id="top_bread"></div>
+      <div class="hamburger_line" id="patty"></div>
+      <div class="hamburger_line" id="bottom_bread"></div>
     </div>
-    <div id="prevent_dark_mode" style="position:fixed; top:0px; left:0px; z-index:-2; width:100vw; height:100vh; background-color: white;"></div>
+    <div id="prevent_dark_mode" style="position: fixed; top: 0px; left: 0px; z-index: -2; width: 100vw; height: 100vh; background-color: white"></div>
     <div class="inactive_transparent_layer hide_to_back" id="transparent_layer"></div>
     <nav class="inactive_nav">
-        <div id="nav_main">
-            <div class="nav_main_elem">
-                <div class="nav_main_elem_t" id="nav_product">Product<div class="b_circle b_circle_inactive"></div></div>
-            </div>
-            <div class="nav_main_hiding_elem inv_elem">
-                <div href="list.html" class="nav_main_elem_m">New In<div id="nav_new_in_line" class="nav_main_elem_m_line"></div></div>
-                <div href="list.html" class="nav_main_elem_m">Curtain<div id="nav_curtain_line" class="nav_main_elem_m_line"></div></div>
-            </div>
-            <div class="nav_main_elem">
-                <div href="subscribe.html" class="nav_main_elem_t">Subscribe<div class="b_circle b_circle_inactive"></div></div>
-            </div>
-            <div class="nav_main_elem">
-                <div class="nav_main_elem_t">Magazine<div class="b_circle b_circle_inactive"></div></div>
-            </div>
-            <div class="nav_main_elem">
-                <div class="nav_main_elem_t">Review<div class="b_circle b_circle_inactive"></div></div>
-            </div>
-            <div class="nav_main_elem">
-                <div class="nav_main_elem_t">Notice & Event<div class="b_circle b_circle_inactive"></div></div>
-            </div>
+      <div id="nav_main">
+        <div class="nav_main_elem">
+          <div class="nav_main_elem_t" id="nav_product">
+            Product
+            <div class="b_circle b_circle_inactive"></div>
+          </div>
         </div>
-        <div id="nav_personal">
-            <div class="nav_s_line" id="nav_home"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_home_off_c_s.svg">My Home (0)</div>
-            <div class="nav_s_line"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_like_off_c_s.svg">Loves</div>
-            <div class="nav_s_line"><img id="insta_logo"src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/instagram.svg">Instagram</div>
+        <div class="nav_main_hiding_elem inv_elem">
+          <div href="list.html" class="nav_main_elem_m">
+            New In
+            <div id="nav_new_in_line" class="nav_main_elem_m_line"></div>
+          </div>
+          <div href="list.html" class="nav_main_elem_m">
+            Curtain
+            <div id="nav_curtain_line" class="nav_main_elem_m_line"></div>
+          </div>
         </div>
-        <div id="nav_etc">
-            <a href="login.html" id="nav_login" class="nav_etc_elem"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_login_off_c.svg">Login</a>
-            <a href="joinus.html" id="nav_join" class="nav_etc_elem"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_join_off_c.svg">Join us</a>
+        <div class="nav_main_elem">
+          <div href="subscribe.html" class="nav_main_elem_t">
+            Subscribe
+            <div class="b_circle b_circle_inactive"></div>
+          </div>
         </div>
+        <div class="nav_main_elem">
+          <div class="nav_main_elem_t">
+            Magazine
+            <div class="b_circle b_circle_inactive"></div>
+          </div>
+        </div>
+        <div class="nav_main_elem">
+          <div class="nav_main_elem_t">
+            Review
+            <div class="b_circle b_circle_inactive"></div>
+          </div>
+        </div>
+        <div class="nav_main_elem">
+          <div class="nav_main_elem_t">
+            Notice & Event
+            <div class="b_circle b_circle_inactive"></div>
+          </div>
+        </div>
+      </div>
+      <div id="nav_personal">
+        <div class="nav_s_line" id="nav_home">
+          <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_home_off_c_s.svg" />My Home (0)
+        </div>
+        <div class="nav_s_line"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_like_off_c_s.svg" />Loves</div>
+        <div class="nav_s_line"><img id="insta_logo" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/instagram.svg" />Instagram</div>
+      </div>
+      <div id="nav_etc">
+        <a href="login.html" id="nav_login" class="nav_etc_elem"
+          ><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_login_off_c.svg" />Login</a
+        >
+        <a href="joinus.html" id="nav_join" class="nav_etc_elem"
+          ><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_join_off_c.svg" />Join us</a
+        >
+      </div>
     </nav>
     <main>
-        <h1 id="title">Subscribe</h1>
-        <p id="p1">내 공간을 더 아껴주는 법, 커튼 정기 구독을 시작해보세요. </p>
-        <div class="subscribe">
-            <div class="subscribe_title">
-                <h2><b>3</b>개월</h2>
-                <span>고민 그만, 일단 한 번 써보자고!</span>
-                <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/plus.svg">
-            </div>
-            <div class="subscribe_content">
-                <p>기간</p>
-                <ul>
-                    <li>3 ~ 5개월</li>
-                </ul>
-                <p>혜택</p>
-                <ul>
-                    <li>프리미엄 커튼 1회 제공</li>
-                </ul>
-                <p>사이즈</p>
-                <ul>
-                    <li class="size">
-                        <b>S size</b>(가로~2m)
-                        <br>
-                        <strong>원룸 혹은 작은 방에 자주 쓰여요.</strong>
-                        <br>
-                        <div class="label">구독료</div>
-                        <strong>총<em>27,000</em>원 부터</strong>
-                    </li>
-                    <div class="subscribe_link" href="">
-                        월<b>9,000</b>원으로 구독하기
-                        <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_right_b.svg">
-                    </div>
-                    <li class="size">
-                        <b>M size</b>(가로 1.8m ~ 3m)
-                        <br>
-                        <strong>투룸, 작은 방, 안방에 주로 쓰여요.</strong>
-                        <br>
-                        <div class="label">구독료</div>
-                        <strong>총<em>39,000</em>원 부터</strong>
-                    </li>
-                    <div class="subscribe_link" href="">
-                        월<b>13,000</b>원으로 구독하기
-                        <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_right_b.svg">
-                    </div>
-                    <li class="size">
-                        <b>L size</b>(가로 2.4m ~ 4m)
-                        <br>
-                        <strong>안방 혹은 작은 거실에 자주 쓰여요.</strong>
-                        <br>
-                        <div class="label">구독료</div>
-                        <strong>총<em>51,000</em>원 부터</strong>
-                    </li>
-                    <div class="subscribe_link" href="">
-                        월<b>17,000</b>원으로 구독하기
-                        <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_right_b.svg">
-                    </div>
-                </ul>
-            </div>
+      <h1 id="title">Subscribe</h1>
+      <p id="p1">내 공간을 더 아껴주는 법, 커튼 정기 구독을 시작해보세요.</p>
+      <div class="subscribe">
+        <div class="subscribe_title">
+          <h2><b>3</b>개월</h2>
+          <span>고민 그만, 일단 한 번 써보자고!</span>
+          <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/plus.svg" />
         </div>
-        <div class="subscribe">
-            <div class="subscribe_title">
-                <h2><b>6</b>개월</h2>
-                <span>어차피 필요한 커튼, 좀 더 오래 쓰고싶다면</span>
-                <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/plus.svg">
+        <div class="subscribe_content">
+          <p>기간</p>
+          <ul>
+            <li>3 ~ 5개월</li>
+          </ul>
+          <p>혜택</p>
+          <ul>
+            <li>프리미엄 커튼 1회 제공</li>
+          </ul>
+          <p>사이즈</p>
+          <ul>
+            <li class="size">
+              <b>S size</b>(가로~2m)
+              <br />
+              <strong>원룸 혹은 작은 방에 자주 쓰여요.</strong>
+              <br />
+              <div class="label">구독료</div>
+              <strong>총<em>27,000</em>원 부터</strong>
+            </li>
+            <div class="subscribe_link" href="">
+              월<b>9,000</b>원으로 구독하기
+              <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_right_b.svg" />
             </div>
-            <div class="subscribe_content">
-                <p>기간</p>
-                <ul>
-                    <li>6 ~ 11개월</li>
-                </ul>
-                <p>혜택</p>
-                <ul>
-                    <li>프리미엄 커튼 1회 제공</li>
-                    <li>커튼 1회 교환권 제공</li>
-                    <li>교환권 미사용 시 10% 적립</li>
-                </ul>
-                <p>사이즈</p>
-                <ul>
-                    <li class="size">
-                        <b>S size</b>(가로~2m)
-                        <br>
-                        <strong>원룸 혹은 작은 방에 자주 쓰여요.</strong>
-                        <br>
-                        <div class="label">구독료</div>
-                        <strong>총<em>54,000</em>원 부터</strong>
-                    </li>
-                    <div class="subscribe_link" href="">
-                        월<b>9,000</b>원으로 구독하기
-                        <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_right_b.svg">
-                    </div>
-                    <li class="size">
-                        <b>M size</b>(가로 1.8m ~ 3m)
-                        <br>
-                        <strong>투룸, 작은 방, 안방에 주로 쓰여요.</strong>
-                        <br>
-                        <div class="label">구독료</div>
-                        <strong>총<em>78,000</em>원 부터</strong>
-                    </li>
-                    <div class="subscribe_link" href="">
-                        월<b>13,000</b>원으로 구독하기
-                        <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_right_b.svg">
-                    </div>
-                    <li class="size">
-                        <b>L size</b>(가로 2.4m ~ 4m)
-                        <br>
-                        <strong>안방 혹은 작은 거실에 자주 쓰여요.</strong>
-                        <br>
-                        <div class="label">구독료</div>
-                        <strong>총<em>102,000</em>원 부터</strong>
-                    </li>
-                    <div class="subscribe_link" href="">
-                        월<b>17,000</b>원으로 구독하기
-                        <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_right_b.svg">
-                    </div>
-                </ul>
+            <li class="size">
+              <b>M size</b>(가로 1.8m ~ 3m)
+              <br />
+              <strong>투룸, 작은 방, 안방에 주로 쓰여요.</strong>
+              <br />
+              <div class="label">구독료</div>
+              <strong>총<em>39,000</em>원 부터</strong>
+            </li>
+            <div class="subscribe_link" href="">
+              월<b>13,000</b>원으로 구독하기
+              <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_right_b.svg" />
             </div>
+            <li class="size">
+              <b>L size</b>(가로 2.4m ~ 4m)
+              <br />
+              <strong>안방 혹은 작은 거실에 자주 쓰여요.</strong>
+              <br />
+              <div class="label">구독료</div>
+              <strong>총<em>51,000</em>원 부터</strong>
+            </li>
+            <div class="subscribe_link" href="">
+              월<b>17,000</b>원으로 구독하기
+              <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_right_b.svg" />
+            </div>
+          </ul>
         </div>
-        <div class="subscribe">
-            <div class="subscribe_title">
-                <h2><b>12</b>개월</h2>
-                <span>금방 실증난다면, 계절마다 바꿔야지</span>
-                <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/plus.svg">
-            </div>
-            <div class="subscribe_content">
-                <p>기간</p>
-                <ul>
-                    <li>12개월</li>
-                </ul>
-                <p>혜택</p>
-                <ul>
-                    <li>프리미엄 커튼 1회 제공</li>
-                    <li>커튼 1회 교환권 제공</li>
-                    <li>교환권 미사용 시 10% 적립</li>
-                    <li>무료 설치 서비스 제공</li>
-                    <li>설치 미사용 시 10% 추가 적립</li>
-                </ul>
-                <p>사이즈</p>
-                <ul>
-                    <li class="size">
-                        <b>S size</b>(가로~2m)
-                        <br>
-                        <strong>원룸 혹은 작은 방에 자주 쓰여요.</strong>
-                        <br>
-                        <div class="label">구독료</div>
-                        <strong>총<em>108,000</em>원 부터</strong>
-                    </li>
-                    <div class="subscribe_link" href="">
-                        월<b>9,000</b>원으로 구독하기
-                        <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_right_b.svg">
-                    </div>
-                    <li class="size">
-                        <b>M size</b>(가로 1.8m ~ 3m)
-                        <br>
-                        <strong>투룸, 작은 방, 안방에 주로 쓰여요.</strong>
-                        <br>
-                        <div class="label">구독료</div>
-                        <strong>총<em>156,000</em>원 부터</strong>
-                    </li>
-                    <div class="subscribe_link" href="">
-                        월<b>13,000</b>원으로 구독하기
-                        <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_right_b.svg">
-                    </div>
-                    <li class="size">
-                        <b>L size</b>(가로 2.4m ~ 4m)
-                        <br>
-                        <strong>안방 혹은 작은 거실에 자주 쓰여요.</strong>
-                        <br>
-                        <div class="label">구독료</div>
-                        <strong>총<em>204,000</em>원 부터</strong>
-                    </li>
-                    <div class="subscribe_link" href="">
-                        월<b>17,000</b>원으로 구독하기
-                        <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_right_b.svg">
-                    </div>
-                </ul>
-            </div>
+      </div>
+      <div class="subscribe">
+        <div class="subscribe_title">
+          <h2><b>6</b>개월</h2>
+          <span>어차피 필요한 커튼, 좀 더 오래 쓰고싶다면</span>
+          <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/plus.svg" />
         </div>
-        <div class="subscribe_info_container">
-            <div class="subscribe_info">
-                <span><b>WINTAIN</b>구독 안내</span>
-                <ol type='1'>
-                    <li>윈튼 커튼구독은 원단 혹은 사이즈마다 천차만별로 달라지는 커튼 구입 비용을 절감할 수 있는 가장 합리적인 구독 서비스입니다.</li>
-                    <li>원하시는 사이즈(S, M, L)와 기간을 골라 구독하기를 누른 뒤, 결제 카드를 등록해주시면 해당 기간의 총 금액이 결제됩니다. </li>
-                    <li>구독 기간이 지난 뒤에는 My Home에서 ‘연장하기’와 ‘구독 취소하기’를 통해 커튼 연장 혹은 커튼 반납을 진행해주세요. 구독 기간 갱신 전 안내 문자가 발신됩니다. </li>
-                    <li>구독 기간 중 커튼을 그대로 구입하고 싶으시다면, My Home 내 게시판 혹은 전화 상담을 진행해주세요. 합리적인 가격으로 구입하실 수 있습니다. </li>
-                    <li>구독된 커튼은 윈튼의 커튼전문 세탁점에서 최상의 퀄리티로 세탁을 완료합니다. 매번 버려지는 커튼 대신 친환경적인 방법인 커튼 구독을 선택해보세요.</li>
-                    <li>구독 기간별로 차등 지급되는 커튼 교환권은 이사할 때, 인테리어 변경 시, 계절의 변화 등 원하는 기간 언제든지 활용할 수 있는 교환권입니다.</li>
-                </ol>
+        <div class="subscribe_content">
+          <p>기간</p>
+          <ul>
+            <li>6 ~ 11개월</li>
+          </ul>
+          <p>혜택</p>
+          <ul>
+            <li>프리미엄 커튼 1회 제공</li>
+            <li>커튼 1회 교환권 제공</li>
+            <li>교환권 미사용 시 10% 적립</li>
+          </ul>
+          <p>사이즈</p>
+          <ul>
+            <li class="size">
+              <b>S size</b>(가로~2m)
+              <br />
+              <strong>원룸 혹은 작은 방에 자주 쓰여요.</strong>
+              <br />
+              <div class="label">구독료</div>
+              <strong>총<em>54,000</em>원 부터</strong>
+            </li>
+            <div class="subscribe_link" href="">
+              월<b>9,000</b>원으로 구독하기
+              <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_right_b.svg" />
             </div>
+            <li class="size">
+              <b>M size</b>(가로 1.8m ~ 3m)
+              <br />
+              <strong>투룸, 작은 방, 안방에 주로 쓰여요.</strong>
+              <br />
+              <div class="label">구독료</div>
+              <strong>총<em>78,000</em>원 부터</strong>
+            </li>
+            <div class="subscribe_link" href="">
+              월<b>13,000</b>원으로 구독하기
+              <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_right_b.svg" />
+            </div>
+            <li class="size">
+              <b>L size</b>(가로 2.4m ~ 4m)
+              <br />
+              <strong>안방 혹은 작은 거실에 자주 쓰여요.</strong>
+              <br />
+              <div class="label">구독료</div>
+              <strong>총<em>102,000</em>원 부터</strong>
+            </li>
+            <div class="subscribe_link" href="">
+              월<b>17,000</b>원으로 구독하기
+              <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_right_b.svg" />
+            </div>
+          </ul>
         </div>
+      </div>
+      <div class="subscribe">
+        <div class="subscribe_title">
+          <h2><b>12</b>개월</h2>
+          <span>금방 실증난다면, 계절마다 바꿔야지</span>
+          <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/plus.svg" />
+        </div>
+        <div class="subscribe_content">
+          <p>기간</p>
+          <ul>
+            <li>12개월</li>
+          </ul>
+          <p>혜택</p>
+          <ul>
+            <li>프리미엄 커튼 1회 제공</li>
+            <li>커튼 1회 교환권 제공</li>
+            <li>교환권 미사용 시 10% 적립</li>
+            <li>무료 설치 서비스 제공</li>
+            <li>설치 미사용 시 10% 추가 적립</li>
+          </ul>
+          <p>사이즈</p>
+          <ul>
+            <li class="size">
+              <b>S size</b>(가로~2m)
+              <br />
+              <strong>원룸 혹은 작은 방에 자주 쓰여요.</strong>
+              <br />
+              <div class="label">구독료</div>
+              <strong>총<em>108,000</em>원 부터</strong>
+            </li>
+            <div class="subscribe_link" href="">
+              월<b>9,000</b>원으로 구독하기
+              <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_right_b.svg" />
+            </div>
+            <li class="size">
+              <b>M size</b>(가로 1.8m ~ 3m)
+              <br />
+              <strong>투룸, 작은 방, 안방에 주로 쓰여요.</strong>
+              <br />
+              <div class="label">구독료</div>
+              <strong>총<em>156,000</em>원 부터</strong>
+            </li>
+            <div class="subscribe_link" href="">
+              월<b>13,000</b>원으로 구독하기
+              <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_right_b.svg" />
+            </div>
+            <li class="size">
+              <b>L size</b>(가로 2.4m ~ 4m)
+              <br />
+              <strong>안방 혹은 작은 거실에 자주 쓰여요.</strong>
+              <br />
+              <div class="label">구독료</div>
+              <strong>총<em>204,000</em>원 부터</strong>
+            </li>
+            <div class="subscribe_link" href="">
+              월<b>17,000</b>원으로 구독하기
+              <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/arrow_right_b.svg" />
+            </div>
+          </ul>
+        </div>
+      </div>
+      <div class="subscribe_info_container">
+        <div class="subscribe_info">
+          <span><b>WINTAIN</b>구독 안내</span>
+          <ol type="1">
+            <li>윈튼 커튼구독은 원단 혹은 사이즈마다 천차만별로 달라지는 커튼 구입 비용을 절감할 수 있는 가장 합리적인 구독 서비스입니다.</li>
+            <li>원하시는 사이즈<b>(S, M, L)</b>와 기간을 골라 구독하기를 누른 뒤, 결제 카드를 등록해주시면 해당 기간의 총 금액이 결제됩니다.</li>
+            <li>
+              구독 기간이 지난 뒤에는 <b>My Home</b>에서 ‘연장하기’와 ‘구독 취소하기’를 통해 커튼 연장 혹은 커튼 반납을 진행해주세요. 구독 기간 갱신 전 안내
+              문자가 발신됩니다.
+            </li>
+            <li>
+              구독 기간 중 커튼을 그대로 구입하고 싶으시다면, <b>My Home</b> 내 게시판 혹은 전화 상담을 진행해주세요. 합리적인 가격으로 구입하실 수 있습니다.
+            </li>
+            <li>
+              구독된 커튼은 윈튼의 커튼전문 세탁점에서 최상의 퀄리티로 세탁을 완료합니다. 매번 버려지는 커튼 대신 친환경적인 방법인 커튼 구독을 선택해보세요.
+            </li>
+            <li>구독 기간별로 차등 지급되는 커튼 교환권은 이사할 때, 인테리어 변경 시, 계절의 변화 등 원하는 기간 언제든지 활용할 수 있는 교환권입니다.</li>
+          </ol>
+        </div>
+      </div>
     </main>
     <footer>
-        <div class="footer_info">
-            <div class="footer_left">
-                <span id="place" class="footer_left_row">경상북도 포항시 남구 이동로 14 커트너리 윈튼</span>
-                <a class="footer_left_row"><strong>대표자</strong>노현희</a>
-                <a class="footer_left_row"><strong>사업자등록번호</strong>805-16-00968</a>
-                <a class="footer_left_row"><strong>통신판매업신고번호</strong>2019-경북포항-0463</a>
-                <a class="footer_left_row"><strong>개인정보보호책임자</strong>노현희</a>
-            </div>
-            <div class="footer_right">
-                <div class="call_center">
-                    <span class="green_info">CALL CENTER</span>
-                    <span id="call_number">070-7576-2788</span>
-                </div>
-                <div class="bank_info">
-                    <span class="green_info">BANK INFO</span>
-                    <span id="bank_info_text"><strong>우리</strong><b>010-7554-5588</b>커트너리윈튼 노현희</span>
-                </div>
-                <div class="basic_infos">
-                    <a class="green_info">AGREEMENT</a>
-                    <a class="green_info">PRIVACY</a>
-                    <a class="green_info">GUIDE</a>
-                </div>
-            </div>
+      <div class="footer_info">
+        <div class="footer_left">
+          <span id="place">경상북도 포항시 남구 이동로 14</span>
+          <span id="wintain_place">커트너리 윈튼</span>
+          <a class="footer_left_row"><strong>대표자</strong>노현희</a>
+          <a class="footer_left_row"><strong>사업자등록번호</strong>805-16-00968</a>
+          <a class="footer_left_row"><strong>통신판매업신고번호</strong>2019-경북포항-0463</a>
+          <a class="footer_left_row"><strong>개인정보보호책임자</strong>노현희</a>
         </div>
-        <div class="copyright">
-            <p>Copyright 2022 WINTAIN.ALL rights reserved.</p>
-            <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/logo.svg">
+        <div class="footer_right">
+          <div class="call_center">
+            <span class="green_info">CALL CENTER</span>
+            <span id="call_number">070-7576-2788</span>
+          </div>
+          <div class="bank_info">
+            <span class="green_info">BANK INFO</span>
+            <span id="bank_info_text"><strong>우리</strong><b>010-7554-5588</b></span>
+            <span id="bank_owner">커트너리윈튼 노현희</span>
+          </div>
+          <div class="basic_infos">
+            <a class="green_info">AGREEMENT</a>
+            <a class="green_info">PRIVACY</a>
+            <a class="green_info">GUIDE</a>
+          </div>
         </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright 2022 WINTAIN.ALL rights reserved.</p>
+        <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/logo.svg" />
+      </div>
     </footer>
-</body>
-<script type="module" src="./js/basic/basic.js"></script>
-<script type="module" src="./js/subscribe/subscribe.js"></script>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
+  <script type="module" src="./js/basic/basic.js"></script>
+  <script type="module" src="./js/subscribe/subscribe.js"></script>
 </html>

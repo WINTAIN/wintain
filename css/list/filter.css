@@ -6,7 +6,7 @@
   font-family: CaviarDreams;
   font-style: normal;
   font-weight: 700;
-  font-size: 8px;
+  font-size: 12px;
   line-height: 10px;
   text-align: right;
 
@@ -32,7 +32,7 @@
 
 #filter {
   position: absolute;
-  z-index: 1;
+  z-index: 2;
   top: 177px;
   width: 50vw;
   right: 0px;
@@ -44,7 +44,7 @@
 }
 
 #filter.active {
-  max-height: 556px;
+  max-height: 710px;
 }
 
 .filter_area {
@@ -111,8 +111,8 @@
 }
 
 .filter_color_area img {
-  width: 18px;
-  height: 18px;
+  width: 26px;
+  height: 26px;
 }
 
 .filter_color_area_row {
