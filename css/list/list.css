@@ -69,7 +69,8 @@ input[name="search"] {
   /* Main_blue */
 
   color: #3f1acc;
-  text-shadow: -0.1px -0.1px 0 currentColor, 0.1px -0.1px 0 currentColor, -0.1px 0.1px 0 currentColor, 0.1px 0.1px 0 currentColor;
+  text-shadow: -0.1px -0.1px 0 currentColor, 0.1px -0.1px 0 currentColor,
+    -0.1px 0.1px 0 currentColor, 0.1px 0.1px 0 currentColor;
 }
 
 #above_list h2 {
@@ -101,6 +102,13 @@ input[name="search"] {
   height: calc(50vw * 4 / 3 - 28px / 3 * 4 + 20px + 83px);
   background-color: #ffffff;
   border-top: 0.25px solid #3f1acc;
+}
+
+.item:first-child {
+  border-top: 1px solid #3f1acc;
+}
+.item:nth-child(2) {
+  border-top: 1px solid #3f1acc;
 }
 
 .item h3 {

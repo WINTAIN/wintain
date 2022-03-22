@@ -152,7 +152,8 @@ h1#title {
 }
 
 .subscribe_content ul li {
-  background: url("https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/li_b.svg") no-repeat left top 13px;
+  background: url("https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/li_b.svg")
+    no-repeat left top 13px;
   padding: 5px 0px 5px 10px;
   list-style: none;
   margin-left: 20px;
@@ -165,7 +166,8 @@ h1#title {
 }
 
 .subscribe_content ul li.size {
-  background: url("https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/li_b.svg") no-repeat left top 14px;
+  background: url("https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/li_b.svg")
+    no-repeat left top 14px;
   font-family: NotoSansKR;
   font-style: normal;
   font-weight: 300;
@@ -294,6 +296,7 @@ h1#title {
   font-size: 14px;
   line-height: 160%;
   margin-right: 3px;
+  letter-spacing: 0em;
 }
 
 .subscribe_info span {
@@ -302,6 +305,7 @@ h1#title {
   font-weight: 500;
   font-size: 14px;
   line-height: 160%;
+  letter-spacing: -0.06em;
 }
 
 .subscribe_info ol {
