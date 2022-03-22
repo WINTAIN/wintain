@@ -40,7 +40,6 @@ function handleColorCheck(e) {
   } else {
     colors.splice(index, 1);
   }
-  console.log(colors);
 }
 
 function handleFabricCheck(e) {
@@ -53,7 +52,6 @@ function handleFabricCheck(e) {
   } else {
     fabrics.splice(index, 1);
   }
-  console.log(fabrics);
 }
 
 function handleSeasonCheck(e) {
@@ -66,7 +64,6 @@ function handleSeasonCheck(e) {
   } else {
     seasons.splice(index, 1);
   }
-  console.log(seasons);
 }
 
 function handleSortCheck(e) {
@@ -79,7 +76,6 @@ function handleSortCheck(e) {
   } else {
     sorts.splice(index, 1);
   }
-  console.log(sorts);
 }
 
 function handleCheckAllSeason(e) {
@@ -89,7 +85,6 @@ function handleCheckAllSeason(e) {
   } else {
     checkAllSeason();
   }
-  console.log(seasons);
   checkedAllSeason = !checkedAllSeason;
 }
 
