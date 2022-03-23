@@ -11,39 +11,18 @@
   </head>
   <body>
     <header>
-      <a href="index.html"
-        ><img
-          id="logo"
-          src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/logo.svg"
-      /></a>
-      <img
-        class="inv_home"
-        id="home"
-        src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_home.svg"
-      />
+      <a href="index.html"><img id="logo" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/logo.svg" /></a>
+      <img class="inv_home" id="home" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_home.svg" />
       <p class="inv_home" id="home_number">1</p>
+      <div id="header_bottom_border"></div>
     </header>
     <div id="fixed_hamburger">
       <div class="hamburger_line" id="top_bread"></div>
       <div class="hamburger_line" id="patty"></div>
       <div class="hamburger_line" id="bottom_bread"></div>
     </div>
-    <div
-      id="prevent_dark_mode"
-      style="
-        position: fixed;
-        top: 0px;
-        left: 0px;
-        z-index: -2;
-        width: 100vw;
-        height: 100vh;
-        background-color: white;
-      "
-    ></div>
-    <div
-      class="inactive_transparent_layer hide_to_back"
-      id="transparent_layer"
-    ></div>
+    <div id="prevent_dark_mode" style="position: fixed; top: 0px; left: 0px; z-index: -2; width: 100vw; height: 100vh; background-color: white"></div>
+    <div class="inactive_transparent_layer hide_to_back" id="transparent_layer"></div>
     <nav class="inactive_nav">
       <div id="nav_main">
         <div class="nav_main_elem">
@@ -89,32 +68,17 @@
       </div>
       <div id="nav_personal">
         <a href="myhome.html" class="nav_s_line" id="nav_home">
-          <img
-            src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_home_off_c_s.svg"
-          />My Home (0)
+          <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_home_off_c_s.svg" />My Home (0)
         </a>
-        <div class="nav_s_line">
-          <img
-            src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_like_off_c_s.svg"
-          />Loves
-        </div>
-        <div class="nav_s_line">
-          <img
-            id="insta_logo"
-            src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/instagram.svg"
-          />Instagram
-        </div>
+        <div class="nav_s_line"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_like_off_c_s.svg" />Loves</div>
+        <div class="nav_s_line"><img id="insta_logo" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/instagram.svg" />Instagram</div>
       </div>
       <div id="nav_etc">
         <a href="login.html" id="nav_login" class="nav_etc_elem"
-          ><img
-            src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_login_off_c.svg"
-          />Login</a
+          ><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_login_off_c.svg" />Login</a
         >
         <a href="joinus.html" id="nav_join" class="nav_etc_elem"
-          ><img
-            src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_join_off_c.svg"
-          />Join us</a
+          ><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_join_off_c.svg" />Join us</a
         >
       </div>
     </nav>
@@ -134,7 +98,7 @@
       </div>
       <div class="cart_blocks">
         <div class="cart_item">
-          <img class="item_img" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/cart1.png"/>
+          <img class="item_img" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/mag/cart1.png" />
           <div class="item_info">
             <h3>[굿모닝린넨커튼]</h3>
             <h2>바게트 카멜</h2>
@@ -161,8 +125,8 @@
         <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/minus_b.svg" />
       </div>
       <div class="customer_info">
-        <input class="blue_input" type="text" name="name" placeholder="이름">
-        <input class="blue_input" type="tel" name="phone" placeholder="휴대전화">
+        <input class="blue_input" type="text" name="name" placeholder="이름" />
+        <input class="blue_input" type="tel" name="phone" placeholder="휴대전화" />
       </div>
       <div class="controller">
         <span>배송정보</span>
@@ -170,19 +134,23 @@
       </div>
       <div class="address_info">
         <div class="address_selection">
-          <div id="same_address_info" class="address_check"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/check_off.svg">주문고객정보와동일</div>
-          <div id="new_address_info" class="address_check"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/check_off.svg">새로운배송지</div>
+          <div id="same_address_info" class="address_check">
+            <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/check_off.svg" />주문고객정보와동일
+          </div>
+          <div id="new_address_info" class="address_check">
+            <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/check_off.svg" />새로운배송지
+          </div>
           <button>주소록 보기</button>
         </div>
         <div class="address_inputs">
-          <input class="blue_input" type="text" name="address_name" placeholder="이름">
+          <input class="blue_input" type="text" name="address_name" placeholder="이름" />
           <div class="address_search">
-            <input class="blue_input" id="postalcode" type="text" name="address_name" placeholder="우편번호">
+            <input class="blue_input" id="postalcode" type="text" name="postalcode" placeholder="우편번호" />
             <button id="postal_code">우편번호 검색</button>
           </div>
-          <input class="blue_input" type="text" name="address" placeholder="주소">
-          <input class="blue_input" type="text" name="detail_address" placeholder="상세주소">
-          <input class="blue_input" type="tel" name="phone" placeholder="휴대전화">
+          <input class="blue_input" type="text" name="address" placeholder="주소" />
+          <input class="blue_input" type="text" name="detail_address" placeholder="상세주소" />
+          <input class="blue_input" type="tel" name="phone" placeholder="휴대전화" />
           <select class="blue_select" name="message">
             <option value="0" disabled>배송메시지</option>
             <option value="1">직접 수령할게요.</option>
@@ -198,72 +166,41 @@
         <span>결제정보</span>
         <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/minus_b.svg" />
       </div>
-      <div class="discount">
-        <div class="discount_line">
-          <span>쿠폰 할인</span>
-          <select class="blue_select" name="coupon">
-            <option value="0" disabled>쿠폰을 선택하여 주세요.</option>
-            <option value="1">직접 수령할게요.</option>
-            <option value="2">문 앞에 놓아주세요.</option>
-          </select>
-        </div>
-        <div class="discount_line">
-          <span>적립금</span>
-          <div class=""></span>
-        </div>
-      </div>
-      <p>(총 사용가능 적립금:<b>3,000</b>원)</p>
       <div class="payments">
-        <div class="payment">신용카드</div>
-        <div class="payment">네이버페이</div>
-        <div class="payment">가상계좌</div>
-        <div class="payment">휴대폰 결제</div>
+        <div class="discount">
+          <div class="discount_line">
+            <span>쿠폰 할인</span>
+            <select class="blue_select discount_line_input" name="coupon">
+              <option value="0" disabled>쿠폰을 선택하여 주세요.</option>
+              <option value="1">직접 수령할게요.</option>
+              <option value="2">문 앞에 놓아주세요.</option>
+            </select>
+          </div>
+          <div class="discount_line">
+            <span>적립금</span>
+            <input type="text" class="blue_input discount_line_input" name="using_point" value="00,000" />
+          </div>
+          <p>(총 사용가능 적립금:<b>3,000</b>원)</p>
+        </div>
+        <div class="payment_ways">
+          <div class="payment">신용카드</div>
+          <div class="payment">네이버페이</div>
+          <div class="payment">가상계좌</div>
+          <div class="payment">휴대폰 결제</div>
+        </div>
       </div>
       <div class="cart_price">
         <div class="cart_price_line"><span>총 상품금액</span><b>KRW 27,000</b></div>
         <div class="cart_price_line"><span>배송비</span><b>KRW 3,000</b></div>
         <div class="cart_price_line"><span>적립금</span><b>KRW 3,000</b></div>
         <div class="cart_price_line"><span>쿠폰 할인</span><b>KRW 3,000</b></div>
-        <div class="cart_price_line blue"><span>총 합계금액</span><b>KRW 30,000</b></div>
-        <div class="cart_price_line_final"><span>월 구독료</span><b>KRW 9,000</b></div>
+        <div class="cart_price_line_final"><span>총 결제금액</span><b>KRW 30,000</b></div>
       </div>
-      <div class="agreement"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/check_off.svg">결제정보를 확인하였으며, 구매진행에 동의합니다.</div>
+      <div class="agreement">
+        <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/check_off.svg" />결제정보를 확인하였으며, 구매진행에 동의합니다.
+      </div>
       <button id="submit">결제하기</button>
     </main>
-    <footer>
-      <div class="footer_info">
-        <div class="footer_left">
-          <span id="place">경상북도 포항시 남구 이동로 14</span>
-          <span id="wintain_place">커트너리 윈튼</span>
-          <a class="footer_left_row"><strong>대표자</strong>노현희</a>
-          <a class="footer_left_row"><strong>사업자등록번호</strong>805-16-00968</a>
-          <a class="footer_left_row"><strong>통신판매업신고번호</strong>2019-경북포항-0463</a>
-          <a class="footer_left_row"><strong>개인정보보호책임자</strong>노현희</a>
-        </div>
-        <div class="footer_right">
-          <div class="call_center">
-            <span class="green_info">CALL CENTER</span>
-            <span id="call_number">070-7576-2788</span>
-          </div>
-          <div class="bank_info">
-            <span class="green_info">BANK INFO</span>
-            <span id="bank_info_text"><strong>우리</strong><b>010-7554-5588</b></span>
-            <span id="bank_owner">커트너리윈튼 노현희</span>
-          </div>
-          <div class="basic_infos">
-            <a class="green_info">AGREEMENT</a>
-            <a class="green_info">PRIVACY</a>
-            <a class="green_info">GUIDE</a>
-          </div>
-        </div>
-      </div>
-      <div class="copyright">
-        <p>Copyright 2022 WINTAIN.ALL rights reserved.</p>
-        <img
-          src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/logo.svg"
-        />
-      </div>
-    </footer>
   </body>
   <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
   <script type="module" src="./js/basic/basic.js"></script>

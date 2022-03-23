@@ -22,6 +22,7 @@ h1#title {
   width: calc(100vw - 80px);
   margin-left: 40px;
   margin-top: 44px;
+  margin-bottom: 55px;
   height: 0.5px;
   background-color: #d4d4d4;
 }
@@ -93,7 +94,6 @@ span.active {
 
 .order_top {
   display: flex;
-  margin-top: 55px;
   margin-left: 20px;
   margin-bottom: 10px;
 }
@@ -149,7 +149,7 @@ span.active {
 }
 
 .cart_item {
-  margin-top: 15px;
+  padding-top: 15px;
   display: flex;
 }
 
