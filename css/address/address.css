@@ -1,0 +1,177 @@
+main {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: calc(var(--vh, 1vh) * 100);
+}
+
+h1#title {
+  margin-top: 88px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+
+  width: calc(100vw - 40px);
+  padding-bottom: 3px;
+  font-family: CaviarDreams;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+
+  /* Main_blue */
+  color: #3f1acc;
+  border-bottom: 0.7px solid #3f1acc;
+  text-shadow: -0.1px -0.1px 0 currentColor, 0.1px -0.1px 0 currentColor, -0.1px 0.1px 0 currentColor, 0.1px 0.1px 0 currentColor;
+}
+
+.addresses {
+  width: 100vw;
+  height: calc(var(--vh, 1vh) * 100 - 295px);
+  margin-bottom: 10px;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  font-family: NotoSansKR;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+  letter-spacing: -0.06em;
+
+  color: #000000;
+}
+
+.address {
+  box-sizing: border-box;
+  padding: 10px;
+  padding-top: 14px;
+  position: relative;
+  width: calc(100vw - 40px);
+  height: 177px;
+  margin-left: 20px;
+  border: 0.5px solid #3f1acc;
+  margin-bottom: 16px;
+}
+
+.address .star {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 26px;
+  height: 26px;
+}
+
+.address_name {
+  margin-bottom: 7px;
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 160%;
+  /* or 22px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.06em;
+
+  /* Main_blue */
+
+  color: #3f1acc;
+}
+
+.address_name b {
+  font-size: 14px;
+}
+
+.postalcode,
+.full_address,
+.tel_number {
+  font-family: CaviarDreams, NotoSansKR;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 160%;
+
+  color: #000000;
+}
+
+.tel_number {
+  margin-top: 8px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.buttons button {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 160%;
+  /* or 19px */
+  /* Main_blue */
+
+  color: #3f1acc;
+  margin-left: 8px;
+  width: 93px;
+  height: 39px;
+
+  background: #ffffff;
+  /* Main_blue */
+
+  border: 0.5px solid #3f1acc;
+  box-sizing: border-box;
+  border-radius: 0px;
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 160%;
+  letter-spacing: -0.06em;
+
+  color: #ffffff;
+  margin-left: 20px;
+  width: calc(100vw - 40px);
+  height: 50px;
+
+  /* Main_blue */
+
+  background: #3f1acc;
+  /* Main_blue */
+}
+
+.close {
+  font-family: CaviarDreams;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* Main_blue */
+
+  color: #3f1acc;
+  position: fixed;
+  width: 100vw;
+  height: 60px;
+  border-top: 0.7px solid #3f1acc;
+  bottom: 0px;
+  left: 0px;
+  background-color: #ffffff;
+  z-index: 1;
+}

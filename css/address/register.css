@@ -1,0 +1,240 @@
+gih1#title {
+  margin-top: 88px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+
+  width: calc(100vw - 40px);
+  padding-bottom: 3px;
+  font-family: CaviarDreams;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+
+  /* Main_blue */
+  color: #3f1acc;
+  border-bottom: 0.7px solid #3f1acc;
+  text-shadow: -0.1px -0.1px 0 currentColor, 0.1px -0.1px 0 currentColor, -0.1px 0.1px 0 currentColor, 0.1px 0.1px 0 currentColor;
+}
+
+form {
+  width: calc(100vw - 40px);
+  margin-left: 20px;
+}
+
+.blue_input {
+  margin-bottom: 12px;
+  border-radius: 0px;
+  font-family: inputfont;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  outline: none;
+  background: #ffffff;
+  /* Main_blue */
+
+  border: 0.5px solid #3f1acc;
+  width: 100%;
+  height: 50px;
+}
+
+.blue_input::placeholder {
+  font-family: inputfont;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+  /* or 19px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.06em;
+
+  color: #b5b5b5;
+}
+
+.address_info {
+  margin-left: 20px;
+  width: calc(100vw - 40px);
+}
+
+.address_selection {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 68px;
+  border-top: 0.5px solid #3f1acc;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.address_check {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  font-family: NotoSansKR;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+  /* or 19px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.06em;
+
+  color: #000000;
+}
+
+.address_check img {
+  transform: translateY(-1.5px);
+  width: 24px;
+  height: 24px;
+  margin-right: 4px;
+}
+
+.address_selection button {
+  width: 87px;
+  height: 36px;
+  padding-top: 4px;
+  background-color: #ffffff;
+  border: 0.5px solid #3f1acc;
+  box-sizing: border-box;
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  /* or 19px */
+  letter-spacing: -0.06em;
+
+  /* Main_blue */
+
+  color: #3f1acc;
+}
+
+.address_search {
+  display: flex;
+  width: 100%;
+}
+.address_search input {
+  width: calc(100% - 98px);
+}
+
+.address_search button {
+  width: 94px;
+  height: 50px;
+  padding-top: 3px;
+
+  font-family: NotoSansKR;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+  /* or 19px */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.06em;
+
+  color: #ffffff;
+
+  background: #3f1acc;
+  border: none;
+  outline: none;
+  margin-left: 4px;
+  /* Main_blue */
+  box-sizing: border-box;
+}
+
+.blue_input[name="postalcode"],
+.blue_input[name="address"] {
+  margin-bottom: 4px;
+}
+
+.buttons {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(50% - 4px);
+  height: 50px;
+  border: 0.5px solid #3f1acc;
+  box-sizing: border-box;
+}
+
+#cancel {
+  font-family: NotoSansKR;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 160%;
+  /* or 22px */
+
+  letter-spacing: -0.06em;
+  background-color: #ffffff;
+  color: #3f1acc;
+}
+
+#register {
+  font-family: NotoSansKR;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 160%;
+  /* or 22px */
+
+  letter-spacing: -0.06em;
+  background-color: #3f1acc;
+  color: #ffffff;
+}
+
+.caution {
+  width: calc(100vw - 40px);
+  padding-bottom: 110px;
+  font-family: NotoSansKR;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 160%;
+  color: #000000;
+}
+
+.caution span {
+  font-size: 12px;
+  font-weight: 700;
+  color: #3f1acc;
+}
+
+.close {
+  font-family: CaviarDreams;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* Main_blue */
+
+  color: #3f1acc;
+  position: fixed;
+  width: 100vw;
+  height: 60px;
+  border-top: 0.7px solid #3f1acc;
+  bottom: 0px;
+  left: 0px;
+  background-color: #ffffff;
+  z-index: 1;
+}
