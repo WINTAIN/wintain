@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="initial-scale=1, viewport-fit=cover" />
+    <link rel="stylesheet" href="css/basic/basic.css" />
+    <link rel="stylesheet" href="css/address/address.css" />
+    <title>Wintain</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"><img id="logo" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/logo.svg" /></a>
+      <img class="inv_home" id="home" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_home.svg" />
+      <p class="inv_home" id="home_number">1</p>
+    </header>
+    <div id="fixed_hamburger">
+      <div class="hamburger_line" id="top_bread"></div>
+      <div class="hamburger_line" id="patty"></div>
+      <div class="hamburger_line" id="bottom_bread"></div>
+    </div>
+    <div id="prevent_dark_mode" style="position: fixed; top: 0px; left: 0px; z-index: -2; width: 100vw; height: 100vh; background-color: white"></div>
+    <div class="inactive_transparent_layer hide_to_back" id="transparent_layer"></div>
+    <nav class="inactive_nav">
+      <div id="nav_main">
+        <div class="nav_main_elem">
+          <div class="nav_main_elem_t" id="nav_product">
+            Product
+            <div class="b_circle b_circle_inactive"></div>
+          </div>
+        </div>
+        <div class="nav_main_hiding_elem inv_elem">
+          <div href="list.html" class="nav_main_elem_m">
+            New In
+            <div id="nav_new_in_line" class="nav_main_elem_m_line"></div>
+          </div>
+          <div href="list.html" class="nav_main_elem_m">
+            Curtain
+            <div id="nav_curtain_line" class="nav_main_elem_m_line"></div>
+          </div>
+        </div>
+        <div class="nav_main_elem">
+          <div href="subscribe.html" class="nav_main_elem_t">
+            Subscribe
+            <div class="b_circle b_circle_inactive"></div>
+          </div>
+        </div>
+        <div class="nav_main_elem">
+          <div class="nav_main_elem_t">
+            Magazine
+            <div class="b_circle b_circle_inactive"></div>
+          </div>
+        </div>
+        <div class="nav_main_elem">
+          <div class="nav_main_elem_t">
+            Review
+            <div class="b_circle b_circle_inactive"></div>
+          </div>
+        </div>
+        <div class="nav_main_elem">
+          <div class="nav_main_elem_t">
+            Notice & Event
+            <div class="b_circle b_circle_inactive"></div>
+          </div>
+        </div>
+      </div>
+      <div id="nav_personal">
+        <a href="myhome.html" class="nav_s_line" id="nav_home">
+          <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_home_off_c_s.svg" />My Home (0)
+        </a>
+        <div class="nav_s_line"><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_like_off_c_s.svg" />Loves</div>
+        <div class="nav_s_line"><img id="insta_logo" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/instagram.svg" />Instagram</div>
+      </div>
+      <div id="nav_etc">
+        <a href="login.html" id="nav_login" class="nav_etc_elem"
+          ><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_login_off_c.svg" />Login</a
+        >
+        <a href="joinus.html" id="nav_join" class="nav_etc_elem"
+          ><img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_join_off_c.svg" />Join us</a
+        >
+      </div>
+    </nav>
+    <main>
+      <h1 id="title">Address</h1>
+      <div class="addresses">
+        <div class="address">
+          <img class="star" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/star_b_f.svg" />
+          <p class="address_name"><b>신혼집</b>(홍길동)</p>
+          <p class="postalcode">[10567]</p>
+          <p class="full_address">경기도 고양시 덕양구 신원로2길 28-12 (신원동) 202호</p>
+          <p class="tel_number">010-1234-5678</p>
+          <div class="buttons">
+            <button class="edit">수정</button>
+            <button class="delete">삭제</button>
+          </div>
+        </div>
+        <div class="address">
+          <img class="star" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/star_b_l.svg" />
+          <p class="address_name"><b>신혼집</b>(홍길동)</p>
+          <p class="postalcode">[10567]</p>
+          <p class="full_address">경기도 고양시 덕양구 신원로2길 28-12 (신원동) 202호</p>
+          <p class="tel_number">010-1234-5678</p>
+          <div class="buttons">
+            <button class="edit">수정</button>
+            <button class="delete">삭제</button>
+          </div>
+        </div>
+      </div>
+      <a class="register" href="address_register.html">등록</a>
+      <a class="close">Close</a>
+    </main>
+    <footer>
+      <div class="footer_info">
+        <div class="footer_left">
+          <span id="place">경상북도 포항시 남구 이동로 14</span>
+          <span id="wintain_place">커트너리 윈튼</span>
+          <a class="footer_left_row"><strong>대표자</strong>노현희</a>
+          <a class="footer_left_row"><strong>사업자등록번호</strong>805-16-00968</a>
+          <a class="footer_left_row"><strong>통신판매업신고번호</strong>2019-경북포항-0463</a>
+          <a class="footer_left_row"><strong>개인정보보호책임자</strong>노현희</a>
+        </div>
+        <div class="footer_right">
+          <div class="call_center">
+            <span class="green_info">CALL CENTER</span>
+            <span id="call_number">070-7576-2788</span>
+          </div>
+          <div class="bank_info">
+            <span class="green_info">BANK INFO</span>
+            <span id="bank_info_text"><strong>우리</strong><b>010-7554-5588</b></span>
+            <span id="bank_owner">커트너리윈튼 노현희</span>
+          </div>
+          <div class="basic_infos">
+            <a class="green_info">AGREEMENT</a>
+            <a class="green_info">PRIVACY</a>
+            <a class="green_info">GUIDE</a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright 2022 WINTAIN.ALL rights reserved.</p>
+        <img src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/logo.svg" />
+      </div>
+    </footer>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
+  <script type="module" src="./js/basic/basic.js"></script>
+</html>

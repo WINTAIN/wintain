@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="viewport" content="initial-scale=1, viewport-fit=cover" />
     <link rel="stylesheet" href="css/basic/basic.css" />
-    <link rel="stylesheet" href="css/landing_page/landing_page.css" />
+    <link rel="stylesheet" href="css/cart/cart2.css" />
     <title>Wintain</title>
   </head>
   <body>
@@ -174,7 +174,7 @@
           <div id="new_address_info" class="address_check"><img src="check_off.svg">새로운배송지</div>
           <button>주소록 보기</button>
         </div>
-        <div class="">
+        <div class="address_inputs">
           <input class="blue_input" type="text" name="address_name" placeholder="이름">
           <div class="address_search">
             <input class="blue_input" id="postalcode" type="text" name="address_name" placeholder="우편번호">
@@ -183,9 +183,15 @@
           <input class="blue_input" type="text" name="address" placeholder="주소">
           <input class="blue_input" type="text" name="detail_address" placeholder="상세주소">
           <input class="blue_input" type="tel" name="phone" placeholder="휴대전화">
-          <div class="selection">
-
-          </div>
+          <select class="blue_select" name="message">
+            <option value="0" disabled>배송메시지</option>
+            <option value="1">직접 수령할게요.</option>
+            <option value="2">문 앞에 놓아주세요.</option>
+            <option value="3">배송 전 연락 바랍니디.</option>
+            <option value="4">경비실에 맡겨주세요.</option>
+            <option value="5">파손 위험이 있으니 조심히 배송해주세요.</option>
+            <option value="input">직접 수령할게요.</option>
+          </select>
         </div>
       </div>
       <div class="controller">
@@ -195,7 +201,11 @@
       <div class="discount">
         <div class="discount_line">
           <span>쿠폰 할인</span>
-          <div class=""></div>
+          <select class="blue_select" name="coupon">
+            <option value="0" disabled>쿠폰을 선택하여 주세요.</option>
+            <option value="1">직접 수령할게요.</option>
+            <option value="2">문 앞에 놓아주세요.</option>
+          </select>
         </div>
         <div class="discount_line">
           <span>적립금</span>

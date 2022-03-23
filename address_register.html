@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="viewport" content="initial-scale=1, viewport-fit=cover" />
     <link rel="stylesheet" href="css/basic/basic.css" />
-    <link rel="stylesheet" href="css/address/address.css" />
+    <link rel="stylesheet" href="css/address/register.css" />
     <title>Wintain</title>
   </head>
   <body>
@@ -83,9 +83,30 @@
     </nav>
     <main>
       <h1 id="title">Address</h1>
-      <div class="empty">등록된 주소가 없습니다.</div>
-      <a class="register" href="address_register.html">등록</a>
-      <a class="close">Close</a>
+      <form>
+        <div class="address_inputs">
+          <input class="blue_input" type="text" name="address_name" placeholder="이름" />
+          <div class="address_search">
+            <input class="blue_input" id="postalcode" type="text" name="address_name" placeholder="우편번호" />
+            <button id="postal_code">우편번호 검색</button>
+          </div>
+          <input class="blue_input" type="text" name="address" placeholder="주소" />
+          <input class="blue_input" type="text" name="detail_address" placeholder="상세주소" />
+          <input class="blue_input" type="tel" name="phone" placeholder="휴대전화" />
+        </div>
+        <div class="buttons">
+          <button id="cancel">취소</button>
+          <button id="register">등록</button>
+        </div>
+        <div class="caution">
+          <span>배송주소록 유의사항</span>
+          <p>
+            배송 주소록은 최대 10개까지 등록할 수 있으며, 별도로 등록하지 않을 경우 최근 배송 주소록 기준으로 자동 업데이트 됩니다. 자동 업데이트를 원하지 않을
+            경우 주소록 고정을 선택을 하시면 선택된 주소록은 업데이트 대상에서 제외됩니다.
+          </p>
+        </div>
+      </form>
+      <a class="close" href="address.html">Close</a>
     </main>
     <footer>
       <div class="footer_info">
