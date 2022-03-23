@@ -61,7 +61,31 @@ footer {
   color: #ffffff;
 }
 
+.footer_left_row b {
+  font-family: NotoSansKR;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 125%;
+  /* identical to box height, or 10px */
+  margin-bottom: 6px;
+
+  letter-spacing: -0.07em;
+
+  color: #ffffff;
+}
+
 .footer_left_row strong {
+  font-family: NotoSansKR;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 125%;
+  /* identical to box height, or 10px */
+  margin-bottom: 6px;
+
+  letter-spacing: -0.07em;
+
+  color: #ffffff;
   margin-right: 2px;
   font-weight: 500;
 }
