@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="viewport" content="initial-scale=1, viewport-fit=cover" />
     <link rel="stylesheet" href="css/basic/basic.css" />
-    <link rel="stylesheet" href="css/myhome/myhome.css" />
+    <link rel="stylesheet" href="css/landing_page/landing_page.css" />
     <title>Wintain</title>
   </head>
   <body>
@@ -14,7 +14,6 @@
       <a href="index.html"><img id="logo" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/logo.svg" /></a>
       <img class="inv_home" id="home" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_home.svg" />
       <p class="inv_home" id="home_number">1</p>
-      <div id="header_bottom_border"></div>
     </header>
     <div id="fixed_hamburger">
       <div class="hamburger_line" id="top_bread"></div>
@@ -83,82 +82,26 @@
       </div>
     </nav>
     <main>
-      <h1 id="title">My Home</h1>
-      <div class="cart_link">
-        <img id="big_home" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/deco/big_home.svg">
-        <img id="thank" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/deco/thank.svg">
-        <p>윈튼을 방문해주셔서 감사합니다.</p>
-        <span id="customer_name"><b>[고객명]</b>님의 홈 장바구니를 보시려면</span>
-        <a id="customer_link" href="cart1.html"><b>[여기]</b>를 클릭해주세요.</a>
+      <h1 id="title">Cart</h1>
+      <div class="cart_procedure">
+        <div class="dot left"></div>
+        <div class="dot center"></div>
+        <div class="dot right active"></div>
+        <span class="dot_text left">장바구니</span>
+        <span class="dot_text center">주문/결제</span>
+        <span class="dot_text right active">주문완료</span>
       </div>
-      <div id="info_box">
-        <div id="current">
-          <div id="current_left"><p><strong>나의 구독 현황</strong><br>(최근 3개월 기준)</p></div>
-          <div id="current_right"><p><b>00</b>월 <b>00</b>일부터 [기간]개월 째 구독 중<br><strong>남은 구독 기간</strong> <b>00</b>월 <b>00</b>일까지</p></div>
-        </div>
-        <div id="status1">
-          <div class="status1_box">
-            <strong>입금전</strong>
-            <b>0</b>
-          </div>
-          <div class="status1_box">
-            <strong>배송 준비중</strong>
-            <b>0</b>
-          </div>
-          <div class="status1_box">
-            <strong>배송중</strong>
-            <b>0</b>
-          </div>
-          <div class="status1_box">
-            <strong>배송완료</strong>
-            <b>0</b>
-          </div>
-        </div>
-        <div id="status2">
-          <div class="status2_box">
-            취소<b>0</b>
-          </div>
-          <div class="status2_box">
-            교환<b>0</b>
-          </div>
-          <div class="status2_box">
-            반품<b>0</b>
-          </div>
-        </div>
+      <div class="complete">
+        <span>구독 완료!</span>
+        <p>윈튼 커튼을 구독해주셔서 감사합니다.</p>
       </div>
-      <div id="link_boxes">
-        <a class="link_box">
-          <span>주문조회</span>
-          <img class="h29 m10"src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/shipping.svg">
-        </a>
-        <a class="link_box">
-          <span>회원정보</span>
-          <img class="h27 m10"src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/face.svg">
-        </a>
-        <a class="link_box">
-          <span class="caviar_dreams">Loves</span>
-          <img class="h29 m10"src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/love.svg">
-        </a>
-        <a class="link_box">
-          <span>적립금</span>
-          <img class="h27 m10"src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/point.svg">
-        </a>
-        <a class="link_box">
-          <span>쿠폰 / 교환권</span>
-          <img class="h26 m10"src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/giftcard.svg">
-        </a>
-        <a class="link_box">
-          <span>내게시물</span>
-          <img class="h26 m10"src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/post.svg">
-        </a>
-        <a class="link_box">
-          <span>배송주소록</span>
-          <img clas="h26 m10"src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/home.svg">
-        </a>
-        <a class="link_box">
-          <span>정기구독 관리</span>
-          <img class="h26 m10"src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/loyalty.svg">
-        </a>
+      <div class="info">
+        <span>주문번호</span>
+        <p><b>20220300</b>-회원번호</p>
+      </div>
+      <div class="selections">
+          <a class="selection" href="">주문 확인</a>
+          <a class="selection" href="">쇼핑 계속하기</a>
       </div>
     </main>
     <footer>
@@ -166,10 +109,10 @@
           <div class="footer_left">
             <span id="place">경상북도 포항시 남구 이동로 14</span>
             <span id="wintain_place">커트너리 윈튼</span>
-            <a class="footer_left_row"><strong>대표자</strong><b>노현희</b></a>
-            <a class="footer_left_row"><strong>사업자등록번호</strong><b>805-16-00968</b></a>
-            <a class="footer_left_row"><strong>통신판매업신고번호</strong><b>2019-경북포항-0463</b></a>
-            <a class="footer_left_row"><strong>개인정보보호책임자</strong><b>노현희</b></a>
+            <a class="footer_left_row"><strong>대표자</strong>노현희</a>
+            <a class="footer_left_row"><strong>사업자등록번호</strong>805-16-00968</a>
+            <a class="footer_left_row"><strong>통신판매업신고번호</strong>2019-경북포항-0463</a>
+            <a class="footer_left_row"><strong>개인정보보호책임자</strong>노현희</a>
           </div>
           <div class="footer_right">
             <div class="call_center">
@@ -196,6 +139,6 @@
     </body>
     <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
     <script type="module" src="./js/basic/basic.js"></script>
-    <script type="module" src="./js/landing_page/landing_page.js"></script>
+    <script type="module" src="./js/cart/cart1.js"></script>
   </html>
   
