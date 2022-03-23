@@ -116,7 +116,7 @@
 }
 
 @font-face {
-  font-family: "inputfont";
+  font-family: inputfont;
   src: url("https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/fonts/inputfont.woff2")
       format("woff2"),
     url("https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/fonts/inputfont.woff")

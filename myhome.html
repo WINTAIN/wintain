@@ -5,18 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="viewport" content="initial-scale=1, viewport-fit=cover" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/basic/basic.css" />
-    <link rel="stylesheet" href="css/landing_page/landing_page.css" />
+    <link rel="stylesheet" href="css/myhome/myhome.css" />
     <title>Wintain</title>
   </head>
   <body>
     <header>
-      <a href="index.html"><img style="width: 242px" id="logo" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/logo.svg" /></a>
+      <a href="index.html"><img id="logo" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/logo.svg" /></a>
       <img class="inv_home" id="home" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/ic_home.svg" />
       <p class="inv_home" id="home_number">1</p>
+      <div id="header_bottom_border"></div>
     </header>
     <div id="fixed_hamburger">
       <div class="hamburger_line" id="top_bread"></div>
@@ -85,7 +83,83 @@
       </div>
     </nav>
     <main>
-        
+      <h1 id="title">My Home</h1>
+        <div class="cart_link">
+          <img id="big_home" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/deco/big_home.svg">
+          <img id="thank" src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/deco/thank.svg">
+          <p>윈튼을 방문해주셔서 감사합니다.</p>
+          <span id="customer_name"><b>[고객명]</b>님의 홈 장바구니를 보시려면</span>
+          <a id="customer_link" href="cart1.html"><b>[여기]</b>를 클릭해주세요.</a>
+        </div>
+        <div id="info_box">
+          <div id="current">
+            <div id="current_left"><p><strong>나의 구독 현황</strong><br>(최근 3개월 기준)</p></div>
+            <div id="current_right"><p><b>00</b>월 <b>00</b>일부터 [기간]개월 째 구독 중<br><strong>남은 구독 기간</strong> <b>00</b>월 <b>00</b>일까지</p></div>
+          </div>
+          <div id="status1">
+            <div class="status1_box">
+              <strong>입금전</strong>
+              <b>0</b>
+            </div>
+            <div class="status1_box">
+              <strong>배송 준비중</strong>
+              <b>0</b>
+            </div>
+            <div class="status1_box">
+              <strong>배송중</strong>
+              <b>0</b>
+            </div>
+            <div class="status1_box">
+              <strong>배송완료</strong>
+              <b>0</b>
+            </div>
+          </div>
+          <div id="status2">
+            <div class="status2_box">
+              취소<b>0</b>
+            </div>
+            <div class="status2_box">
+              교환<b>0</b>
+            </div>
+            <div class="status2_box">
+              반품<b>0</b>
+            </div>
+          </div>
+        </div>
+        <div id="link_boxes">
+          <a class="link_box">
+            <span>주문조회</span>
+            <img class="h29 m10"src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/shipping.svg">
+          </a>
+          <a class="link_box">
+            <span>회원정보</span>
+            <img class="h27 m10"src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/face.svg">
+          </a>
+          <a class="link_box">
+            <span class="caviar_dreams">Loves</span>
+            <img class="h29 m10"src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/love.svg">
+          </a>
+          <a class="link_box">
+            <span>적립금</span>
+            <img class="h27 m10"src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/point.svg">
+          </a>
+          <a class="link_box">
+            <span>쿠폰 / 교환권</span>
+            <img class="h26 m10"src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/giftcard.svg">
+          </a>
+          <a class="link_box">
+            <span>내게시물</span>
+            <img class="h26 m10"src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/post.svg">
+          </a>
+          <a class="link_box">
+            <span>배송주소록</span>
+            <img clas="h26 m10"src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/home.svg">
+          </a>
+          <a class="link_box">
+            <span>정기구독 관리</span>
+            <img class="h26 m10"src="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/loyalty.svg">
+          </a>
+        </div>
     </main>
     <footer>
         <div class="footer_info">

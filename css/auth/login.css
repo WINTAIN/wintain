@@ -23,6 +23,8 @@ h1#title {
   /* Main_blue */
   color: #3f1acc;
   border-bottom: 0.7px solid #3f1acc;
+  text-shadow: -0.1px -0.1px 0 currentColor, 0.1px -0.1px 0 currentColor,
+    -0.1px 0.1px 0 currentColor, 0.1px 0.1px 0 currentColor;
 }
 
 .login_selection {
@@ -201,6 +203,15 @@ h1#title {
   margin-left: 20px;
 
   color: #b5b5b5;
+}
+
+.login_other_options .find_id_pw {
+  font-family: CaviarDreams;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+  letter-spacing: 0em;
 }
 
 #login_breaker {
