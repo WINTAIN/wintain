@@ -34,8 +34,9 @@ nav.inactive_nav {
 }
 
 #nav_main {
-  margin-top: 60px;
-  height: 300px;
+  box-sizing: border-box;
+  padding-top: 60px;
+  height: calc(var(--vh, 1vh) * 66);
 }
 
 .nav_main_elem {
@@ -47,7 +48,9 @@ nav.inactive_nav {
 .nav_main_elem_t {
   position: relative;
   display: flex;
-  margin-bottom: 30px;
+  margin-bottom: calc(
+    var(--vh, 1vh) * 13.2 - 20px - 35px
+  ); /* mena value - lineheight*/
 
   font-family: CaviarDreams;
   font-style: normal;
@@ -83,7 +86,7 @@ nav.inactive_nav {
   position: relative;
   margin-top: -18px;
   max-height: 20px;
-  margin-bottom: 34px;
+  margin-bottom: calc(var(--vh, 1vh) * 13.2 - 20px - 35px);
   overflow: hidden;
 
   transition: margin 0.3s, max-height 0.3s;
