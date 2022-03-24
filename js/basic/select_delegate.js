@@ -55,6 +55,7 @@ function handleOptionDisabled(SelectDelegate) {
 function handleOptionEnabled(SelectDelegate, optionNumber, option) {
   return function () {
     SelectDelegate.delegateSelectContainer.children[0].children[0].innerHTML = option.innerHTML;
+    SelectDelegate.delegateSelectContainer.children[0].children[0].style.cssText = "color:#3f1acc;";
     SelectDelegate.select.selectedIndex = optionNumber;
     closeSelectDelegate(SelectDelegate);
     if (option.value == "input" && !SelectDelegate.directInput) {
