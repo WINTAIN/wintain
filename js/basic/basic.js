@@ -2,11 +2,13 @@ import initHscroll from "./h_scroll.js";
 import initVscroll from "./v_scroll.js";
 import initNav from "./nav.js";
 import initNavTouch from "./nav_touch.js";
+import initSelectDelegate from "./select_delegate.js";
 
 initNav();
 initNavTouch();
 initHscroll();
 initVscroll();
+initSelectDelegate();
 
 const footer = document.querySelector("footer");
 if (footer) {

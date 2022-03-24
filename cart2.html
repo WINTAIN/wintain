@@ -151,14 +151,14 @@
           <input class="blue_input" type="text" name="address" placeholder="주소" />
           <input class="blue_input" type="text" name="detail_address" placeholder="상세주소" />
           <input class="blue_input" type="tel" name="phone" placeholder="휴대전화" />
-          <select class="blue_select" name="message">
-            <option value="0" disabled>배송메시지</option>
-            <option value="1">직접 수령할게요.</option>
-            <option value="2">문 앞에 놓아주세요.</option>
-            <option value="3">배송 전 연락 바랍니디.</option>
-            <option value="4">경비실에 맡겨주세요.</option>
-            <option value="5">파손 위험이 있으니 조심히 배송해주세요.</option>
-            <option value="input">직접 수령할게요.</option>
+          <select class="blue_select" name="message" data-chevron="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/chevron_d_b.svg">
+            <option class="blue_option_disabled" value="0" disabled>배송메시지</option>
+            <option class="blue_option" value="1">직접 수령할게요.</option>
+            <option class="blue_option" value="2">문 앞에 놓아주세요.</option>
+            <option class="blue_option" value="3">배송 전 연락 바랍니디.</option>
+            <option class="blue_option" value="4">경비실에 맡겨주세요.</option>
+            <option class="blue_option" value="5">파손 위험이 있으니 조심히 배송해주세요.</option>
+            <option class="blue_option" data-inputclass="blue_input" value="input">직접 입력하기.</option>
           </select>
         </div>
       </div>
@@ -170,10 +170,14 @@
         <div class="discount">
           <div class="discount_line">
             <span>쿠폰 할인</span>
-            <select class="blue_select discount_line_input" name="coupon">
-              <option value="0" disabled>쿠폰을 선택하여 주세요.</option>
-              <option value="1">직접 수령할게요.</option>
-              <option value="2">문 앞에 놓아주세요.</option>
+            <select
+              class="blue_select discount_line_input"
+              data-chevron="https://wintainstorage.s3.ap-northeast-2.amazonaws.com/uploads/icons/chevron_d_b.svg"
+              name="coupon"
+            >
+              <option class="blue_option_disabled" value="0" disabled>쿠폰을 선택하여 주세요.</option>
+              <option class="blue_option" value="1">직접 수령할게요.</option>
+              <option class="blue_option" value="2">문 앞에 놓아주세요.</option>
             </select>
           </div>
           <div class="discount_line">

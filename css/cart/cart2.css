@@ -251,9 +251,90 @@ p.line b {
   color: #b5b5b5;
 }
 
+select.blue_select {
+  margin: 0px;
+}
+.blue_select {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+
+  font-family: NotoSansKR;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 200%;
+  /* identical to box height, or 24px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.06em;
+
+  color: #b5b5b5;
+  /* Main_blue */
+
+  border: 0.5px solid #3f1acc;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 10px;
+
+  max-height: 50px;
+  overflow: hidden;
+
+  transition: max-height 0.4s;
+}
+
+.blue_select.open {
+  max-height: 400px;
+}
+
+.blue_option_disabled {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.5px solid #3f1acc;
+  padding-top: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 50px;
+}
+
+.d {
+  border: none;
+}
+
+.blue_option_disabled img {
+  width: 12.54px;
+  height: 6.41px;
+  transition: transform 0.4s;
+}
+
+.blue_option_disabled img.open {
+  transform: rotate(90deg);
+}
+
+.blue_option {
+  display: flex;
+  align-items: center;
+  margin: 0px 5px;
+  padding-left: 20px;
+  padding-top: 3px;
+  border-bottom: 0.25px solid #3f1acc;
+  min-height: 34px;
+  width: calc(100% - 10px);
+}
+
+.blue_option:last-child {
+  min-height: 39px;
+  border-bottom: none;
+}
+
 .address_info {
   margin-left: 20px;
   width: calc(100vw - 40px);
+  padding-bottom: 20px;
 }
 
 .address_selection {
@@ -359,6 +440,7 @@ p.line b {
 }
 
 .discount {
+  margin-top: 17px;
   width: calc(100vw - 40px);
 }
 
@@ -366,15 +448,14 @@ p.line b {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 50px;
   margin-top: 12px;
-  align-items: center;
+  margin-bottom: 0px;
 }
 
 .discount_line:first-child {
   margin-top: 0px;
 }
-.discount_line span {
+.discount_line > span {
   font-family: NotoSansKR;
   font-style: normal;
   font-weight: 400;
@@ -391,6 +472,7 @@ p.line b {
 
 .discount_line_input {
   width: calc(100% - 64px);
+  margin-bottom: 0px;
 }
 
 .blue_input[name="using_point"] {
